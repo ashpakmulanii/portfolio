@@ -21,10 +21,7 @@ const Prices = () => {
         <div class="card-text">
           <span class="date">Jun 21 2021</span>
           <h2>Calisthenics</h2>
-          <p>
-            Risk hai to ishq hai✌🙂 #Yoga+ #calisthenics #fitness #homeworkouts
-            #natural
-          </p>
+          <p>Risk hai to ishq hai✌🙂 #Yoga+ #calisthenics #fitness #natural</p>
         </div>
         <div class="card-stats">
           <div class="stat">
