@@ -45,11 +45,6 @@ const Banner = () => {
                       <FaTwitter className="headerIcon" />
                     </a>
                   </li>
-                  <li>
-                    <a href="https://github.com/ashpakmulani1101">
-                      <FaGit className="headerIcon" />
-                    </a>
-                  </li>
                 </ul>
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
