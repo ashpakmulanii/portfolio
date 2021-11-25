@@ -299,7 +299,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  /* shape-image-threshold: calc(); */
+  shape-image-threshold: calc();
 }
 
 .price__rs {
