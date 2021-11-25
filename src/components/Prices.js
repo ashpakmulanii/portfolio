@@ -16,7 +16,7 @@ const Prices = () => {
 
       <div class="card">
         <div class="card-image">
-          <img src="/home/ashpakmulani/Desktop/React/MyPortfolio/public/images/1.JPG"></img>
+          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/1.JPG?raw=true"></img>
         </div>
         <div class="card-text">
           <span class="date">Jun 21 2021</span>
