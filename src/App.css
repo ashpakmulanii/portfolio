@@ -20,7 +20,7 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("/images/bg.jpg");
+  background: url("https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/bg.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;

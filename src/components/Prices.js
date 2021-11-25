@@ -118,7 +118,7 @@ const Prices = () => {
 
       <div class="card">
         <div class="card-image">
-          <img src="/images/4.JPG"></img>
+          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/4.JPG?raw=true"></img>
         </div>
         <div class="card-text">
           <span class="date">21 Jun 2021</span>
@@ -132,7 +132,7 @@ const Prices = () => {
 
       <div class="card">
         <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/4.JPG?raw=true"></img>
+          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/5.JPG?raw=true"></img>
         </div>
         <div class="card-text">
           <span class="date">6 Nov 2021</span>
