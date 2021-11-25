@@ -14,7 +14,8 @@ const Banner = () => {
     title: "I am Ashpak Mulani",
     text: "Hey there, i'm a Computer Science Student and ReactJS Expert \
     Welcome to my personal Portfolio",
-    image: "/images/10.png",
+    image:
+      "https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true",
   });
   return (
     <header className="header">

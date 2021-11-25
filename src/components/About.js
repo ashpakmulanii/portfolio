@@ -26,7 +26,10 @@ const About = () => {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/10.png" alt="man" />
+              <img
+                src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true"
+                alt="man"
+              />
             </div>
           </div>
           <div className="col-6">
