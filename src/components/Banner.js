@@ -3,8 +3,10 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaPlay,
   FaLinkedinIn,
+  FaImages,
+  FaYoutube,
+  FaGit,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -45,18 +47,22 @@ const Banner = () => {
                     </a>
                   </li>
                 </ul>
-                <h1>{state.title}</h1>
-                <p>{state.text}</p>
+                <h3>Hey there,</h3>
+                <h2>{state.title}</h2>
+                <p>
+                  {state.text} <Link to="/about">Know more</Link>
+                </p>
+
                 <div className="header__buttons">
                   <Link to="/prices" className="btn btn-outline">
-                    Go To Gallery
+                    <FaImages style={{ color: "#3fc4db" }} /> Gallery
                   </Link>
                   &nbsp;&nbsp;&nbsp;
                   <a
                     href="https://www.youtube.com/channel/UCP39qVAtM507vfVvUOwrlHQ"
-                    className="btn btn-smart"
+                    className="btn"
                   >
-                    <FaPlay className="play" />
+                    <FaYoutube className="play" />
                   </a>
                 </div>
               </div>
