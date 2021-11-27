@@ -4,7 +4,6 @@ import {
   FaTwitter,
   FaInstagram,
   FaPlay,
-  FaGit,
   FaLinkedinIn,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -12,7 +11,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Ashpak Mulani",
-    text: "Hey there, i'm a Computer Science Student and ReactJS Expert \
+    text: "Computer Science Student and ReactJS Expert \
     Welcome to my personal Portfolio",
     image:
       "https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true",

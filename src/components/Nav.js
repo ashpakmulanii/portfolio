@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAlignJustify, FaFire } from "react-icons/fa";
+import { FaAlignJustify, FaLaptopCode, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Nav = () => {
   const [state, setState] = React.useState(false);
@@ -9,18 +9,29 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__title">
-              <FaFire
-                style={{
-                  fontSize: "2rem",
-                  color: "orange",
-                }}
-              ></FaFire>
               <b>
-                <span style={{ color: "orange" }}>Ashpak</span>{" "}
-                <span style={{ color: "white" }}>Mulani</span>
+                <i>
+                  <span className="Span">Ap</span>
+                  <span className="Span" style={{ color: "silver" }}>
+                    K
+                  </span>
+                </i>
               </b>
             </div>
           </ul>
+          <Link className="ln btn nav-btn-outline" to="/">
+            Home
+          </Link>
+          <Link className="ln btn nav-btn-outline" to="/prices">
+            Fitness
+          </Link>
+          <Link className="ln btn nav-btn-outline" to="/services">
+            Skills
+          </Link>
+          <Link className="ln btn nav-btn-outline" to="/myservices">
+            Services
+          </Link>
+
           {state ? (
             <ul className="navbar__right">
               <li>
@@ -50,7 +61,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="toggle" onClick={() => setState(!state)}>
-        <FaAlignJustify />
+        <FaAlignJustify style={{ fontSize: "0.8rem" }} />
       </div>
     </nav>
   );
