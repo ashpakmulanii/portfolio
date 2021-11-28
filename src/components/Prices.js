@@ -6,6 +6,29 @@ const Prices = () => {
     mainHeader: "Fitness and Lifestyle",
     text: "There are some clicks of my fitness progression and lifestyle",
   });
+  const [state] = React.useState([
+    {
+      title:"Calisthenics",
+      image:"https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/1.JPG?raw=true",
+      date:"Jun 21 2021",
+      desc:"Risk hai to ishq hai✌🙂 #Yoga+ #calisthenics #fitness #natural",
+      stats:[170,700,32]
+    },
+    {
+      title:"Viper Pose",
+      image:"https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/2.JPG?raw=true",
+      date:"20 Jun 2021",
+      desc:"#RKO👽 #theviper",
+      stats:[180,600,29]
+    },
+    {
+      title:"Yoga Day",
+      image:"https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/1.JPG?raw=true",
+      date:"20 Jun 2021",
+      desc:"Train like a calisthenics.. Treat like desi... Stay natural... Be  fit... Don't allow gyms to control your gains #Yoga_Day💌 #Calisthenics forever✌ #fitness",
+      stats:[180,500,29]
+    }
+  ])
   return (
     <div class="card-container">
       <div className="common">
@@ -13,203 +36,42 @@ const Prices = () => {
         <p className="mainContent">{header.text}</p>
         <div className="commonBorder"></div>
       </div>
-
+      {state.map((items)=>(
       <div class="card">
         <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/1.JPG?raw=true"></img>
+          <img src={items.image}></img>
         </div>
         <div class="card-text">
-          <span class="date">Jun 21 2021</span>
-          <h2>Calisthenics</h2>
-          <p>Risk hai to ishq hai✌🙂 #Yoga+ #calisthenics #fitness #natural</p>
+          <span class="date">{items.date}</span>
+          <h2>{items.title}</h2>
+          <p>{items.desc}</p>
         </div>
         <div class="card-stats">
           <div class="stat">
             <div class="value">
-              150<sup>+</sup>
+              {items.stats[0]}<sup>+</sup>
             </div>
             <div class="type">
               <FaHeart>Likes</FaHeart>
             </div>
           </div>
           <div class="stat border">
-            <div class="value">700+</div>
+            <div class="value">{items.stats[1]}+</div>
             <div class="type">
               <FaEye></FaEye>
             </div>
           </div>
           <div class="stat">
-            <div class="value">32</div>
+            <div class="value">{items.stats[2]}</div>
             <div class="type">
               <FaComment />
             </div>
           </div>
         </div>
       </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/2.JPG?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">20 Jun 2021</span>
-          <h2>Viper Pose</h2>
-          <p>#RKO👽 #theviper</p>
-        </div>
-        <div class="card-stats">
-          <div class="stat">
-            <div class="value">
-              180<sup>+</sup>
-            </div>
-            <div class="type">
-              <FaHeart>Likes</FaHeart>
-            </div>
-          </div>
-          <div class="stat border">
-            <div class="value">600+</div>
-            <div class="type">
-              <FaEye></FaEye>
-            </div>
-          </div>
-          <div class="stat">
-            <div class="value">29</div>
-            <div class="type">
-              <FaComment />
-            </div>
-          </div>
-        </div>
+    
+      ))};
       </div>
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/3.JPG?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">4 days ago</span>
-          <h2>Yoga Day</h2>
-          <p>
-            Train like a calisthenics.. Treat like desi... Stay natural... Be
-            fit... Don't allow gyms to control your gains #Yoga_Day💌
-            #Calisthenics forever✌ #fitness
-          </p>
-        </div>
-        <div class="card-stats">
-          <div class="stat">
-            <div class="value">
-              150<sup>+</sup>
-            </div>
-            <div class="type">
-              <FaHeart>Likes</FaHeart>
-            </div>
-          </div>
-          <div class="stat border">
-            <div class="value">700+</div>
-            <div class="type">
-              <FaEye></FaEye>
-            </div>
-          </div>
-          <div class="stat">
-            <div class="value">32</div>
-            <div class="type">
-              <FaComment />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/4.JPG?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">21 Jun 2021</span>
-          <h2>Meditation</h2>
-          <p>
-            “Meditation is not about stopping thoughts, but recognizing that we
-            are more than our thoughts and our feelings.”
-          </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/5.JPG?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">6 Nov 2021</span>
-          <h2>Gains</h2>
-          <p>
-            Consistency and Descipline is key of success. #consistency
-            #discipline
-          </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/6.JPG?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">4 days ago</span>
-          <h2>Bulk</h2>
-          <p>Energetic and Pumped !</p>
-        </div>
-        <div class="card-stats">
-          <div class="stat">
-            <div class="value">
-              167<sup></sup>
-            </div>
-            <div class="type">
-              <FaHeart>Likes</FaHeart>
-            </div>
-          </div>
-          <div class="stat border">
-            <div class="value">700+</div>
-            <div class="type">
-              <FaEye></FaEye>
-            </div>
-          </div>
-          <div class="stat">
-            <div class="value">21</div>
-            <div class="type">
-              <FaComment />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/7.jpg?raw=true"></img>
-        </div>
-        <div class="card-text">
-          <span class="date">4 days ago</span>
-          <h2>Nature</h2>
-          <p>One touch of nature makes the whole world kin 💯</p>
-        </div>
-        <div class="card-stats">
-          <div class="stat">
-            <div class="value">
-              167<sup></sup>
-            </div>
-            <div class="type">
-              <FaHeart>Likes</FaHeart>
-            </div>
-          </div>
-          <div class="stat border">
-            <div class="value">800+</div>
-            <div class="type">
-              <FaEye></FaEye>
-            </div>
-          </div>
-          <div class="stat">
-            <div class="value">25</div>
-            <div class="type">
-              <FaComment />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   );
 };
 
