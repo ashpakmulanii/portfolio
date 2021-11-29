@@ -6,12 +6,7 @@ import {
   FaLinkedinIn,
   FaImages,
   FaYoutube,
-  FaArrowCircleDown,
-  FaSortDown,
-  FaLevelDownAlt,
-  FaCartArrowDown,
-  FaThumbsDown,
-  FaArrowDown,
+
   FaAngleDoubleDown,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -71,9 +66,11 @@ const Banner = () => {
                     <FaYoutube className="play" />
                   </a>
                 </div>
+                <Link to="/about"><FaAngleDoubleDown className="downArrow" style={{color:"silver"}}/></Link>
               </div>
+              
             </div>
-            <Link to="/about"><FaAngleDoubleDown className="downArrow" style={{color:"silver"}}/></Link>
+            
           </div>
           <div className="col-6">
             <div className="banner__img">

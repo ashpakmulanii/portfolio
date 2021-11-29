@@ -119,7 +119,7 @@ body {
 .header__content {
   display: flex;
   align-items: center;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   color: #fff;
 }
@@ -598,6 +598,8 @@ body {
   .downArrow{
     visibility: visible;
     margin-left:130px;
+    transform:translateY(153px)
+
   }
   .header__section h2 {
     font-size: 19px;

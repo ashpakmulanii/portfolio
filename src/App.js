@@ -5,7 +5,6 @@ import Nav from "./components/Nav";
 import Services from "./components/Services";
 import About from "./components/About";
 import Prices from "./components/Prices";
-import Contact from "./components/Contact";
 import { Projects } from "./components/Projects";
 import MyServices from "./components/MyServices";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/services" element={<Services />}></Route>
           <Route exact path="/myservices" element={<MyServices />}></Route>
           <Route exact path="/prices" element={<Prices />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
         </Routes>
         <Nav />
       </Router>

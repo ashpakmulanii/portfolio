@@ -35,7 +35,7 @@ const Nav = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                <Link exact to="/">
+                <Link to="/">
                   Home
                 </Link>
               </li>
@@ -52,7 +52,7 @@ const Nav = () => {
                 <Link to="/prices">Fitness </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/projects">Projects</Link>
               </li>
             </ul>
           ) : (
