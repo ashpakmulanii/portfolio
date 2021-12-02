@@ -19,7 +19,7 @@ const Nav = () => {
               </b>
             </div>
           </ul>
-          <Link className="ln btn nav-btn-outline" to="/">
+          <Link className="ln btn nav-btn-outline" to="/portfolio">
             Home
           </Link>
           <Link className="ln btn nav-btn-outline" to="/prices">
@@ -35,7 +35,7 @@ const Nav = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                <Link to="/">
+                <Link to="/portfolio">
                   Home
                 </Link>
               </li>
