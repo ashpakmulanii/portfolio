@@ -12,7 +12,6 @@ import { useEffect } from "react";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
-
   return (
     <div>
       <Router>

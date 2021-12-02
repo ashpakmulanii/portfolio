@@ -27,8 +27,8 @@ const About = () => {
           <div className="col-6">
             <div className="about__img">
               <img
-                src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true"
-                alt="man"
+                src="https://github.com/ashpakmulanii/portfolio/blob/main/public/images/11.jpeg?raw=true"
+                alt="me"
               />
             </div>
           </div>

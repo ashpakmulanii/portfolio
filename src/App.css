@@ -287,11 +287,11 @@ body {
   padding: 30px;
 }
 .about__img img {
-  width: 70%;
-  height: 70%;
-  border-radius: 200px;
-  border-block: 2px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 60%;
+  border-radius: 600px;
+  border-block: 200px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .about__info {

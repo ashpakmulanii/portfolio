@@ -39,7 +39,7 @@ const Prices = () => {
       {state.map((items) => (
         <div class="card">
           <div class="card-image">
-            <img src={items.image}></img>
+            <img src={items.image} alt="img"></img>
           </div>
           <div class="card-text">
             <span class="date">{items.date}</span>
