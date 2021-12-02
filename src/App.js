@@ -14,6 +14,13 @@ function App() {
     <div>
       <Router>
         <Routes>
+          <Route path="/" element={
+            <>
+
+              <Banner />
+              <About />
+            </>
+          } />
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
@@ -21,9 +28,8 @@ function App() {
           <Route exact path="/prices" element={<Prices />}></Route>
         </Routes>
         <Nav />
-        <Banner /> 
-        <About />
       </Router>
+
     </div>
   );
 }

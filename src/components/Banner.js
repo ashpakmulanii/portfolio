@@ -66,18 +66,18 @@ const Banner = () => {
                     <FaYoutube className="play" />
                   </a>
                 </div>
-                <Link to="/about"><FaAngleDoubleDown className="downArrow" style={{color:"silver"}}/></Link>
+                <Link to="/about"><FaAngleDoubleDown className="downArrow" style={{ color: "silver" }} /></Link>
               </div>
-              
+
             </div>
-            
+
           </div>
           <div className="col-6">
             <div className="banner__img">
               <img src={state.image} alt="man" />
             </div>
           </div>
-          
+
         </div>
       </div>
     </header>
