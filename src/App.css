@@ -598,7 +598,7 @@ body {
   .downArrow{
     visibility: visible;
     margin-left:130px;
-    transform:translateY(153px)
+    transform:translateY(140px)
 
   }
   .header__section h2 {

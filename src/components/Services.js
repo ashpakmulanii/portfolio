@@ -10,6 +10,7 @@ import {
   FaJava,
   FaNodeJs,
   FaStar,
+  FaPhp,
 } from "react-icons/fa";
 const Services = () => {
   const [header] = React.useState({
@@ -23,29 +24,25 @@ const Services = () => {
       id: 1,
       icon: <FaReact className="commonIcons" />,
       heading: "Front-end",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-      industry. simply dummy",
+      text: "React is an open-source JavaScript library used for frontend development, which was developed by Facebook. Its component-based library lets you build high-quality user-interfaces for web apps",
     },
     {
       id: 2,
       icon: <FaPython className="commonIcons" />,
       heading: "Back-end",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "Django has a flexible and well-structured admin panel which is better than Laravel. Django also allows developers to reuse code from other projects",
     },
     {
       id: 3,
       icon: <FaDatabase className="commonIcons" />,
       heading: "Databases",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "MySQL Database Service is a fully managed database service to deploy cloud-native applications. HeatWave, an integrated, high-performance query accelerator ...",
     },
     {
       id: 4,
       icon: <FaGit className="commonIcons" />,
       heading: "Version Control",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "Git helps in managing the code changes and errors for projects with a large codebase. It makes it easy to stage changes and revert back to a specific version easily. It has is now being used to automate the process of deployment for an application",
     },
     {
       id: 5,
@@ -54,8 +51,7 @@ const Services = () => {
         <FaWindows className="commonIcons" />,
       ],
       heading: "Platforms",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "Switching platforms and trying new linux distros was my elight hobby in middle of cs. That thing makes me able to know more about platforms and get work with anything.",
     },
     {
       id: 6,
@@ -63,18 +59,16 @@ const Services = () => {
         <FaJs className="commonIcons" />,
         <FaJava className="commonIcons" />,
         <FaPython className="commonIcons" />,
-        <FaNodeJs className="commonIcons" />,
+        <FaPhp className="commonIcons" />
       ],
       heading: "Languages",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "I have ability to work with different programming languages like Java , JavaScript, Python and PHP",
     },
     {
       id: 7,
       icon: [<FaStar className="commonIcons" />],
       heading: "Coding Strategies",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+      text: "I have pretty good knowledge of data structure and algorithms . DSA is the heart of programming and you can not ignore it while solving coding problems in competitive programming.",
     },
   ]);
   return (

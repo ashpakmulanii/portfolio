@@ -21,7 +21,8 @@ function App() {
           <Route exact path="/prices" element={<Prices />}></Route>
         </Routes>
         <Nav />
-        <Banner /> <About />
+        <Banner /> 
+        <About />
       </Router>
     </div>
   );
