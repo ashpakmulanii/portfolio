@@ -8,16 +8,25 @@ import Prices from "./components/Prices";
 import { Projects } from "./components/Projects";
 import MyServices from "./components/MyServices";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { useEffect } from "react";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
+
   return (
     <div>
       <Router>
+        <ScrollToTop />
+        <Nav />
         <Routes>
           <Route exact path="/portfolio" element={
             <>
               <Banner />
               <About />
+              <Services />
+              <Projects />
+              <MyServices />
+              <Prices />
             </>
           } />
           <Route exact path="/about" element={<About />}></Route>
@@ -26,7 +35,7 @@ function App() {
           <Route exact path="/myservices" element={<MyServices />}></Route>
           <Route exact path="/prices" element={<Prices />}></Route>
         </Routes>
-        <Nav />
+
       </Router>
 
     </div>

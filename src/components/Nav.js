@@ -1,8 +1,10 @@
 import React from "react";
 import { FaAlignJustify, FaLaptopCode, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const Nav = () => {
   const [state, setState] = React.useState(false);
+
   return (
     <nav className="navbar">
       <div className="container">
@@ -19,7 +21,9 @@ const Nav = () => {
               </b>
             </div>
           </ul>
-          <Link className="ln btn nav-btn-outline" to="/portfolio">
+
+          <Link className="ln btn nav-btn-outline" to="/portfolio"
+          >
             Home
           </Link>
           <Link className="ln btn nav-btn-outline" to="/prices">
@@ -35,24 +39,24 @@ const Nav = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                <Link to="/portfolio">
+                <Link to="/portfolio" onClick={() => setState(!state)}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/services" onClick={() => setState(!state)}>Services</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={() => setState(!state)}>About</Link>
               </li>
               <li>
-                <Link to="/services">Tech Skills</Link>
+                <Link to="/services" onClick={() => setState(!state)}>Tech Skills</Link>
               </li>
               <li>
-                <Link to="/prices">Fitness </Link>
+                <Link to="/prices" onClick={() => setState(!state)}>Fitness </Link>
               </li>
               <li>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects" onClick={() => setState(!state)}>Projects</Link>
               </li>
             </ul>
           ) : (
