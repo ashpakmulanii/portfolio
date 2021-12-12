@@ -8,7 +8,10 @@ import {
   FaPython,
   FaReact,
   FaUserLock,
+  FaCode
 } from "react-icons/fa";
+import Tilt from 'react-vanilla-tilt'
+
 
 export const Projects = () => {
   return (
@@ -21,7 +24,7 @@ export const Projects = () => {
         <div className="commonBorder"></div>
       </div>
       <div className="Econtainer">
-        <div className="Ecard">
+        <Tilt style={{}} className="Ecard">
           <div className="Econtent">
             <h2>01</h2>
             <h3>E-Commerse Website</h3>
@@ -29,7 +32,7 @@ export const Projects = () => {
               E-Commerse website is my first huge freelance project which is
               developed using React.js , Bootstrap, and Django and MySqL.
               <a href="#">
-                <FaUserLock></FaUserLock>
+                <FaCode></FaCode>
                 <u> Source Code</u>
               </a>
             </p>
@@ -45,9 +48,9 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </Tilt>
 
-        <div className="Ecard">
+        <Tilt style={{}} className="Ecard">
           <div className="Econtent">
             <h2>02</h2>
             <h3>Schedule Manager</h3>
@@ -56,7 +59,7 @@ export const Projects = () => {
               started with basic react app developed from a youtuber called
               'codewithharry' and then i put it into the next level.
               <a href="#">
-                <FaLockOpen></FaLockOpen>
+                <FaCode></FaCode>
                 <u> Source Code</u>
               </a>
             </p>
@@ -67,11 +70,19 @@ export const Projects = () => {
               <a href="">
                 <FaBootstrap></FaBootstrap>
               </a>
+              <a href="">
+                <FaFire></FaFire>
+              </a>
+              <a>
+                <FaDatabase/>
+              </a>
             </div>
           </div>
-        </div>
+        </Tilt>
 
-        <div className="Ecard">
+ 
+
+        <Tilt style={{}} className="Ecard">
           <div className="Econtent">
             <h2>03</h2>
             <h3>Instagram Clone</h3>
@@ -95,7 +106,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </Tilt>
       </div>
     </div>
   );

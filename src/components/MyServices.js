@@ -1,5 +1,6 @@
 import React from "react";
 import { FaReact, FaPython } from "react-icons/fa";
+import Tilt from 'react-vanilla-tilt'
 const MyServices = () => {
   const [header] = React.useState({
     mainHeader: "SERVICES",
@@ -35,10 +36,10 @@ const MyServices = () => {
           <div className="row bgMain">
             {state.map((info) => (
               <div className="col-4 bgMain">
-                <div className="services__box">
+                <Tilt style={{}}className="services__box">
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
-                </div>
+                </Tilt>
               </div>
             ))}
           </div>

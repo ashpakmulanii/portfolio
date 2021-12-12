@@ -52,10 +52,10 @@ const About = () => {
                       <p>{info.text}</p>
                     </div>
                   ))}
-                  <button className="CVButton" href="public/images/cv.pdf" download><FaDochub className="CVIcon"/>Download CV</button>
+                  <a className="CVButton" href={"https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf"} download><FaDochub className="CVIcon"/>Download CV</a>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>
