@@ -14,8 +14,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Ashpak Mulani",
-    text: "Computer Science Student and ReactJS Expert \
-    Welcome to my personal Portfolio",
+    text: "Welcome to my personal Portfolio",
     image:
       "https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true",
   });
@@ -50,8 +49,9 @@ const Banner = () => {
                 </ul>
                 <h3>Hey there,</h3>
                 <h2>{state.title}</h2>
+                <span className="ChangingText"></span>
                 <p>
-                  {state.text} <Link to="/about">Know more</Link>
+                 {state.text} <Link to="/about">Know more</Link>
                 </p>
 
                 <div className="header__buttons">
@@ -66,7 +66,6 @@ const Banner = () => {
                     <FaYoutube className="play" />
                   </a>
                 </div>
-                <Link to="/about"><FaAngleDoubleDown className="downArrow" style={{ color: "silver" }} /></Link>
               </div>
 
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaDochub, FaDownload } from "react-icons/fa";
 
 const About = () => {
   const [header] = React.useState({
@@ -27,7 +28,7 @@ const About = () => {
           <div className="col-6">
             <div className="about__img">
               <img
-                src="https://github.com/ashpakmulanii/portfolio/blob/main/public/images/11.jpeg?raw=true"
+                src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true"
                 alt="me"
               />
             </div>
@@ -51,6 +52,7 @@ const About = () => {
                       <p>{info.text}</p>
                     </div>
                   ))}
+                  <button className="CVButton" href="public/images/cv.pdf" download><FaDochub className="CVIcon"/>Download CV</button>
                 </div>
               </div>
             </div>

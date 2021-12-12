@@ -177,6 +177,29 @@ body {
   0 0 80px #03bcf4, 0 0 160px #03bcf4;
 }
 
+.ChangingText:before{
+  content:"";
+  animation: animate infinite 6s;
+  color:#ff4a57;
+}
+@keyframes animate{
+  0%{
+      content:"Computer Science Student,";
+  }
+  20%{
+      content:"Front End Developer,";
+  }
+  40%{
+      content:"Freelancer,";
+  }
+  80%{
+      content:"Fitness Instructor,";
+  }
+  100%{
+      content:"Designer,"
+  }
+}
+
 
 
 .btn {
@@ -292,6 +315,22 @@ body {
   border-radius: 600px;
   border-block: 200px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+.CVButton{
+  border-radius:8px;
+  background-color: darkgray;
+  padding:6px;
+  margin-top:20px;
+  align-items: center;
+  display: flex;
+  color:black;
+
+}
+
+.CVIcon{
+  font-size:25px;
+  margin-right:4px;
+  color:#f00e06;
 }
 
 .about__info {
@@ -595,12 +634,7 @@ body {
   .banner__img img {
     display: none;
   }
-  .downArrow{
-    visibility: visible;
-    margin-left:130px;
-    transform:translateY(142px)
 
-  }
   .header__section h2 {
     font-size: 19px;
     font-weight: 700;
