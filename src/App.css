@@ -26,11 +26,6 @@ body {
   background-size: cover;
   overflow: hidden;
 }
-.downArrow{
-  visibility: hidden;
-  font-size:1.2rem;
-
-}
 
 .navbar {
   width: 100%;

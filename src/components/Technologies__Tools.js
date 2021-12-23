@@ -12,7 +12,7 @@ import {
   FaStar,
   FaPhp,
 } from "react-icons/fa";
-const Services = () => {
+const Technologies__Tools = () => {
   const [header] = React.useState({
     mainHeader: "TECH SKILLS",
     subHeading: "Tools and Technologies",
@@ -99,4 +99,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Technologies__Tools;

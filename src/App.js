@@ -2,14 +2,13 @@ import React from "react";
 import "./App.css";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
-import Services from "./components/Services";
 import About from "./components/About";
-import Prices from "./components/Prices";
+import Fitness__lifestyle from "./components/Fitness__lifestyle";
 import { Projects } from "./components/Projects";
-import MyServices from "./components/MyServices";
+import My__Services from "./components/My__Services";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { useEffect } from "react";
 import { ScrollToTop } from "./components/ScrollToTop";
+import Technologies__Tools from "./components/Technologies__Tools";
 
 function App() {
   return (
@@ -22,17 +21,17 @@ function App() {
             <>
               <Banner />
               <About />
-              <Services />
+              <Technologies__Tools />
               <Projects />
-              <MyServices />
-              <Prices />
+              <My__Services />
+              <Fitness__lifestyle />
             </>
           } />
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/services" element={<Services />}></Route>
-          <Route exact path="/myservices" element={<MyServices />}></Route>
-          <Route exact path="/prices" element={<Prices />}></Route>
+          <Route exact path="/services" element={<Technologies__Tools />}></Route>
+          <Route exact path="/myservices" element={<My__Services />}></Route>
+          <Route exact path="/prices" element={<Fitness__lifestyle />}></Route>
         </Routes>
 
       </Router>

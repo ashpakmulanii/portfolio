@@ -1,7 +1,6 @@
 import React from "react";
 import { FaAlignJustify, FaLaptopCode, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 const Nav = () => {
   const [state, setState] = React.useState(false);
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaComment, FaEye, FaHeart } from "react-icons/fa";
 
-const Prices = () => {
+const Fitness__lifestyle = () => {
   const [header] = React.useState({
     mainHeader: "Fitness and Lifestyle",
     text: "There are some clicks of my fitness progression and lifestyle",
@@ -75,4 +75,4 @@ const Prices = () => {
   );
 };
 
-export default Prices;
+export default Fitness__lifestyle;

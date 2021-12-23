@@ -4,7 +4,6 @@ import {
   FaCss3,
   FaDatabase,
   FaFire,
-  FaLockOpen,
   FaPython,
   FaReact,
   FaUserLock,
@@ -58,7 +57,7 @@ export const Projects = () => {
               Shedule Manager is a website designed in React.js . firstly i
               started with basic react app developed from a youtuber called
               'codewithharry' and then i put it into the next level.
-              <a href="#">
+              <a href="https://github.com/ashpakmulanii/schedule-manager">
                 <FaCode></FaCode>
                 <u> Source Code</u>
               </a>
@@ -74,13 +73,12 @@ export const Projects = () => {
                 <FaFire></FaFire>
               </a>
               <a>
-                <FaDatabase/>
+                <FaDatabase />
               </a>
             </div>
           </div>
         </Tilt>
 
- 
 
         <Tilt style={{}} className="Ecard">
           <div className="Econtent">
