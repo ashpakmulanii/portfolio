@@ -29,12 +29,28 @@ body {
 
 .navbar {
   width: 100%;
-  height: 82px;
+  height: 80px;
   position: fixed;
   top: 0;
-  background: #1f2235;
+  background:#1f2235;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__icons{
+  display:flex;
+  flex-direction: row;
+  margin-left:400px;
+
+
+}
+.nav_ico{
+  font-size:1.8rem;
+  margin:10px;
+}
+.nav_ico:hover{
+  transform: scale(1.1);
+  color:#dfdfdf
 }
 
 .navbar__container {
@@ -43,18 +59,21 @@ body {
   align-items: center;
 }
 .Span {
-  font-size: 30px;
+  font-size: 36px;
   color: orange;
 }
 
 .ln {
   justify-content: space-between;
-  font-size: 19px;
-  padding: 8px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
-  margin-left: 40px;
-  font-weight: 400px;
+  margin-left: 300px;
+  font-weight: 500px;
 }
+.ln:hover{
+  color:white;
+}
+
 
 .navbar__title {
   font-size: 1.5rem;
@@ -126,8 +145,8 @@ body {
 .header__ul li {
   width: 50px;
   height: 50px;
-  border: 2px solid #ff4a57;
-  border-radius: 50%;
+  border: 2px solid silver;
+  border-radius: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +160,7 @@ body {
   border: 2px solid transparent;
 }
 .headerIcon{
-  font-size:22px;
+  font-size:26px;
 }
 .header__ul li:hover .headerIcon {
   color: #ff4a57;
@@ -151,70 +170,86 @@ body {
 }
 
 .header__section p {
-  font-size: 19px;
-  font-weight: 300;
+  font-size: 18px;
   line-height: 40px;
   margin-bottom: 50px;
 }
 
 .header__section h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-top: 10px;
   position: relative;
-  letter-spacing: 2px;
   color: white;
-  text-transform: uppercase;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+ 
   line-height: 0.7em;
-  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
-  0 0 80px #03bcf4, 0 0 160px #03bcf4;
+
 }
 
 .ChangingText:before{
+  font-size: 20px;
   content:"";
-  animation: animate infinite 6s;
-  color:#ff4a57;
+  animation: animate infinite 10s;
+  color:orange;
 }
 @keyframes animate{
   0%{
       content:"Computer Science Student,";
   }
-  20%{
+  25%{
       content:"Front End Developer,";
   }
-  40%{
+  50%{
       content:"Freelancer,";
   }
-  80%{
+  75%{
       content:"Fitness Instructor,";
   }
   100%{
-      content:"Designer,"
+      content:"Full Stack Developer,"
   }
 }
-
-
 
 .btn {
   outline: none;
   border: none;
   color: #fff;
   text-decoration: none;
+  margin:15px;
 }
+
 .btn-outline {
-  border: 2px solid #3fc4db;
-  border-radius: 50px;
-  padding: 13px 40px;
-  color: #3fc4db;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size:17px;
+  font-weight: 420;
+  background-color: #fff;
+  transition: 0.5s;
+  color:black;
+  content:"";
 }
+
+.btn-outline:hover {
+  padding:10px 40px;
+  
+}
+#galleryText::before{
+  content:"";
+}
+.btn-outline:hover #galleryText::after{
+  content: "Gallery";
+}
+
 .nav-btn-outline {
   padding: 1px 10px;
   color: silver;
 }
+
+
+
 .btn-smart {
-  background: #ff4a57;
+  background: silver;
   padding: 13px 40px;
   border-radius: 50px;
 }
@@ -413,7 +448,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   z-index: 1;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .card-container .card {
   display: grid;
@@ -475,7 +510,7 @@ body {
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(233, 192, 192, 0.1);
 }
 .card-stats .stat {
   display: flex;
@@ -487,7 +522,7 @@ body {
   padding: 10px;
 }
 .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.10);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 .card {
@@ -550,6 +585,7 @@ body {
   justify-content: center;
   display: none;
 }
+
 .user-icon {
   font-size: 1.6rem;
   color: silver;
@@ -565,7 +601,7 @@ body {
     height: 75vh;
   }
   .headerIcon{
-    font-size:17px;
+    font-size:24px;
   }
   .col-6 {
     width: 100%;
@@ -577,7 +613,7 @@ body {
     width: 100%;
   }
   .Span {
-    font-size: 19px;
+    font-size: 24px;
   }
   .para {
     margin-top: 80px;
@@ -588,13 +624,10 @@ body {
     color: silver;
   }
   .play {
-    font-size: 50px;
-    margin-bottom: -20px;
+    font-size: 71px;
   }
-  .btn-outline {
-    border-radius: 40px;
-    padding: 4px 15px;
-  }
+
+
 
   .nav-btn-outline {
     padding: 2px;
@@ -633,7 +666,7 @@ body {
   }
 
   .header__section h2 {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
   }

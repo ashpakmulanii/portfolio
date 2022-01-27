@@ -79,7 +79,6 @@ export const Projects = () => {
           </div>
         </Tilt>
 
-
         <Tilt style={{}} className="Ecard">
           <div className="Econtent">
             <h2>03</h2>

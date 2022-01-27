@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAlignJustify, FaLaptopCode, FaReact } from "react-icons/fa";
+import { FaAlignJustify, FaFacebookF, FaInstagram, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Nav = () => {
   const [state, setState] = React.useState(false);
@@ -20,20 +20,44 @@ const Nav = () => {
               </b>
             </div>
           </ul>
+          <ul className="ln">
+            <Link className="btn nav-btn-outline" to="/portfolio"
+            >
+              Home
+            </Link>
+            <Link className="btn nav-btn-outline" to="/prices">
+              Fitness
+            </Link>
+            <Link className="btn nav-btn-outline" to="/services">
+              Skills
+            </Link>
+            <Link className="btn nav-btn-outline" to="/myservices">
+              Services
+            </Link>
+          </ul>
 
-          <Link className="ln btn nav-btn-outline" to="/portfolio"
-          >
-            Home
-          </Link>
-          <Link className="ln btn nav-btn-outline" to="/prices">
-            Fitness
-          </Link>
-          <Link className="ln btn nav-btn-outline" to="/services">
-            Skills
-          </Link>
-          <Link className="ln btn nav-btn-outline" to="/myservices">
-            Services
-          </Link>
+          <ul className="navbar__icons">
+            <li>
+              <a href="https://www.linkedin.com/in/ashpak-mulani/">
+                <FaLinkedinIn className="nav_ico" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ashpakmulanii/">
+                <FaInstagram className="nav_ico" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/ashpak.mulani.3994/">
+                <FaFacebookF class="nav_ico" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/AshpakMulanii">
+                <FaTwitter className="nav_ico" />
+              </a>
+            </li>
+          </ul>
 
           {state ? (
             <ul className="navbar__right">

@@ -1,21 +1,19 @@
 import React from "react";
-import { FaDochub, FaDownload } from "react-icons/fa";
+import { FaDochub } from "react-icons/fa";
 
 const About = () => {
   const [header] = React.useState({
     subHeader: "About Me",
     text: "Thanks for visiting my personal website.",
   });
+
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Ashpak Mulani" },
     { id: 2, title: "Email:", text: "ashpakmulani1101@gmail.com" },
     { id: 3, title: "Phone:", text: "+917875735385" },
-    {
-      id: 4,
-      title: "Linkedin",
-      text: "https://www.linkedin.com/in/ashpak-mulani/",
-    },
+    { id: 4, title: "Linkdin", text: "https://www.linkedin.com/in/ashpak-mulani/" },
   ]);
+
   return (
     <div className="about">
       <div className="container">
@@ -49,18 +47,19 @@ const About = () => {
                   {state.map((info) => (
                     <div className="col-6">
                       <strong>{info.title}</strong>
-                      <p>{info.text}</p>
+                      {info.id == 4 ?
+                        (<p><a href={"https://www.linkedin.com/in/ashpak-mulani/"}>{info.text}</a></p>) : (<p>{info.text}</p>)
+                      }
                     </div>
                   ))}
-                  <a className="CVButton" href={"https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf"} download><FaDochub className="CVIcon"/>Download CV</a>
+                  <a className="CVButton" href={"https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf"} download><FaDochub className="CVIcon" />Download CV</a>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
 export default About;
