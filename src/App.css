@@ -15,83 +15,12 @@ body {
   font-family: "Poppins", sans-serif;
   justify-content: center;
   align-items: center;
-  background-color: #1f2235;
-}
 
-.header {
-  width: 100%;
-  height: 100%;
-  background: url("https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/bg.jpg?raw=true");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.navbar {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  background:#1f2235;
-  z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.navbar__icons{
-  display:flex;
-  flex-direction: row;
-  margin-left:400px;
-
-
-}
-.nav_ico{
-  font-size:1.8rem;
-  margin:10px;
-}
-.nav_ico:hover{
-  transform: scale(1.1);
-  color:#dfdfdf
-}
-
-.navbar__container {
-  display: flex;
-  height: 80px;
-  align-items: center;
-}
-.Span {
-  font-size: 36px;
-  color: orange;
-}
-
-.ln {
-  justify-content: space-between;
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
-  margin-left: 300px;
-  font-weight: 500px;
-}
-.ln:hover{
-  color:white;
 }
 
 
-.navbar__title {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 
-.navbar__right {
-  display: flex;
-  list-style-type: none;
-}
 
-.navbar__right li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
-  padding: 0 15px;
-}
 
 /* Helpers */
 .container {
@@ -130,144 +59,14 @@ body {
 }
 
 /* header */
-.header__content {
-  display: flex;
-  align-items: center;
-  height: 80vh;
-  width: 100%;
-  color: #fff;
-}
-.header__ul {
-  list-style-type: none;
-  display: flex;
-  margin-bottom: 20px;
-}
-.header__ul li {
-  width: 50px;
-  height: 50px;
-  border: 2px solid silver;
-  border-radius: 35%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-.header__ul li:hover {
-  background: #fff;
-  font-size:20px;
-  border: 2px solid transparent;
-}
-.headerIcon{
-  font-size:26px;
-}
-.header__ul li:hover .headerIcon {
-  color: #ff4a57;
-}
-.header__ul li:first-child {
-  margin-left: 0;
-}
-
-.header__section p {
-  font-size: 18px;
-  line-height: 40px;
-  margin-bottom: 50px;
-}
-
-.header__section h2 {
-  font-size: 35px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  position: relative;
-  color: white;
- 
-  line-height: 0.7em;
-
-}
-
-.ChangingText:before{
-  font-size: 20px;
-  content:"";
-  animation: animate infinite 10s;
-  color:orange;
-}
-@keyframes animate{
-  0%{
-      content:"Computer Science Student,";
-  }
-  25%{
-      content:"Front End Developer,";
-  }
-  50%{
-      content:"Freelancer,";
-  }
-  75%{
-      content:"Fitness Instructor,";
-  }
-  100%{
-      content:"Full Stack Developer,"
-  }
-}
-
-.btn {
-  outline: none;
-  border: none;
-  color: #fff;
-  text-decoration: none;
-  margin:15px;
-}
-
-.btn-outline {
-  border-radius: 10px;
-  padding: 10px 25px;
-  font-size:17px;
-  font-weight: 420;
-  background-color: #fff;
-  transition: 0.5s;
-  color:black;
-  content:"";
-}
-
-.btn-outline:hover {
-  padding:10px 40px;
-  
-}
-#galleryText::before{
-  content:"";
-}
-.btn-outline:hover #galleryText::after{
-  content: "Gallery";
-}
-
-.nav-btn-outline {
-  padding: 1px 10px;
-  color: silver;
-}
 
 
 
-.btn-smart {
-  background: silver;
-  padding: 13px 40px;
-  border-radius: 50px;
-}
-.play {
-  font-size: 70px;
-  margin-bottom: -29px;
-  padding-left: 10px;
-}
-.banner__img {
-  padding: 0 30px;
-  margin-top: 150px;
-}
 
 /* Servives */
 .services {
-  background: #1f2235;
+  /* background: #1f2235; */
   padding: 100px 0;
-  color: #fff;
 }
 
 .common {
@@ -285,11 +84,9 @@ body {
 .mainHeader {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #fff;
 }
 .mainContent {
   font-size: 16px;
-  color: #dfdfdf;
 }
 .commonBorder {
   background: #ff4a57;
@@ -300,7 +97,6 @@ body {
 
 .services__box {
   padding: 40px;
-  color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
   backdrop-filter: blur(5px);
@@ -318,9 +114,7 @@ body {
   margin-bottom: 15px;
 }
 
-.services__box:hover .commonIcons {
-  color: #fff;
-}
+
 .services__box-header {
   font-size: 20px;
   font-weight: 500;
@@ -329,85 +123,20 @@ body {
 
 .services__box-p {
   font-size: 14px;
-  color: #dfdfdf;
 }
 
-.about {
-  width: 100%;
-  background: #23263a;
-  padding: 100px 0;
-}
 
-.about__img {
-  padding: 30px;
-}
-.about__img img {
-  width: 80%;
-  height: 60%;
-  border-radius: 600px;
-  border-block: 200px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-}
-.CVButton{
-  border-radius:8px;
-  background-color: darkgray;
-  padding:6px;
-  margin-top:20px;
-  align-items: center;
-  display: flex;
-  color:black;
-
-}
-
-.CVIcon{
-  font-size:25px;
-  margin-right:2px;
-  color:#f00e06;
-}
-
-.about__info {
-  color: #fff;
-}
-.about__info h1 {
-  margin-bottom: 20px;
-}
-
-.about__info-p1 {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.about__info-p2 {
-  font-size: 14px;
-}
-
-.info__contacts {
-  margin-top: 20px;
-}
-
-.info__contacts strong {
-  color: #ff4a57;
-}
-.info__contacts p {
-  margin-top: 3px;
-}
-.info__contacts .col-6 {
-  margin: 10px 0;
-}
 
 /* Prices */
 
 .prices {
   width: 100%;
   padding: 100px 0;
-  background: #1f2235;
 }
 .price {
-  background: #23263a;
   padding: 25px;
   border-radius: 8px;
   margin: 35px 20px;
-  color: #fff;
   text-align: center;
 }
 .priceHeading {
@@ -439,101 +168,9 @@ body {
   margin-top: 40px;
 }
 
-.card-container {
-  display: flex;
-  position: relative;
-  background: #1f2235;
-  padding: 25px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  z-index: 1;
-  margin-top: 100px;
-}
-.card-container .card {
-  display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
-  grid-template-areas: "image" "text" "stats";
-  border-radius: 8px;
-  background-repeat: no-repeat;
-  box-shadow: 0 0 6px 2px rgba(8, 8, 8, 0.75),
-    0 35px 25px -15px rgba(0, 0, 0, 0.5);
-  position: relative;
-  border-radius: 18px;
-  background: #1f2235;
-  font-family: roboto;
-  text-align: center;
-  width: fit-content;
-  backdrop-filter: blur(5px);
-}
-.card-image {
-  grid-area: image;
-}
-.card-text {
-  grid-area: text;
-}
-.card-stats {
-  grid-area: stats;
-}
-.card-text {
-  grid-area: text;
-  margin: 25px;
-  color: white;
-}
-.card-text .date {
-  color: rgb(255, 7, 110);
-  font-size: 13px;
-}
-.card-text p {
-  color: white;
-  font-size: 15px;
-  font-weight: 300;
-}
-.card-text h2 {
-  margin-top: 0px;
-  font-size: 28px;
-}
-
-.card-image img {
-  grid-area: image;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;
-  max-width: 100%;
-}
-
-.card-stats {
-  grid-area: stats;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background: rgba(233, 192, 192, 0.1);
-}
-.card-stats .stat {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  color: white;
-  padding: 10px;
-}
-.card:hover {
-  transform: scale(1.10);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-}
-.card {
-  transition: 0.5s ease;
-  cursor: pointer;
-  margin: 30px;
-}
 
 .contact {
   padding: 100px 0;
-  background: #23263a;
 }
 .contactSection-logo {
   text-align: center;
@@ -544,7 +181,6 @@ body {
   width: 130px;
 }
 .contactSection p {
-  color: #fff;
   font-size: 14px;
   margin-bottom: 20px;
 }
@@ -562,8 +198,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  background: #1f2235;
   margin: 0 10px;
   transition: all 0.5s linear;
   cursor: pointer;
@@ -571,20 +205,7 @@ body {
 .contactCircles li:hover {
   background: #ff4a57;
 }
-.toggle {
-  position: fixed;
-  top: 26px;
-  right: 25px;
-  background: #1f2235;
-  color: #fff;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
+
 
 .user-icon {
   font-size: 1.6rem;
@@ -596,13 +217,7 @@ body {
     width: 100%;
     padding: 0 45px;
   }
-  .header {
-    width: 100%;
-    height: 75vh;
-  }
-  .headerIcon{
-    font-size:24px;
-  }
+
   .col-6 {
     width: 100%;
   }
@@ -612,70 +227,15 @@ body {
   .col-4 {
     width: 100%;
   }
-  .Span {
-    font-size: 24px;
-  }
   .para {
     margin-top: 80px;
     color: goldenrod;
   }
   .para span {
     padding: 90px;
-    color: silver;
-  }
-  .play {
-    font-size: 71px;
+   
   }
 
-
-
-  .nav-btn-outline {
-    padding: 2px;
-    margin: 10px;
-    justify-content: center;
-    color: silver;
-  }
-  .navbar__title {
-    margin-left: -35px;
-    padding-right: 8px;
-  }
-  .ln {
-    font-size: 12px;
-    font-weight: 500;
-    margin-top: 17px;
-  }
-  .navbar__right {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    background: #1f2235;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  .navbar__right li a {
-    display: block;
-    padding: 20px 0;
-    font-size: 14px;
-  }
-  .toggle {
-    display: flex;
-  }
-  .banner__img img {
-    display: none;
-  }
-
-  .header__section h2 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .header__section p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 50px;
-  }
   .common {
     width: 100%;
   }
@@ -698,10 +258,8 @@ body {
 .Econtainer {
   position: relative;
   display: flex;
-  background: #1f2235;
   justify-content: center;
   align-items: center;
-
   flex-wrap: wrap;
   z-index: 1;
 }
@@ -721,6 +279,8 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
+ 
+
 }
 
 .Econtainer .Ecard .Econtent {
@@ -737,13 +297,11 @@ body {
 }
 .Econtainer .Ecard .Econtent h3 {
   font-size: 1.3em;
-  color: white;
   z-index: 1;
   margin-bottom:10px;
 }
 .Econtainer .Ecard .Econtent p {
   font-size: 1em;
-  color: #fff;
   font-weight: 400;
 }
 .Econtainer .Ecard .Econtent a {
@@ -751,17 +309,15 @@ body {
   display: inline-block;
   padding: 8px 0px;
   margin-top: 20px;
-  color: silver;
+  color: green;
   text-decoration: none;
   font-weight: 500;
 }
 .Econtainer .Ecard .Econtent .Techs a {
   padding: 10px 10px;
-  color: white;
   border-radius: 2px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .projects {
-  background: #1f2235;
   padding: 100px 0;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDochub } from "react-icons/fa";
+import "./About.css";
 
 const About = () => {
   const [header] = React.useState({
@@ -26,7 +27,7 @@ const About = () => {
           <div className="col-6">
             <div className="about__img">
               <img
-                src="https://github.com/ashpakmulani1101/portfolio/blob/main/public/images/10.png?raw=true"
+                src={require('../images/11.jpg')}
                 alt="me"
               />
             </div>

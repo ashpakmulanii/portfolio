@@ -1,16 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
   FaImages,
   FaYoutube,
-
-  FaAngleDoubleDown,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./Banner.css";
 
 const Banner = () => {
   const [state, setState] = React.useState({
@@ -31,7 +26,6 @@ const Banner = () => {
           <div className="col-6">
             <div className="header__content">
               <div className="header__section">
-
                 <h3>Hey there,</h3>
                 <h2>{state.title}</h2>
                 <span className="ChangingText"></span>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaComment, FaEye, FaHeart } from "react-icons/fa";
+import "./Fitness__lifestyle.css";
 
 const Fitness__lifestyle = () => {
   const [header] = React.useState({

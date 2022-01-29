@@ -1,6 +1,7 @@
 import React from "react";
-import { FaAlignJustify, FaFacebookF, FaInstagram, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
+import { FaAlignJustify, FaFacebookF, FaInstagram, FaJs, FaJsfiddle, FaJsSquare, FaLinkedinIn, FaNodeJs, FaReact, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 const Nav = () => {
   const [state, setState] = React.useState(false);
 
@@ -12,10 +13,12 @@ const Nav = () => {
             <div className="navbar__title">
               <b>
                 <i>
-                  <span className="Span">Ap</span>
+                  <FaNodeJs className="navbar__logo" />
+                  <span className="Span">ashpak</span>
                   <span className="Span" style={{ color: "silver" }}>
-                    K
+                    mulani
                   </span>
+
                 </i>
               </b>
             </div>
@@ -24,6 +27,9 @@ const Nav = () => {
             <Link className="btn nav-btn-outline" to="/portfolio"
             >
               Home
+            </Link>
+            <Link className="btn nav-btn-outline" to="#">
+              Honors
             </Link>
             <Link className="btn nav-btn-outline" to="/prices">
               Fitness
@@ -36,7 +42,7 @@ const Nav = () => {
             </Link>
           </ul>
 
-          <ul className="navbar__icons">
+          <ul type="none" className="navbar__icons">
             <li>
               <a href="https://www.linkedin.com/in/ashpak-mulani/">
                 <FaLinkedinIn className="nav_ico" />

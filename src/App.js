@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import Technologies__Tools from "./components/Technologies__Tools";
 import { Publications } from "./components/Publications";
-import { HonorsAndAwards } from "./components/HonorsAndAwards";
 
 
 function App() {
@@ -23,10 +22,8 @@ function App() {
         <Routes>
           <Route exact path="/portfolio" element={
             <>
-              <Publications />
               <Banner />
-
-              <HonorsAndAwards />
+              <Publications />
               <About />
               <Technologies__Tools />
               <Projects />

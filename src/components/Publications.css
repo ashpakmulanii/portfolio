@@ -1,26 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
 * {
 	box-sizing: border-box;
 }
 
 
-.publications{
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    margin-top: 580px;
-    margin-left:200px;
+.course__container{
+	display:flex;
+	flex-direction: row;
+
 }
+
 .publications__img{
-    position:absolute;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     background-size: cover;
-    max-width: 40%;
+    max-width: 57%;
 }
-
-
 
 .course {
 	background-color: #fff;
@@ -30,17 +23,24 @@
 	max-width: 100%;
 	margin: 20px;
 	overflow: hidden;
-	width: 700px;
+	width: 900px;
+	height:260px;
 }
 
 .course h6 {
 	opacity: 0.6;
 	margin: 0;
-	letter-spacing: 1px;
+	
 	text-transform: uppercase;
 }
+.course h5 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
 
-.course h2 {
+}
+
+.course h3 {
 	letter-spacing: 1px;
 	margin: 10px 0;
 }
@@ -49,8 +49,8 @@
 	background-color: #2A265F;
 	color: #fff;
 	padding: 30px;
-	max-width: 350px;
 }
+
 
 .course-preview a {
 	color: #fff;
@@ -75,24 +75,6 @@
 	width: 150px;
 }
 
-.progress {
-	background-color: #ddd;
-	border-radius: 3px;
-	height: 5px;
-	width: 100%;
-}
-
-.progress::after {
-	border-radius: 3px;
-	background-color: #2A265F;
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 5px;
-	width: 66%;
-}
-
 .progress-text {
 	font-size: 10px;
 	opacity: 0.6;
@@ -111,6 +93,7 @@
 	bottom: 30px;
 	right: 30px;
 	letter-spacing: 1px;
+	cursor: pointer;
 }
 
 /* SOCIAL PANEL CSS */
@@ -264,12 +247,57 @@
 }
 
 @media screen and (max-width: 480px) {
+	.course__container{
+		flex-direction: column;
+		padding:30px;
+	}
+	.publications__img{
+		background-size: cover;
+		max-width: 100%;
+	}
+	.course {
+		max-width: 100%;
+		height:550px;
+		margin: 0px;
+		width: 900px;
+		flex-direction: column;
+		margin-bottom:30px;
 
+	}
+
+
+	.course-info {
+		padding: 10px;
+	
+	}
+	.course h6 {
+		opacity: 0.6;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	.course h5 {
+		opacity: 0.6;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+	.course h3 {
+		letter-spacing: 1px;
+		margin: 10px 0;
+	}
+	.progress-container {
+		top: 5px;
+	}
+	.article__btn {
+		position: relative;
+		bottom: -30px;
+		left: 40px;
+	}
+	
 	.social-panel-container.visible {
 		transform: translateX(0px);
 	}
-	
 	.floating-btn {
+		right: inherit;
 		right: 10px;
 	}
 }

@@ -1,0 +1,135 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background:darkslategrey;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar__icons{
+    display:flex;
+    flex-direction: row;
+    margin-left:200px;
+    margin-top:5px;
+  }
+  .nav-btn-outline {
+    padding: 1px 10px;
+    color: silver;
+  }
+  .nav_ico{
+    font-size:1.8rem;
+    margin:10px;
+  }
+  .nav_ico:hover{
+    transform: scale(1.1);
+    
+  }
+  
+  .navbar__container {
+    display: flex;
+    align-items: center;
+  }
+  .toggle {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .Span {
+    font-size: 35px;
+    color: orange;
+  }
+  
+  .ln {
+    justify-content: space-between;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+    font-weight: 500px;
+  }
+  .ln:hover{
+    color:black;
+  }
+  
+  
+  .navbar__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .navbar__right {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar__right li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  .navbar__logo{
+    font-size:2rem;
+    position:absolute;
+    margin-left: -31px;
+    color:silver;
+      margin-top:11px;
+}
+  
+  @media (max-width: 765px) {
+    .nav-btn-outline {
+        padding: 2px;
+        margin: 10px;
+        justify-content: center;
+        color: silver;
+      }
+      .navbar__title {
+        margin-left: 80px;
+        padding-right: 8px;
+      }
+      .ln {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 17px;
+      }
+      .navbar__logo{
+          font-size:1.7rem;
+          position:absolute;
+          margin-left: -29px;
+          color:silver;
+            margin-top:6px;
+      }
+      .navbar__right {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        background: #1f2235;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .navbar__right li a {
+        display: block;
+        padding: 20px 0;
+        font-size: 14px;
+      }
+      .toggle {
+        display: flex;
+        color:white;
+        border:2px solid white;
+        border-radius: 5px;
+      }
+      .Span {
+        font-size: 23px;
+      }
+ 
+  }

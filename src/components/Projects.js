@@ -10,6 +10,7 @@ import {
   FaCode
 } from "react-icons/fa";
 import Tilt from 'react-vanilla-tilt'
+import "./Projects.css";
 
 
 export const Projects = () => {
