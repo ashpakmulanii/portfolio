@@ -11,16 +11,11 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__title">
-              <b>
-                <i>
-                  <FaNodeJs className="navbar__logo" />
-                  <span className="Span">ashpak</span>
-                  <span className="Span" style={{ color: "silver" }}>
-                    mulani
-                  </span>
-
-                </i>
-              </b>
+              <FaNodeJs className="navbar__logo" />
+              <span className="Span">ashpak</span>
+              <span className="Span" style={{ color: "silver" }}>
+                mulani
+              </span>
             </div>
           </ul>
           <ul className="ln">
