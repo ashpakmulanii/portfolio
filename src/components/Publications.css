@@ -6,15 +6,25 @@
 
 .course__container{
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin-top:50px;
-	align-items: center;
+	padding:30px;
+}
+.course__container .common{
+	margin-top:80px;
+}
+.sections__container{
+	display:flex;
+	flex-direction:row;
+	padding:50px;
 
 }
 
 .publications__img{
     background-size: cover;
     max-width: 57%;
+	-webkit-clip-path:circle(100%);
+    clip-path: circle(85% at 30% 50%);
 }
 
 .course {
@@ -27,6 +37,7 @@
 	overflow: hidden;
 	width: 900px;
 	height:260px;
+	
 }
 .course__link {
 	background-color: #fff;
@@ -36,8 +47,8 @@
 	max-width: 100%;
 	margin: 20px;
 	overflow: hidden;
-	width: 900px;
-	height:290px;
+	width: 1000px;
+	height:300px;
 }
 
 .course__link h6 {
@@ -55,9 +66,11 @@
 .open_link__btn{
 	color:black;
     cursor: pointer;
-	margin-left:180px;
+	
+	position:absolute;
     background-color:silver;
     padding:10px;
+	margin-top:15px;
     border-radius: 5px;
     font-size:13px;
 }
@@ -65,7 +78,6 @@
 .course h6 {
 	opacity: 0.6;
 	margin: 0;
-	
 	text-transform: uppercase;
 }
 .course h5 {

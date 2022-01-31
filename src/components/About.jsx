@@ -26,8 +26,9 @@ const About = () => {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
+
               <img
-                src={require('../images/11.jpg')}
+                src={require('../images/12.jpg')}
                 alt="me"
               />
             </div>
@@ -49,7 +50,7 @@ const About = () => {
                     <div className="col-6">
                       <strong>{info.title}</strong>
                       {info.id == 4 ?
-                        (<p><a href={"https://www.linkedin.com/in/ashpak-mulani/"}>{info.text}</a></p>) : (<p>{info.text}</p>)
+                        (<p><a style={{ color: "blue" }} href={"https://www.linkedin.com/in/ashpak-mulani/"}>{info.text}</a></p>) : (<p>{info.text}</p>)
                       }
                     </div>
                   ))}

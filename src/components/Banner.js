@@ -29,12 +29,16 @@ const Banner = () => {
           <div className="col-6">
             <div className="header__content">
               <div className="header__section">
-
+                <div className="banner__img">
+                  <img src="https://www.mindinventory.com/blog/wp-content/uploads/2021/05/react-libraries.png" />
+                </div>
                 <h2>Welcome to <span className="Span">Apk</span><span style={{ color: "silver" }} className="Span">WebX</span></h2>
                 <span className="ChangingText"></span>
-                <p>
+                <div className="intro__text">
                   {txt__visibility === true ? (<p>{fullText}</p>) : (<p>{shortText}</p>)}
-                </p>
+                  <p>"Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals. " - Jim Rohn</p>
+                </div>
+
                 <div className="two__btn">
                   <a className="show__more" onClick={() => setTxt__Visibility(!txt__visibility)}>{txt__visibility === true ? ("Show Less") : ("Show More")}</a>
                   <Link to="/about" className="explore__btn">Explore Portfolio</Link>
@@ -70,12 +74,10 @@ const Banner = () => {
                     </a>
                   </li>
                 </ul>
-                <div className="header__buttons">
-
-
-                </div>
 
               </div>
+
+
 
             </div>
 

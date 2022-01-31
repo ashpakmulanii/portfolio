@@ -10,13 +10,10 @@ export const Publications = () => {
                     <p className="mainContent">Most Recent Articles and Publications relates to me</p>
                     <div className="commonBorder"></div>
                 </div>
-
                 <div className="course__link">
-
                     <img className="publications__img" src={require('../images/15.JPG')}></img>
                     <div className="course-info">
                         <div className="progress-container">
-
                             <span className="progress-text">
                                 तेज न्यूज
                             </span>
@@ -27,6 +24,8 @@ export const Publications = () => {
                         <a className="open_link__btn" onClick={() => window.open("https://tejnews33.com/?p=3354")}>Open Publication</a>
                     </div>
                 </div>
+            </div>
+            <div className="course__container">
 
                 <div className="course">
                     <img className="publications__img" src={require('../images/13.JPG')}></img>
@@ -60,6 +59,7 @@ export const Publications = () => {
                     </div>
                 </div>
             </div>
+
         </div>
 
     );

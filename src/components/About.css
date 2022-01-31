@@ -7,9 +7,9 @@
     padding: 30px;
   }
   .about__img img {
-    width: 60%;
-    border-radius: 10%;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    -webkit-clip-path:circle(100% at 50% 100%);
+    clip-path: circle(85% at 30% 50%);
   }
   .CVButton{
     border-radius:8px;
@@ -58,8 +58,11 @@
 
   @media (max-width: 765px) {
     .about__img {
-      width:30%;
-      position:absolute;
+      width:0;
+      height:0;
+      padding:0;
+      visibility: hidden;
+      
     }
 
   }

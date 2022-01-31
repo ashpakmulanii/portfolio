@@ -55,6 +55,7 @@
     font-size: 18px;
     margin-bottom: 50px;
     opacity:0.7;
+    margin-top:10px;
 
   }
   .header__section .two__btn{
@@ -130,9 +131,7 @@
     font-size: 71px;
     color:darkgray
   }
-  #galleryText::before{
-    content:"";
-  }
+ 
   .btn-outline:hover #galleryText::after{
     content: "Gallery";
   }
@@ -173,15 +172,27 @@
   }
   .banner__img img{
     background-size: cover;
-max-width: 1500px;
+max-width: 700px;
 position:absolute;
+margin-left:700px;
+-webkit-clip-path:circle(80% at 60% 100%);
+clip-path:circle(80% at 70% 50%);
+opacity:0.8;
+  }
+  #quote__writer{
+    margin-left:470px;
+    font-size:16px;
+    opacity:0.7
+  }
+  .header__section .Span{
+    font-size:34px;
   }
 
 
   @media (max-width: 765px) {
     .header {
         width: 100%;
-        height: 75vh;
+        height: 90vh;
       }
       .headerIcon{
         font-size:24px;
@@ -189,19 +200,20 @@ position:absolute;
   .banner__img img {
     display: none;
   }
-  .ChangingText{
-    font-size:11px;
-    font-family:monospace;
-    
-  }
+
+  
   .banner__icons{
     display:flex;
     flex-direction: row;
     justify-content: center;
     visibility: visible;
+    top:0;
+    bottom:0;
+    margin-right:150px;
   }
   .header__content {
-    margin-top:0px;
+    margin-top:80px;
+
   }
   .header__section h2 {
     font-size: 21px;
@@ -209,11 +221,17 @@ position:absolute;
     margin-bottom: 20px;
   }
   .header__section p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 50px;
+    padding-right: 80px;
+  
   }
+  .header__section .Span{
+    font-size:25px;
+  }
+
   #galleryText::after{
     content:"Gallery"
   }
