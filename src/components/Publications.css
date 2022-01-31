@@ -24,7 +24,7 @@
     background-size: cover;
     max-width: 57%;
 	-webkit-clip-path:circle(100%);
-    clip-path: circle(85% at 30% 50%);
+    clip-path: circle(80% at 30% 50%);
 }
 
 .course {
@@ -301,6 +301,8 @@
 	.publications__img{
 		background-size: cover;
 		max-width: 100%;
+		-webkit-clip-path:circle(100%);
+		clip-path: circle(100% at 30% 50%);
 	}
 	.course {
 		max-width: 100%;

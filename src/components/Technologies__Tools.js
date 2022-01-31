@@ -44,15 +44,7 @@ const Technologies__Tools = () => {
       heading: "Version Control",
       text: "Git helps in managing the code changes and errors for projects with a large codebase. It makes it easy to stage changes and revert back to a specific version easily. It has is now being used to automate the process of deployment for an application",
     },
-    {
-      id: 5,
-      icon: [
-        <FaLinux className="commonIcons" />,
-        <FaWindows className="commonIcons" />,
-      ],
-      heading: "Platforms",
-      text: "Switching platforms and trying new linux distros was my elight hobby in middle of cs. That thing makes me able to know more about platforms and get work with anything.",
-    },
+
     {
       id: 6,
       icon: [

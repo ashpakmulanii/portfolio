@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAlignJustify, FaFacebookF, FaInstagram, FaJs, FaJsfiddle, FaJsSquare, FaLinkedinIn, FaNodeJs, FaReact, FaTwitter } from "react-icons/fa";
+import { FaAlignJustify, FaFacebookF, FaGithub, FaInstagram, FaJs, FaJsfiddle, FaJsSquare, FaLinkedinIn, FaNodeJs, FaReact, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Nav = () => {
@@ -25,11 +25,11 @@ const Nav = () => {
             <Link className="nav-btn-outline" style={{ color: "#F9F7FC" }} to="/publications">
               Archievements
             </Link>
-            <Link className="nav-btn-outline" to="/services">
-              Skills
+            <Link className="nav-btn-outline" to="/projects">
+              Projects
             </Link>
             <Link className="nav-btn-outline" to="/myservices">
-              Services
+              Skills
             </Link>
           </ul>
 
@@ -37,6 +37,11 @@ const Nav = () => {
             <li>
               <a href="https://www.linkedin.com/in/ashpak-mulani/">
                 <FaLinkedinIn className="nav_ico" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ashpakmulanii">
+                <FaGithub className="nav_ico" />
               </a>
             </li>
             <li>

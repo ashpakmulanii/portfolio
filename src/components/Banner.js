@@ -2,8 +2,11 @@ import React from "react";
 import { useState } from "react";
 import {
   FaFacebookF,
+  FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaQuoteLeft,
+  FaQuoteRight,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
@@ -36,18 +39,23 @@ const Banner = () => {
                 <span className="ChangingText"></span>
                 <div className="intro__text">
                   {txt__visibility === true ? (<p>{fullText}</p>) : (<p>{shortText}</p>)}
-                  <p>"Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals. " - Jim Rohn</p>
+                  <p id="quote__box"><FaQuoteRight style={{ opacity: "0.7", paddingBottom: "5px" }} /><br></br>Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals.  - Jim Rohn</p>
                 </div>
 
                 <div className="two__btn">
-                  <a className="show__more" onClick={() => setTxt__Visibility(!txt__visibility)}>{txt__visibility === true ? ("Show Less") : ("Show More")}</a>
+                  <Link to="/about" className="show__more">About Me</Link>
                   <Link to="/about" className="explore__btn">Explore Portfolio</Link>
                 </div>
-
                 <ul type="none" className="banner__icons">
                   <li>
                     <a href="https://www.linkedin.com/in/ashpak-mulani/">
                       <FaLinkedinIn className="banner_ico" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://github.com/ashpakmulanii">
+                      <FaGithub className="banner_ico" />
                     </a>
                   </li>
                   <li>

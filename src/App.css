@@ -98,15 +98,11 @@ body {
 .services__box {
   padding: 40px;
   margin: 20px;
-  transition: all 0.5s linear;
-  backdrop-filter: blur(5px);
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  background: rgba(255, 255, 255, 0.1);
 
-}
-.services__box:hover {
+  backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.1);
 }
+
 
 .commonIcons {
   font-size: 40px;
@@ -127,84 +123,6 @@ body {
 
 
 
-/* Prices */
-
-.prices {
-  width: 100%;
-  padding: 100px 0;
-}
-.price {
-  padding: 25px;
-  border-radius: 8px;
-  margin: 35px 20px;
-  text-align: center;
-}
-.priceHeading {
-  display: block;
-  height: 100%;
-  width: 100%;
-  /* shape-image-threshold: calc(); */
-}
-
-.price__rs {
-  font-size: 70px;
-  font-weight: 200;
-  margin-bottom: 15px;
-}
-
-.price__rs span {
-  font-size: 25px;
-}
-.price ul {
-  list-style-type: none;
-}
-.price ul li {
-  margin: 5px 0;
-  border-bottom: 1px solid #3c3c3c;
-  font-size: 14px;
-  padding: 15px 0;
-}
-.price__btn {
-  margin-top: 40px;
-}
-
-
-.contact {
-  padding: 100px 0;
-}
-.contactSection-logo {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.contactSection-logo img {
-  margin: 0 auto;
-  width: 130px;
-}
-.contactSection p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.contactCircles {
-  width: 100%;
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-.contactCircles li {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-.contactCircles li:hover {
-  background: #ff4a57;
-}
 
 
 .user-icon {
@@ -250,8 +168,10 @@ body {
   }
   .services__box {
     padding: 15px;
-    margin: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border:1px solid silver;
+    border-radius:10px;
+
   }
 }
 
