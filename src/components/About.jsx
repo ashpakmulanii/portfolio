@@ -25,12 +25,12 @@ const About = () => {
         </div>
         <div className="row  h-650 alignCenter">
           <div className="col-6">
-            <div className="about__img">
+            {/* <div className="about__img">
               <img
                 src={require('../images/11.jpg')}
                 alt="me"
               />
-            </div>
+            </div> */}
           </div>
           <div className="col-6">
             <div className="about__info">
