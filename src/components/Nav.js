@@ -22,11 +22,8 @@ const Nav = () => {
             >
               Home
             </Link>
-            <Link className="nav-btn-outline" style={{ color: "#F9F7FC" }} to="#">
-              Docs
-            </Link>
-            <Link className="nav-btn-outline" to="/prices">
-              Fitness
+            <Link className="nav-btn-outline" style={{ color: "#F9F7FC" }} to="/publications">
+              Archievements
             </Link>
             <Link className="nav-btn-outline" to="/services">
               Skills
@@ -67,6 +64,9 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/publications" onClick={() => setState(!state)}>Honors and Archievements</Link>
+              </li>
+              <li>
                 <Link to="/services" onClick={() => setState(!state)}>Services</Link>
               </li>
               <li>
@@ -75,9 +75,7 @@ const Nav = () => {
               <li>
                 <Link to="/services" onClick={() => setState(!state)}>Tech Skills</Link>
               </li>
-              <li>
-                <Link to="/prices" onClick={() => setState(!state)}>Fitness </Link>
-              </li>
+
               <li>
                 <Link to="/projects" onClick={() => setState(!state)}>Projects</Link>
               </li>

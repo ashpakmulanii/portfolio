@@ -19,6 +19,7 @@ const Banner = () => {
   });
   const [fullText] = useState("This is all about my computer science journey , personal life and Archievements. Thanks for Visiting to my Website.",
   );
+  const [shortText] = useState("This is all about my Computer Science Journey and Archivements.")
   const [txt__visibility, setTxt__Visibility] = useState(false);
 
   return (
@@ -32,11 +33,11 @@ const Banner = () => {
                 <h2>Welcome to <span className="Span">Apk</span><span style={{ color: "silver" }} className="Span">WebX</span></h2>
                 <span className="ChangingText"></span>
                 <p>
-                  {state.text} {txt__visibility === true ? <p>{fullText}</p> : ""}<br />
+                  {txt__visibility === true ? (<p>{fullText}</p>) : (<p>{shortText}</p>)}
                 </p>
                 <div className="two__btn">
                   <a className="show__more" onClick={() => setTxt__Visibility(!txt__visibility)}>{txt__visibility === true ? ("Show Less") : ("Show More")}</a>
-                  <a className="explore__btn">Explore Portfolio</a>
+                  <Link to="/about" className="explore__btn">Explore Portfolio</Link>
                 </div>
 
                 <ul type="none" className="banner__icons">

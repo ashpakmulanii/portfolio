@@ -61,9 +61,5 @@
       width:30%;
       position:absolute;
     }
-    .about__img img{
-      border:2px solid gray;
-      
-      margin-top:-50px;
-    }
+
   }

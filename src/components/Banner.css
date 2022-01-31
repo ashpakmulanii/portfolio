@@ -54,7 +54,7 @@
   .header__section p {
     font-size: 18px;
     margin-bottom: 50px;
-    
+    opacity:0.7;
 
   }
   .header__section .two__btn{
@@ -197,8 +197,6 @@ position:absolute;
   .banner__icons{
     display:flex;
     flex-direction: row;
-    margin-top:5px;
-    margin-bottom: 20px;
     justify-content: center;
     visibility: visible;
   }

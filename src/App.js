@@ -3,7 +3,6 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Fitness__lifestyle from "./components/Fitness__lifestyle";
 import { Projects } from "./components/Projects";
 import My__Services from "./components/My__Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,14 +27,13 @@ function App() {
               <Technologies__Tools />
               <Projects />
               <My__Services />
-              <Fitness__lifestyle />
             </>
           } />
+          <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/services" element={<Technologies__Tools />}></Route>
           <Route exact path="/myservices" element={<My__Services />}></Route>
-          <Route exact path="/prices" element={<Fitness__lifestyle />}></Route>
         </Routes>
       </Router>
     </div>
