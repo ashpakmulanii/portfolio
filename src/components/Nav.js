@@ -11,28 +11,27 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__title">
-              <FaNodeJs className="navbar__logo" />
-              <span className="Span">ashpak</span>
+              <span className="Span">Apk</span>
               <span className="Span" style={{ color: "silver" }}>
-                mulani
+                WebX
               </span>
             </div>
           </ul>
           <ul className="ln">
-            <Link className="btn nav-btn-outline" to="/portfolio"
+            <Link className="nav-btn-outline" style={{ fontWeight: "450", color: "white" }} to="/portfolio"
             >
               Home
             </Link>
-            <Link className="btn nav-btn-outline" to="#">
-              Honors
+            <Link className="nav-btn-outline" style={{ color: "#F9F7FC" }} to="#">
+              Docs
             </Link>
-            <Link className="btn nav-btn-outline" to="/prices">
+            <Link className="nav-btn-outline" to="/prices">
               Fitness
             </Link>
-            <Link className="btn nav-btn-outline" to="/services">
+            <Link className="nav-btn-outline" to="/services">
               Skills
             </Link>
-            <Link className="btn nav-btn-outline" to="/myservices">
+            <Link className="nav-btn-outline" to="/myservices">
               Services
             </Link>
           </ul>

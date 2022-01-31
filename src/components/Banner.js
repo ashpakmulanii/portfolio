@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import {
   FaFacebookF,
-  FaImages,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
@@ -30,12 +29,16 @@ const Banner = () => {
             <div className="header__content">
               <div className="header__section">
 
-                <h3>Hey there,</h3>
-                <h2>{state.title}</h2>
+                <h2>Welcome to <span className="Span">Apk</span><span style={{ color: "silver" }} className="Span">WebX</span></h2>
                 <span className="ChangingText"></span>
                 <p>
-                  {state.text} {txt__visibility === true ? <p>{fullText}</p> : ""}<a className="show__more" onClick={() => setTxt__Visibility(!txt__visibility)}>Know more</a>
+                  {state.text} {txt__visibility === true ? <p>{fullText}</p> : ""}<br />
                 </p>
+                <div className="two__btn">
+                  <a className="show__more" onClick={() => setTxt__Visibility(!txt__visibility)}>{txt__visibility === true ? ("Show Less") : ("Show More")}</a>
+                  <a className="explore__btn">Explore Portfolio</a>
+                </div>
+
                 <ul type="none" className="banner__icons">
                   <li>
                     <a href="https://www.linkedin.com/in/ashpak-mulani/">

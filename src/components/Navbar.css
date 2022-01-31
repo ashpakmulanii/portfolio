@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 55px;
     position: fixed;
     top: 0;
-    background:darkslategrey;
+    background:#7952B3;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   }
@@ -12,20 +13,28 @@
   .navbar__icons{
     display:flex;
     flex-direction: row;
-    margin-left:200px;
+    margin-left:600px;
     margin-top:5px;
   }
   .nav-btn-outline {
-    padding: 1px 10px;
-    color: silver;
+    color: #E8E1F2;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size:16px;
+    padding:7px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .nav-btn-outline:hover{
+    color:white;
   }
   .nav_ico{
-    font-size:1.8rem;
-    margin:10px;
+    font-size:1.4rem;
+    margin:8px;
+    color:#DED4EC;
   }
   .nav_ico:hover{
     transform: scale(1.1);
-    
+    color:white;
   }
   
   .navbar__container {
@@ -45,15 +54,15 @@
     display: none;
   }
   .Span {
-    font-size: 35px;
+    font-size: 25px;
     color: orange;
-    font-family: 'Open Sans', sans-serif;   }
+    font-family: 'Yellowtail', cursive; 
+  }
   
   .ln {
-    justify-content: space-between;
-    font-size: 22px;
-    font-family: "Poppins", sans-serif;
-    margin-left: 100px;
+    font-size: 18px;
+    font-family: "cascadia-code", sans-serif;
+    margin-left: 20px;
     font-weight: 500px;
   }
   .ln:hover{
@@ -80,12 +89,13 @@
     padding: 0 15px;
   }
   .navbar__logo{
-    font-size:2rem;
+    font-size:1.8rem;
     position:absolute;
-    margin-left: -31px;
+    margin-left: -32px;
     color:silver;
-      margin-top:11px;
+      margin-top:4px;
 }
+
   
   @media (max-width: 765px) {
     .nav-btn-outline {
@@ -95,21 +105,16 @@
         color: silver;
       }
       .navbar__title {
-        margin-left: 30px;
+        margin-left: 80px;
         padding-right: 8px;
       }
       .ln {
         font-size: 12px;
         font-weight: 500;
         margin-top: 17px;
+        transform: translate(300px);
       }
-      .navbar__logo{
-          font-size:1.7rem;
-          position:absolute;
-          margin-left: -29px;
-          color:silver;
-            margin-top:6px;
-      }
+
       .navbar__right {
         flex-direction: column;
         width: 100%;
@@ -127,11 +132,15 @@
       .toggle {
         display: flex;
         color:white;
-        border:2px solid white;
+        border:1px solid white;
         border-radius: 5px;
+        top:0;
+        margin-top:12px;
+     
       }
       .Span {
         font-size: 23px;
+       
       }
  
   }
