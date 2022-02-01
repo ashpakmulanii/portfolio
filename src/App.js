@@ -2,13 +2,13 @@ import React from "react";
 import "./App.css";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
-import About from "./components/About";
 import { Projects } from "./components/Projects";
 import My__Services from "./components/My__Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import Technologies__Tools from "./components/Technologies__Tools";
 import { Publications } from "./components/Publications";
+import { Footer } from "./components/Footer";
 
 
 function App() {
@@ -22,12 +22,10 @@ function App() {
             <>
               <Banner />
               <Publications />
-              <My__Services />
-              <About />
+              <Footer />
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/services" element={<Technologies__Tools />}></Route>
           <Route exact path="/myservices" element={<My__Services />}></Route>

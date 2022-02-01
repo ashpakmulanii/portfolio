@@ -27,7 +27,7 @@ const Banner = () => {
 
   return (
     <div className="header">
-      <div className="container">
+      <div className="banner__container">
         <div className="row">
           <div className="col-6">
             <div className="header__content">
@@ -43,8 +43,8 @@ const Banner = () => {
                 </div>
 
                 <div className="two__btn">
-                  <Link to="/about" className="show__more">About Me</Link>
-                  <Link to="/about" className="explore__btn">Explore Portfolio</Link>
+                  <Link to="/publications" className="show__more">Publications</Link>
+                  <Link to="/myservices" className="explore__btn">Explore Services</Link>
                 </div>
                 <ul type="none" className="banner__icons">
                   <li>

@@ -28,7 +28,7 @@ const Nav = () => {
             <Link className="nav-btn-outline" to="/projects">
               Projects
             </Link>
-            <Link className="nav-btn-outline" to="/myservices">
+            <Link className="nav-btn-outline" to="/services">
               Skills
             </Link>
           </ul>
