@@ -12,7 +12,6 @@
   .navbar__icons{
     display:flex;
     flex-direction: row;
-
     align-items:center;
 
   }
@@ -40,7 +39,6 @@
   .navbar__container {
     display: flex;
     align-items: center;
-    padding-left:50px;
   }
   .toggle__box {
     position:fixed;
@@ -59,7 +57,7 @@
     font-family: "cascadia-code", sans-serif;
     margin-left: 20px;
     font-weight: 500px;
-    padding-right:500px;
+    margin-right:500px;
   }
   .ln:hover{
     color:black;
@@ -127,8 +125,6 @@
         display:none;
       }
  
-     
-
       .navbar__right {
         flex-direction: column;
         width: 100%;
