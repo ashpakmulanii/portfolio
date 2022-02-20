@@ -45,6 +45,8 @@
   .toggle__box {
     position:fixed;
     visibility: hidden;
+    top:14px;
+    right:15px;
   }
   .Span {
     font-size: 20px;
@@ -107,10 +109,7 @@
   
   @media (max-width: 765px) {
     .navbar{
-      display:flex;
-      flex-direction: row;
       align-items: center;
-      width:100%;
     }
     .nav-btn-outline {
         padding: 2px;
