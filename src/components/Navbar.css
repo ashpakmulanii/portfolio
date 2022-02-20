@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 .navbar {
     width: 100%;
+    display:flex;
     position: fixed;
     padding:5px;
     background:#7952B3;
@@ -69,6 +70,7 @@
     font-family: 'Arvo', serif;
     display: flex;
     flex-direction: row;
+    margin-left:80px;
   }
   
   .navbar__right {
@@ -122,7 +124,6 @@
         
       }
       .ln, .navbar__icons {
-        margin-right:0px;
         display:none;
       }
  
