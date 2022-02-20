@@ -2,14 +2,14 @@ import React from 'react';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import "./footer__style.css";
 export const Footer = () => {
-    return <div>
+    return (
         <footer>
             <div className="content">
+
                 <div className="left box">
                     <div className="upper">
                         <div className="topic">About Me</div>
-                        <p>ApkWebX is my personal portfolio where you can find my services of development and my personal archievements.</p>
-                    </div>
+                        <p>I'm a final year student of BCA ( Bachelor Of Computer Science ). Currently working with RSense Technology Solutions PVT. LTD as a Trainee Software Engineer and also a part-time freelancer</p></div>
                     <div className="lower">
                         <div className="topic">Contact Me</div>
                         <div className="phone">
@@ -38,14 +38,12 @@ export const Footer = () => {
                         <a href="#"><FaGithub /></a>
                         <a href="#"><FaInstagram /></a>
                         <a href="#"><FaFacebook /></a>
-
-
                     </div>
                 </div>
             </div>
-            <div className="bottom">
+            {/* <div className="bottom">
                 <p>Copyright ©2021 <a href="#">ApkWebX</a></p>
-            </div>
-        </footer>
-    </div>;
+            </div> */}
+        </footer>)
+
 };

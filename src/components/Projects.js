@@ -7,7 +7,8 @@ import {
   FaPython,
   FaReact,
   FaUserLock,
-  FaCode
+  FaCode,
+  FaQuoteRight
 } from "react-icons/fa";
 import Tilt from 'react-vanilla-tilt'
 import "./Projects.css";
@@ -24,16 +25,17 @@ export const Projects = () => {
         <div className="commonBorder"></div>
       </div>
       <div className="Econtainer">
-        <Tilt style={{}} className="Ecard">
+        <div className="Ecard">
           <div className="Econtent">
             <h2>01</h2>
             <h3>E-Commerse Website</h3>
             <p>
-              E-Commerse website is my first huge freelance project which is
-              developed using React.js , Bootstrap, and Django and MySqL.
+              <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>    E-Commerse website is my first huge freelance project which is
+                developed using React.js , Bootstrap, and Django and MySQL.</p>
+
+
               <a href="#">
-                <FaCode></FaCode>
-                <u> Source Code</u>
+                <u>Get Source Code</u>
               </a>
             </p>
             <div className="Techs">
@@ -48,18 +50,20 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </Tilt>
+        </div>
 
-        <Tilt style={{}} className="Ecard">
+        <div style={{}} className="Ecard">
           <div className="Econtent">
             <h2>02</h2>
             <h3>Schedule Manager</h3>
             <p>
-              Shedule Manager is a website designed in React.js . firstly i
-              started with basic react app developed from a youtuber called
-              'codewithharry' and then i put it into the next level.
+              <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
+                Shedule Manager is a website designed in React.js . firstly i
+                started with basic react app developed from a youtuber called
+                'codewithharry' and then i put it into the next level.</p>
+
               <a href="https://github.com/ashpakmulanii/schedule-manager">
-                <FaCode></FaCode>
+
                 <u> Source Code</u>
               </a>
             </p>
@@ -78,17 +82,19 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </Tilt>
+        </div>
 
-        <Tilt style={{}} className="Ecard">
+        <div style={{}} className="Ecard">
           <div className="Econtent">
             <h2>03</h2>
             <h3>Instagram Clone</h3>
             <p>
-              Cloned instagram using most popular JavaScript liberary in 2021
-              called React.js
+              <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
+                Cloned instagram using most popular JavaScript liberary in 2021
+                called React.js</p>
+
               <a href="#">
-                <FaUserLock></FaUserLock>
+
                 <u> Source Code</u>
               </a>
             </p>
@@ -104,7 +110,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </Tilt>
+        </div>
       </div>
     </div>
   );

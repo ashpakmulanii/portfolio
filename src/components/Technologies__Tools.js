@@ -4,20 +4,15 @@ import {
   FaPython,
   FaDatabase,
   FaGit,
-  FaLinux,
   FaJs,
-  FaWindows,
   FaJava,
-  FaNodeJs,
   FaStar,
   FaPhp,
 } from "react-icons/fa";
 const Technologies__Tools = () => {
   const [header] = React.useState({
-    mainHeader: "TECH SKILLS",
     subHeading: "Tools and Technologies",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting\
-    industry. Lorem Ipsum standard dummy text.",
+    text: "List of Technologies and tools i've learned in my full stack Web Development Journey.",
   });
   const [state] = React.useState([
     {
@@ -68,7 +63,6 @@ const Technologies__Tools = () => {
       <div className="container">
         <div className="services__header">
           <div className="common">
-            <h3 className="heading">{header.mainHeader}</h3>
             <h1 className="mainHeader">{header.subHeading}</h1>
             <p className="mainContent">{header.text}</p>
             <div className="commonBorder"></div>

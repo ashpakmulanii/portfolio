@@ -15,12 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
   justify-content: center;
   align-items: center;
-
 }
-
-
-
-
 
 /* Helpers */
 .container {
@@ -45,12 +40,8 @@ body {
   height: 50%;
   flex-wrap: wrap;
 }
-.col-6 {
-  width: 50%;
-}
-
 .col-4 {
-  width: 33.33333333333333%;
+  width: 50%;
 }
 .underline {
   text-decoration-line: underline;
@@ -59,10 +50,6 @@ body {
 }
 
 /* header */
-
-
-
-
 /* Servives */
 .services {
   /* background: #1f2235; */
@@ -85,9 +72,11 @@ body {
   font-size: 32px;
   margin-bottom: 20px;
 }
+
 .mainContent {
   font-size: 16px;
 }
+
 .commonBorder {
   background: #ff4a57;
   height: 3px;
@@ -98,18 +87,15 @@ body {
 .services__box {
   padding: 40px;
   margin: 20px;
-
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.1);
 }
-
 
 .commonIcons {
   font-size: 40px;
   color: #f00e06;
   margin-bottom: 15px;
 }
-
 
 .services__box-header {
   font-size: 20px;
@@ -122,13 +108,6 @@ body {
 }
 
 
-
-
-
-.user-icon {
-  font-size: 1.6rem;
-  color: silver;
-}
 
 @media (max-width: 765px) {
   .container {
@@ -145,14 +124,7 @@ body {
   .col-4 {
     width: 100%;
   }
-  .para {
-    margin-top: 80px;
-    color: goldenrod;
-  }
-  .para span {
-    padding: 90px;
-   
-  }
+
 
   .common {
     width: 100%;
@@ -163,16 +135,8 @@ body {
   .mainHeader {
     font-size: 20px;
   }
-  .card:hover {
-    transform: scale(1);
-  }
-  .services__box {
-    padding: 15px;
-    margin: 10px;
-    border:1px solid silver;
-    border-radius:10px;
 
-  }
+
 }
 
 
