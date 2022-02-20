@@ -145,7 +145,7 @@
      .toggle__box {
         visibility: visible;
         cursor: pointer;
-       right:12px;
+        padding-left:350px;
    
       }
       .toggle__btn{
