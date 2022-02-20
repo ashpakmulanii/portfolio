@@ -11,7 +11,7 @@ const Nav = () => {
           <ul className="navbar__left">
             <div className="navbar__title">
               <FaCode style={{ fontSize: "27px", color: "silver", paddingRight: "5px" }} />
-              <span className="Span">ApkWebX</span>
+              <span className="Span">ApK</span>
             </div>
           </ul>
           <ul className="ln">
