@@ -91,11 +91,12 @@ const Nav = () => {
           )}
 
         </div>
-      </div>
-      <div className="toggle__box" onClick={() => setState(!state)}>
-        {!state ? (<FaAlignJustify className="toggle__btn" />) : (
-          <AiOutlineClose className="toggle__btn" />
-        )}
+
+        <div className="toggle__box" onClick={() => setState(!state)}>
+          {!state ? (<FaAlignJustify className="toggle__btn" />) : (
+            <AiOutlineClose className="toggle__btn" />
+          )}
+        </div>
       </div>
     </nav>
   );
