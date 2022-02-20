@@ -122,6 +122,7 @@
         
       }
       .ln, .navbar__icons {
+        margin-right:0px;
         display:none;
       }
  
