@@ -21,7 +21,7 @@ const Banner = () => {
     <header>
       <div className="banner__container">
         <div className="bannertext__container">
-          <h2>Welcome to ApkWebX</h2>
+          <h2>Welcome to <span className="Span">LearnWithAsh</span></h2>
           <span className="ChangingText"></span>
           <div className="quote__box">
             <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>{state.text}</p>
