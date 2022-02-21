@@ -180,14 +180,16 @@ margin-right:10px;
 
   @media (max-width: 765px) {
     header{
-      grid-template-columns: auto auto;
+      display:grid;
+      grid-template-columns:auto;
     }
       .bannertext__container h2 {
-        font-size: 30px;
+        font-size: 27px;
+      
       }
       .bannertext__container{
-        margin-left:40px;  
-        padding:0;
+        transform: translateX(-180px);
+        padding:10px;
       }
       .quote__box {
         max-width:330px;
@@ -220,7 +222,7 @@ margin-right:10px;
       
       }
       .bannertext__container .Span{
-        font-size:30px;
+        font-size:27px;
       }
 
 }
