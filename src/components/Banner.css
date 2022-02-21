@@ -179,6 +179,9 @@ margin-right:10px;
 
 
   @media (max-width: 765px) {
+    header{
+      grid-template-columns: auto auto;
+    }
       .bannertext__container h2 {
         font-size: 30px;
       }

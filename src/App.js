@@ -18,7 +18,11 @@ function App() {
         <ScrollToTop />
         <Nav />
         <Routes>
-
+          <Route exact path="/portfolio" element={
+            <>
+              < Banner />
+            </>
+          } />
           <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/services" element={<Technologies__Tools />}></Route>
