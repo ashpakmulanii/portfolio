@@ -28,9 +28,9 @@ const Banner = () => {
             <div class="quote__writer">
               <div className="admin">
                 <img className="admin__img" src={require("../images/admin.JPG")} />
-                <p style={{ fontSize: "16px" }}>Ashpak Mulani</p>
+                <p style={{ fontSize: "16px", marginTop: "-0px" }}>Ashpak Mulani</p>
               </div>
-              <span style={{ color: "silver", marginLeft: "62px", position: "absolute", marginTop: "-10px", }}>Web Developer</span>
+              <span style={{ fontSize: "14px", color: "silver", marginLeft: "62px", position: "absolute", marginTop: "-23px", }}>Web Developer</span>
             </div></div>
           <div className="two__btn">
             <Link to="/publications" className="show__more">Publications</Link>

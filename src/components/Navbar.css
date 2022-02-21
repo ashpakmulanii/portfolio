@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 .navbar {
     width: 100%;
-    display:flex;
     position: fixed;
-    padding:5px;
     background:#7952B3;
+    padding:5px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   }
@@ -48,7 +47,7 @@
     right:15px;
   }
   .Span {
-    font-size: 20px;
+    font-size: 18px;
    color:silver;
 
   }
@@ -108,12 +107,9 @@
 
   
   @media (max-width: 765px) {
-    .navbar{
-      align-items: center;
-      max-width: 765px;
-    
+    .navbar {
+      background-color:#FFFFFF;
     }
-
     .nav-btn-outline {
         padding: 2px;
         margin: 10px;
@@ -154,6 +150,8 @@
       }
 
       .Span {
+        color:black;
+        opacity:0.7;
         font-size: 20px;
         font-weight:1000;
       }

@@ -97,11 +97,11 @@ margin-right:10px;
   
   .ChangingText:before{
     font-size: 19px;
+    opacity:0.7;
     content:"";
     animation: animate infinite 5s;
-    color:silver;
-    opacity:0.7;
-    font-family: 'Arvo', serif;
+    color:#7952b3;
+    
     font-weight: 600;
   }
 
@@ -190,7 +190,7 @@ margin-right:10px;
         font-size: 30px;
       }
       .bannertext__container{
-        margin-left:10px;  
+        margin-left:40px;  
         padding:0;
       }
       .quote__box {
