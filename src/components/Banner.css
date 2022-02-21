@@ -168,9 +168,10 @@ header {
   }
 
 
-  .bannertext__container .Span{
-    font-size:38px;
+  .bannertext__container .banner__logo{
+    font-size:35px;
     font-weight: 1200;
+    opacity:0.6;
   }
  @media (max-width: 425px){
   .two__btn{
@@ -239,7 +240,7 @@ header {
         justify-content: center;
       }
  
-      .bannertext__container .Span{
+      .bannertext__container .banner__logo{
         font-size:27px;
       }
 

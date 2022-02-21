@@ -9,8 +9,9 @@ const Nav = () => {
       <div className="navbar__container">
         <ul className="navbar__left">
           <div className="navbar__title">
-            <FaCode style={{ fontSize: "27px", color: "#7952b3", paddingRight: "5px" }} />
-            <span className="Span">LearnWithAsh</span>
+            <span className="Span">Apk </span>
+            <FaJsSquare style={{ fontSize: "22px", color: "silver" }} />
+            <span className="Span">Developer</span>
           </div>
         </ul>
         <ul className="ln">
