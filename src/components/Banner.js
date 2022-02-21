@@ -24,7 +24,7 @@ const Banner = () => {
           <h2>Welcome to <span className="Span">LearnWithAsh</span></h2>
           <span className="ChangingText"></span>
           <div className="quote__box">
-            <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>{state.text}</p>
+            <p><FaQuoteRight style={{ fontSize: "14px", opacity: "0.5", marginBottom: "30px" }} /></p><br></br><p style={{ paddingLeft: "5px" }}>{state.text}</p>
           </div>
           <div className="admin">
             <img className="admin__img" src={require("../images/admin.JPG")} />
