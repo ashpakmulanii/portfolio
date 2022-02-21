@@ -25,13 +25,14 @@ const Banner = () => {
           <span className="ChangingText"></span>
           <div className="quote__box">
             <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>{state.text}</p>
-            <div class="quote__writer">
-              <div className="admin">
-                <img className="admin__img" src={require("../images/admin.JPG")} />
-                <p style={{ fontSize: "16px", marginTop: "-0px" }}>Ashpak Mulani</p>
-              </div>
-              <span style={{ fontSize: "14px", color: "silver", marginLeft: "62px", position: "absolute", marginTop: "-23px", }}>Web Developer</span>
-            </div></div>
+          </div>
+          <div className="admin">
+            <img className="admin__img" src={require("../images/admin.JPG")} />
+            <div className="admin__info">
+              <p style={{ fontSize: "16px" }}>Ashpak Ahmad Mulani</p>
+              <p style={{ fontSize: "14px", color: "silver" }}>- Full Stack Web Developer</p>
+            </div>
+          </div>
           <div className="two__btn">
             <Link to="/publications" className="show__more">Publications</Link>
             <Link to="/myservices" className="explore__btn">Explore Services</Link>
