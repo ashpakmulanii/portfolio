@@ -21,6 +21,8 @@ function App() {
           <Route exact path="/portfolio" element={
             <>
               < Banner />
+              <Footer />
+              <Publications />
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
