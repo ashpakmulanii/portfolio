@@ -56,7 +56,7 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a className="nav__btn" href="https://staticg.sportskeeda.com/editor/2022/02/97966-16441723251640-1920.jpg" download>Download Resume</a>
+            <a className="nav__btn" href="https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf" download>Download Resume</a>
           </li>
         </ul>
 

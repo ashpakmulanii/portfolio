@@ -1,3 +1,5 @@
+// Not using this code because of performence issue on github live pages.
+
 import React from "react";
 import { FaReact, FaPython } from "react-icons/fa";
 import Tilt from 'react-vanilla-tilt'

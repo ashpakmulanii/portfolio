@@ -30,7 +30,7 @@ const Banner = () => {
       </div>
       <div className="right__block">
         <div className="admin">
-          <img className="admin__img" src={require("../images/admin.JPG")} />
+          <img className="admin__img" src={"https://github.com/ashpakmulanii/portfolio/blob/main/src/images/admin.JPG?raw=true"} />
           <div className="admin__info">
             <p style={{ fontSize: "16px" }}>Ashpak Ahmad Mulani</p>
             <p id="admin__role">- Full Stack Web Developer</p>
