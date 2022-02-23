@@ -3,7 +3,7 @@ import "./Publications.css";
 
 export const Publications = () => {
     return (
-        <div>
+        <div className="publications">
             <div className="course__container">
                 <div className="common">
                     <h1 className="mainHeader">Honors & Awards </h1>

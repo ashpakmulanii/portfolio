@@ -52,7 +52,8 @@ body {
 /* header */
 /* Servives */
 .services {
-  /* background: #1f2235; */
+
+  background-image: linear-gradient(to right,gray,silver,#443844);
   padding: 100px 0;
 }
 

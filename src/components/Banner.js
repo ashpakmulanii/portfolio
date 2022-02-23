@@ -13,38 +13,37 @@ import "./Banner.css";
 const Banner = () => {
   const [state, setState] = React.useState({
     text: "Welcome to my personal portfolio. This is all about my computer science journey and archievemnts and either services for you",
-    fullText__Visibility: false,
     image: "../images/12.jpg"
   });
 
   return (
-    <header>
-      <div className="banner__container">
-        <div className="bannertext__container">
-          <h2>Welcome to <span className="banner__logo">Portfolio</span></h2>
-          <span className="ChangingText"></span>
-          <div className="quote__box">
-            <p>{state.text}</p>
-          </div>
-          <div className="admin">
-            <img className="admin__img" src={require("../images/admin.JPG")} />
-            <div className="admin__info">
-              <p style={{ fontSize: "16px" }}>Ashpak Ahmad Mulani</p>
-              <p style={{ fontSize: "14px", color: "silver" }}>- Full Stack Web Developer</p>
-            </div>
-          </div>
-          <div className="two__btn">
-            <Link to="/publications" className="show__more">Publications</Link>
-            <Link to="/myservices" className="explore__btn">Explore Services</Link>
-          </div>
 
+    <div className="bannertext__container">
+      <div className="left__block">
+        <h1>Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
+        <span className="ChangingText"></span>
+        <div className="quote__box">
+          <p>{state.text}</p>
         </div>
       </div>
-      <div className="banner__img">
-        <img src="https://www.mindinventory.com/blog/wp-content/uploads/2021/05/react-libraries.png" />
+      <div className="right__block">
+        <div className="admin">
+          <img className="admin__img" src={require("../images/admin.JPG")} />
+          <div className="admin__info">
+            <p style={{ fontSize: "16px" }}>Ashpak Ahmad Mulani</p>
+            <p style={{ fontSize: "14px", color: "silver" }}>- Full Stack Web Developer</p>
+          </div>
+        </div>
+        <div className="two__btn">
+          <Link to="/publications" className="show__more">Publications</Link>
+          <Link to="/myservices" className="explore__btn">Explore Services</Link>
+        </div>
       </div>
+      {/* <img className="banner__bg" src={require("../images/banner(1).jpg")}></img> */}
 
-    </header>
+    </div>
+
+
 
   );
 };

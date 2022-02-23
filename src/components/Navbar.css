@@ -3,8 +3,8 @@
 .navbar {
     width: 100%;
     position: fixed;
-    background:#7952B3;
-    padding:10px;
+    background-image: linear-gradient(to left,gray,#231123,#7952B3);
+    padding:12px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   }
@@ -50,7 +50,7 @@
 
   .Span {
     font-size: 18px;
-   color:#c0c0c0;
+   color: silver;
   }
   
   .ln {

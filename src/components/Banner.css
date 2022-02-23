@@ -1,35 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-header {
-  padding-top:100px;
+
+
+
+
+.banner__bg{
+  border-radius:30px;
+padding:10px;
+  opacity:0.6;
+  position:absolute;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.bannertext__container{
+  background-image: linear-gradient(to right,gray,silver,#443844);
+  height: 430px;
+ padding-top:100px;
   display:flex;
-  }
+  flex-direction: row;
+  justify-content: center;
+}
 
-  header .banner__container {
-    height:500px;
-    align-items: center;
-  }
-
-  .bannertext__container{
-    padding-right: 50px;
-    padding-left:50px;
-  }
-
-
-  .banner__img img{
-    background-size: cover;
-    height:400px;
-    position: relative;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-  }
-  .banner__img img:before {
-    content: "";
-    position: absolute;
-    border-top: 13px solid transparent;
-    border-right: 26px solid red;
-    border-bottom: 13px solid transparent;
-  }
 
   .bannertext__container p {
     font-size: 18px;
@@ -38,10 +27,24 @@ header {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
   }
-  .admin{
-    display:flex;
-    flex-direction: row;
+  .bannertext__container h1 {
+    font-size: 63px;
+    padding-bottom:7px;
+    opacity: 0.8;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  .left__block{
+    padding-right:300px;
+    
+  }
+
+
+
+
+  .right__block .admin{
     padding-bottom: 40px;
+    
+    text-align: center;
   }
 
 .admin__info{
@@ -96,18 +99,10 @@ header {
     background-color: grey;
   }
 
-  .bannertext__container h3{
-    font-size:21px;
-  }
-  .bannertext__container h2 {
-    font-size: 35px;
-    font-weight: 700;
-    padding-bottom:7px;
-    opacity: 0.8;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  }
+
+
   .quote__box {
-    padding-right:100px;
+    max-width: 500px;
     padding-bottom: 10px;
     font-weight: "400";
     line-height:26px;
@@ -138,9 +133,6 @@ header {
         content:"Fitness Instructor,";
     }
   }
-
-
-  
  
   .btn {
     outline: none;
@@ -167,12 +159,6 @@ header {
     border-radius: 50px;
   }
 
-
-  .bannertext__container .banner__logo{
-    font-size:35px;
-    font-weight: 1200;
-    opacity:0.6;
-  }
  @media (max-width: 425px){
   .two__btn{
     flex-direction: column;
@@ -191,15 +177,21 @@ header {
 
   @media (max-width: 825px) {
  
-      .bannertext__container h2 {
+      .bannertext__container h1 {
         font-size: 27px;
       }
       .bannertext__container{
+        height:580px;
         padding-right:0px;
         padding-left:0;
+        flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
+      }
+      .left__block{
+        padding-right:0;
+       
       }
       .quote__box {
         padding:10px;
@@ -224,11 +216,7 @@ header {
     }
   
 
-      .header__section h2 {
-        font-size: 21px;
-        font-weight: 700;
-        margin-bottom: 20px;
-      }
+  
       .header__section p {
         font-size: 15px;
         font-weight: 400;
