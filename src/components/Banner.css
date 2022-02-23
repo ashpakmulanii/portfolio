@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
+.dummy__common{
+    width: 33.33333333333333%;
+    margin: 20px 100px;
+    text-align: center;
+}
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
-  height: 430px;
+  height: 600px;
   width:100%;
   padding-top:30px;
  align-items: center;
@@ -14,10 +19,11 @@
   font-size:15rem;
   color:silver;
   opacity:0.6;
+  transition:0.8s ease;
 }
 #banner__icon:hover{
-  color: (to right,gray,silver,#443844);
   opacity:1;
+  transform: scale(1.2);
 }
 #admin__role{
   font-size: 14px;
@@ -34,7 +40,7 @@
   .bannertext__container h1 {
     font-size: 63px;
     padding-bottom:7px;
-    opacity: 0.8;
+    opacity: 0.7;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 
@@ -187,7 +193,7 @@
         font-size: 10rem;
       }
     .bannertext__container{
-        background-image: linear-gradient(to right,gray,silver);
+        background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
         padding-top:120px;
         height:700px;
         padding-right:0px;

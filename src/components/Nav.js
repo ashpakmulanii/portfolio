@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="navbar__container">
         <ul className="navbar__left">
           <div className="navbar__title">
-            <FaCode style={{ fontSize: "20px", color: "silver", marginRight: "5px" }} />
+            <FaCode className="Span" style={{ marginRight: "5px" }} />
             <span className="Span">ashpakmulani</span>
           </div>
         </ul>

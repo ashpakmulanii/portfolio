@@ -55,10 +55,11 @@
   
   .ln {
     font-size: 18px;
+    align-items: center;
     font-family: "cascadia-code", sans-serif;
     margin-left: 20px;
     font-weight: 500px;
-    margin-right:500px;
+    padding-right:500px;
   }
 
   .ln:hover{
@@ -67,6 +68,8 @@
   
   .navbar__title {
     font-size: 1.5rem;
+    align-items: center;
+
     font-weight: 600;
     font-family: 'Arvo', serif;
     display: flex;
@@ -106,12 +109,34 @@
       color:black;
     }
 
+    @media (max-width: 500px){
+ 
+      .Span {
+        opacity:0.7;
+        font-size: 22px;
+        font-weight:1000;
+      }
+  
+    }
+    @media (max-width: 565px) {
+      .ln{
+        display: none;
+      }
+    }
+
   
   @media (max-width: 765px) {
     .navbar__container{
-      justify-content: center;
       align-items: center;
       text-align: center;
+      justify-content: center;
+    }
+    .navbar__title{
+      padding:4px;
+      margin:0;
+    }
+    .ln{
+      padding-right:0px;
     }
 
     .nav-btn-outline {
@@ -121,12 +146,7 @@
         color: silver;
       }
 
-      .navbar__title {
-        padding: 4px;  
-        margin:0; 
-      }
-
-      .ln, .navbar__icons {
+      .navbar__icons {
         display:none;
       }
  
@@ -154,10 +174,6 @@
         font-size:20px;
       }
 
-      .Span {
-        opacity:0.7;
-        font-size: 22px;
-        font-weight:1000;
-      }
+ 
  
   }
