@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaQuoteRight,
   FaTwitter,
+  FaCode,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Banner.css";
@@ -19,6 +20,7 @@ const Banner = () => {
   return (
 
     <div className="bannertext__container">
+      <div id="banner__icon"><FaCode /></div>
       <div className="left__block">
         <h1>Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
         <span className="ChangingText"></span>
@@ -31,7 +33,7 @@ const Banner = () => {
           <img className="admin__img" src={require("../images/admin.JPG")} />
           <div className="admin__info">
             <p style={{ fontSize: "16px" }}>Ashpak Ahmad Mulani</p>
-            <p style={{ fontSize: "14px", color: "silver" }}>- Full Stack Web Developer</p>
+            <p id="admin__role">- Full Stack Web Developer</p>
           </div>
         </div>
         <div className="two__btn">
