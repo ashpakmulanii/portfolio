@@ -3,10 +3,10 @@
 	box-sizing: border-box;
 }
 .publications{
+	height:1000px;
 
 	background-image: linear-gradient(to right,gray,silver,#443844);
-	height:100vh;
-	padding-top:120px;
+	padding-top:100px;
 }
 
 .course__container{
@@ -297,12 +297,15 @@
 	text-decoration: none;
 }
 
-
-
 @media screen and (max-width: 480px) {
 	.course__container{
 		flex-direction: column;
 		padding:30px;
+	}
+	.publications{
+		height:100%;
+		background-image: linear-gradient(to right,gray,silver,#443844);
+		padding-top:20px;
 	}
 	.publications__img{
 		background-size: cover;

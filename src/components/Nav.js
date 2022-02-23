@@ -19,7 +19,7 @@ const Nav = () => {
             Home
           </Link>
           <Link className="nav-btn-outline" style={{ color: "#F9F7FC" }} to="/publications">
-            Archievements
+            Achievements
           </Link>
           <Link className="nav-btn-outline" to="/projects">
             Projects
