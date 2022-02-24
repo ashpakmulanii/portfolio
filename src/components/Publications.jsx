@@ -56,9 +56,9 @@ export const Publications = () => {
                             </span>
                         </div>
                         <h6>ICMS Pandharpur</h6>
-                        <h3>1st Ranker</h3>
+                        <h3>Tribal</h3>
                         <h5>
-                            Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan for archiving 1st Rank in fourth semister of bachelor of computer application.</h5>
+                            Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan for cracking on-campus recruiment drive.</h5>
                     </div>
                 </div>
             </div>
