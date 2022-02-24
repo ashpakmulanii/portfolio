@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+.dummy__common{
+	text-align: center;
+
+}
 .publications{
 	height:1000px;
 	background-image: linear-gradient(to right,gray,silver,#443844);
@@ -26,6 +30,7 @@
 .publications__img{
     background-size: cover;
 	object-fit: cover;
+	opacity:0.9;
 	transition:0.6s ease;
 }
 .course .publications__img:hover{
@@ -42,38 +47,47 @@
 	margin: 30px;
 	overflow: hidden;
 	width: 800px;
-	height:220px;
+	height:210px;
 	transition:0.6s ease;
-	
 }
-
-
-
-.course__link h6 {
+.nonimg__course{
+	background-image: linear-gradient(to right,gray,silver,#443844);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 30px;
+	overflow: hidden;
+	width: 800px;
+	height:220px;
+	align-items: center;
+	transition:0.6s ease;
+}
+.nonimg__course h6 {
 	opacity: 0.6;
 	margin: 0;
 	text-transform: uppercase;
 }
-.course__link h5 {
+.nonimg__course h5 {
 	opacity: 0.6;
 	margin: 0;
 	letter-spacing: 1px;
+}
 
+.nonimg__course h3 {
+	letter-spacing: 1px;
+	margin: 10px 0;
 }
-.link__box{
-	text-align: center;
-	padding:20px;
-	position: absolute;
-}
+
+
+
 .open_link__btn{
-	
-	text-align: center;
 	color:black;
+	opacity: 0.8;
+	text-decoration: underline;
     cursor: pointer;
-    background-color:silver;
-    padding:10px;
-    border-radius: 5px;
-    font-size:13px;
+    padding:5px 10px 5px 10px;
+    font-size:12px;
 }
 
 .course h6 {
@@ -148,12 +162,16 @@
 		background-image: linear-gradient(to right,gray,silver,#443844);
 		padding-top:20px;
 	}
+	.nonimg__course{
+		height:180px;
+		text-align: center;
+	}
 	.course__container{
 		flex-direction: column;
 		padding:30px;
 	}
 	.dummy__common{
-		width:90%;
+		padding-top:100px;
 	}
 }
 
@@ -175,7 +193,6 @@
 		width: 900px;
 		flex-direction: column;
 		margin-bottom:30px;
-
 	}
 	.course__link {
 		max-width: 100%;
@@ -204,20 +221,8 @@
 		letter-spacing: 1px;
 		margin: 10px 0;
 	}
-	.progress-container {
-		top: 5px;
-	}
-	.article__btn {
-		position: relative;
-		bottom: -30px;
-		left: 40px;
-	}
-	.course-info .open_link__btn{
-		position:absolute;
-		top:0;
-		margin-top:220px;
-		margin-left:80px;
-	}
+
+
 	
 	.social-panel-container.visible {
 		transform: translateX(0px);

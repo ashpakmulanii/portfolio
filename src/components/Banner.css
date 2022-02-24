@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
-.dummy__common{
-    width: 33.33333333333333%;
-    margin: 20px 100px;
-    text-align: center;
-}
+
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
   height: 600px;
@@ -194,7 +190,7 @@
       }
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
-        padding-top:120px;
+        padding-top:100px;
         height:700px;
         padding-right:0px;
         padding-left:0;

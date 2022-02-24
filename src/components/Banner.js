@@ -1,11 +1,5 @@
 import React from "react";
 import {
-  FaFacebookF,
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn,
-  FaQuoteRight,
-  FaTwitter,
   FaCode,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
