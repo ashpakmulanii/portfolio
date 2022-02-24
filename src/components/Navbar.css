@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 .navbar {
     width: 100%;
     position: fixed;
@@ -7,6 +6,10 @@
     padding:12px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  .navbar__container {
+    display: flex;
+    align-items: center;
   }
 
   .navbar__icons{
@@ -37,10 +40,7 @@
     color:white;
   }
   
-  .navbar__container {
-    display: flex;
-    align-items: center;
-  }
+
 
   .toggle__box {
     position:fixed;
@@ -56,7 +56,6 @@
   .ln {
     font-size: 18px;
     align-items: center;
-    font-family: "cascadia-code", sans-serif;
     margin-left: 20px;
     font-weight: 500px;
     padding-right:500px;
@@ -71,7 +70,6 @@
     align-items: center;
 
     font-weight: 600;
-    font-family: 'Arvo', serif;
     display: flex;
     flex-direction: row;
     margin-left:80px;
@@ -79,7 +77,6 @@
 
   .navbar__right {
     display: flex;
-    background-color: #7952B3;
     list-style-type: none;
     margin-top:45px;
   }

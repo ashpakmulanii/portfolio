@@ -1,163 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  text-decoration: none;
-}
-
-
-
-
-footer{
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(to right,gray,#231123,#7952B3);
-  height:300px;
-}
-
-footer .content{
-  padding: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin:auto;
-}
-footer .content p,a{
-  color: #fff;
-}
-footer .content .box{
-  padding:20px;
-  transition: all 0.4s ease;
-}
-footer .content .topic{
-  font-size: 22px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 16px;
-}
-
-footer .content p{
-  text-align: justify;
-}
-
-footer .content .lower .topic{
-  margin: 24px 0 5px 0;
-}
-
-footer .content .lower i{
-  padding-right: 16px;
-}
-
-footer .content .middle{
-  padding-left: 80px;
-}
-
-footer .content .middle a{
-  line-height: 32px;
-}
-
-footer .content .right input[type="text"]{
-  height: 45px;
-  width: 100%;
-  outline: none;
-  color: #d9d9d9;
-  background:#7952B3;
-  border-radius: 5px;
-  padding-left: 10px;
-  font-size: 17px;
-  border: 2px solid #222222;
-}
-
-footer .content .right input[type="submit"]{
-  height: 42px;
-  width: 100%;
-  font-size: 18px;
-  color: #d9d9d9;
-  background: #eb2f06;
-  outline: none;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  margin-top: 12px;
-  border: 2px solid #eb2f06;
-  transition: all 0.3s ease-in-out;
-}
-.content .right input[type="submit"]:hover{
-  background: none;
-  color:  #eb2f06;
-}
-footer .content .media-icons{
-
-  text-align: center;
-}
-
-footer .content .media-icons a{
-  font-size: 25px;
-  height: 45px;
-  width: 45px;
-  display: inline-block;
-  text-align: center;
-  line-height: 43px;
-  border-radius: 5px;
-  margin: 30px 5px 0 0;
-  transition: all 0.3s ease;
-}
-.content .media-icons a:hover{
-  border-color: #eb2f06;
-}
-footer .bottom{
-  width: 100%;
-  text-align: right;
-  color: #d9d9d9;
-  padding: 0 40px 5px 0;
-}
-footer .bottom a{
-  color: #eb2f06;
-}
-footer a{
-  transition: all 0.3s ease;
-}
-footer a:hover{
-  color: #eb2f06;
-}
-@media (max-width:1100px) {
-  footer .content .middle{
-    padding-left: 50px;
-  }
-}
-@media (max-width:950px){
-  footer {
-    position:relative;
-    background-image: linear-gradient(to right,darkgray,#231123);
-
-    height:100%;
-  }
-
-  .content .right{
-    margin-top: 40px;
-  }
-  footer .content {
-    display:flex;
-    flex-direction: column;
-  }
-}
-
-@media (max-width:560px){
-  footer .content .box{
-    width: 50%;
-  }
- 
-  footer .content .box{
+.footer {
     width: 100%;
-    margin-top: 30px;
+    height:max-content;
+    position: relative;
+    background-image: linear-gradient(to left,gray,#231123,#7952B3);
+    padding:12px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer__container {
+    display: flex;
+    align-items: center;
+  }
+  .footer__right a {
+    text-decoration: none;
+    opacity:0.7;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 15px;
   }
 
-  footer .content .middle{
-    padding-left: 0;
+  .Span {
+    font-size: 18px;
+   color: silver;
   }
-  footer .content .left{
-    padding-left: 0;
+  
+  
+  .navbar__title {
+    font-size: 1.5rem;
+    align-items: center;
+
+    font-weight: 600;
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: row;
+    margin-left:80px;
   }
-}
+
+ 
+
+
+  
+  @media (max-width: 765px) {
+      .footer{
+          padding:5px;
+      }
+    .footer__container{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .navbar__title{
+      padding:4px;
+      margin:0;
+    }
+      .footer__right a {
+        display: block;
+        padding: 5px 0;
+        font-size: 13px;
+      }
+
+     
+
+ 
+ 
+  }

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAlignJustify, FaClosedCaptioning, FaCode, FaCross, FaDoorClosed, FaDrawPolygon, FaExpand, FaExpandAlt, FaExpandArrowsAlt, FaFacebookF, FaGithub, FaGripfire, FaGripLines, FaGripLinesVertical, FaInstagram, FaJs, FaJsfiddle, FaJsSquare, FaLinkedinIn, FaMehRollingEyes, FaNode, FaNodeJs, FaOpencart, FaPagelines, FaReact, FaReacteurope, FaRegWindowClose, FaTwitter, FaWindowClose } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai"; import { Link } from "react-router-dom";
+import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Nav = () => {
   const [state, setState] = React.useState(false);

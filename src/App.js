@@ -10,6 +10,7 @@ import Technologies__Tools from "./components/Technologies__Tools";
 import { Publications } from "./components/Publications";
 import { Footer } from "./components/Footer";
 import Services from "./components/Services";
+import { About } from "./components/About";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/portfolio" element={
             <>
               < Banner />
-              <Footer />
+              <About />
               <Publications />
             </>
           } />
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/services" element={<Technologies__Tools />}></Route>
           <Route exact path="/myservices" element={<Services />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
