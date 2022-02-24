@@ -11,7 +11,7 @@ export const About = () => {
                         <div className="topic">About Me</div>
                         <p>I'm a final year student of BCA ( Bachelor Of Computer Science ). Currently working with RSense Technology Solutions PVT. LTD as a Trainee Software Engineer and also a part-time freelancer</p>
                         <div className="cv__box">
-                            <a className="cv__btn" href="#">Download CV</a>
+                            <a className="cv__btn" href="https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf" download>Download CV</a>
 
                         </div>
                     </div>
