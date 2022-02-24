@@ -6,6 +6,29 @@
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   text-decoration: none;
 }
+.cv__box{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:10px;
+}
+
+.cv__btn{
+  border:1px solid #FFE484;
+  border-radius: 4px;
+  color:#FFE484;
+  font-size:15px;
+  vertical-align: middle;
+  margin: 30px;
+  padding: 6px 12px;
+  font-weight: 600;
+  box-shadow: 0 0 20px #FFE484(0, 0, 0, 0.5);
+}
+
+  .cv__btn:hover{
+    background-color: #FFE484;
+    color:black;
+  }
 
 footer{
   width: 100%;
