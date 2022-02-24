@@ -9,7 +9,7 @@ import {
   FaStar,
   FaPhp,
 } from "react-icons/fa";
-const Technologies__Tools = () => {
+const Skills = () => {
   const [header] = React.useState({
     subHeading: "Tools and Technologies",
     text: "List of Technologies and tools i've learned in my full stack Web Development Journey.",
@@ -85,4 +85,4 @@ const Technologies__Tools = () => {
   );
 };
 
-export default Technologies__Tools;
+export default Skills;
