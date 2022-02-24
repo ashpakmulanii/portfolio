@@ -26,7 +26,7 @@
   }
   
   
-  .navbar__title {
+  .footer__title {
     font-size: 1.5rem;
     align-items: center;
 
@@ -59,6 +59,9 @@
         display: block;
         padding: 5px 0;
         font-size: 13px;
+      }
+      .footer__title{
+        display:none
       }
 
      
