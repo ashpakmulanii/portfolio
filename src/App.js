@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer";
 import Services from "./components/Services";
 import { About } from "./components/About";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
+import { SkillSet } from "./components/SkillSet";
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/services" element={<Skills />}></Route>
+          <Route exact path="/services" element={<SkillSet />}></Route>
           <Route exact path="/myservices" element={<Services />}></Route>
         </Routes>
         <Footer />

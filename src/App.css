@@ -91,10 +91,14 @@ body {
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.1);
 }
+.service__box-content{
+  display:flex;
+  flex-direction:row;
+}
 
 .commonIcons {
-  font-size: 40px;
-  color: #f00e06;
+  font-size: 20px;
+  color: #443844;
   margin-bottom: 15px;
 }
 
@@ -106,6 +110,7 @@ body {
 
 .services__box-p {
   font-size: 14px;
+  padding-left:10px;
 }
 
 @media (max-width: 765px) {
