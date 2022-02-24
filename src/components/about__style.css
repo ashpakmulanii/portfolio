@@ -7,9 +7,6 @@
   text-decoration: none;
 }
 .cv__box{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding-top:15px;
 }
 
@@ -19,7 +16,6 @@
   color:#FFE484;
   font-size:15px;
   vertical-align: middle;
-  margin: 30px;
   padding: 6px 12px;
   font-weight: 600;
   box-shadow: 0 0 20px #FFE484(0, 0, 0, 0.5);
@@ -154,6 +150,10 @@ footer a:hover{
     position:relative;
     background-image: linear-gradient(to right,darkgray,#231123);
     height:100%;
+  }
+  .cv__box{
+ 
+  text-align: center;
   }
   footer .content .media-icons{
 
