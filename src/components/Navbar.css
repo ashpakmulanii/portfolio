@@ -150,6 +150,7 @@
  
       .navbar__right {
         flex-direction: column;
+        background-image: linear-gradient(to left,gray,#231123,#7952B3);
         width: 100%;
         align-items: center;
         position: fixed;

@@ -69,14 +69,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/publications" onClick={() => setState(!state)}>Honors and Archievements</Link>
+              <Link to="/publications" onClick={() => setState(!state)}>Honors and Achievements</Link>
             </li>
             <li>
-              <Link to="/services" onClick={() => setState(!state)}>Services</Link>
+              <Link to="/myservices" onClick={() => setState(!state)}>Services</Link>
             </li>
 
             <li>
-              <Link to="/services" onClick={() => setState(!state)}>Tech Skills</Link>
+              <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
             </li>
 
             <li>

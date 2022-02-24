@@ -29,7 +29,7 @@ function App() {
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/services" element={<SkillSet />}></Route>
+          <Route exact path="/skills" element={<SkillSet />}></Route>
           <Route exact path="/myservices" element={<Services />}></Route>
         </Routes>
         <Footer />
