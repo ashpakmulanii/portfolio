@@ -195,6 +195,7 @@
 
     #banner__icon{
         font-size: 9rem;
+        pointer-events: none;
       }
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
