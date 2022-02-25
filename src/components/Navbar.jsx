@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link className="nav-btn-outline" to="/projects">
             Projects
           </Link>
-          <Link className="nav-btn-outline" to="/services">
+          <Link className="nav-btn-outline" to="/skills">
             Skills
           </Link>
         </ul>

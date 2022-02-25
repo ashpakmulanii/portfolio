@@ -27,6 +27,19 @@ export const Publications = () => {
                     </div>
 
                 </div>
+                <div className="nonimg__course">
+
+                    <div className="course-info">
+                        <div className="progress-container">
+                            <span className="progress-text">
+                                6 March 2020
+                            </span>
+                        </div>
+                        <h6>FabTech College of Engineering & Research</h6>
+                        <h3>TECHNOFAB 2K20</h3>
+                        <h5>Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students.</h5>
+                    </div>
+                </div>
             </div>
             <div className="course__container">
 
@@ -61,19 +74,7 @@ export const Publications = () => {
                             Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan for cracking on-campus recruiment drive.</h5>
                     </div>
                 </div>
-                <div className="nonimg__course">
 
-                    <div className="course-info">
-                        <div className="progress-container">
-                            <span className="progress-text">
-                                6 March 2020
-                            </span>
-                        </div>
-                        <h6>FabTech College of Engineering & Research</h6>
-                        <h3>TECHNOFAB 2K20</h3>
-                        <h5>Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students.</h5>
-                    </div>
-                </div>
             </div>
 
         </div>
