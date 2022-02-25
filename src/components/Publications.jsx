@@ -71,7 +71,7 @@ export const Publications = () => {
                         <h6>ICMS Pandharpur</h6>
                         <h3>Honered by Campus-Head</h3>
                         <h5>
-                            Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan for cracking on-campus recruiment drive.</h5>
+                            Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan on getting selected in on-campus recruiment drive.</h5>
                     </div>
                 </div>
 
