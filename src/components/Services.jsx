@@ -19,7 +19,7 @@ export default function () {
                         <div className="col-4 bgMain">
                             <Tilt style={{}} className="services__box">
                                 <div className="services__box-header">Single Page Application (SPA)</div>
-                                <div className="services__box-p">Single Page Applications are a great tool for making incredibly engaging and unique experiences for your users. Some Single Page Application examples are like Gmail, Google Maps, AirBNB, Netflix, Pinterest, Paypal, and many more are using SPAs to build a fluid, scalable experience.
+                                <div className="services__box-p">Single Page Applications are a great tool for making incredibly engaging and unique experiences for your users. Some Single Page Application examples are like Gmail, Google Maps, AirBNB, Netflix, Pinterest, Paypal, and many more are using SPAs to build a fluid, scalable experience. I have experience of 5 SPA freelance projects.
                                 </div>
                             </Tilt>
                         </div>

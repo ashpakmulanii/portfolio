@@ -28,10 +28,10 @@ export const Projects = () => {
             <h3>E-Commerse Website</h3>
             <p>
               <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>    E-Commerse website is my first huge freelance project which is
-                developed using React.js , Bootstrap, and Django and MySQL.</p>
+                developed using React.js , Bootstrap, and Django and MySQL. This is my ever-rated freelance project with benifiets of all e-commerse applications.</p>
 
 
-              <a href="#">
+              <a onClick={() => alert("Source code is temporary disabled by admin.")}>
                 <u>Get Source Code</u>
               </a>
             </p>
@@ -55,9 +55,7 @@ export const Projects = () => {
             <h3>Schedule Manager</h3>
             <p>
               <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
-                Shedule Manager is a website designed in React.js . firstly i
-                started with basic react app developed from a youtuber called
-                'codewithharry' and then i put it into the next level.</p>
+                Shedule Manager is a website designed in React.js , this app have its own benifiets like scheduling todos, reminder-pops, notication system and firebase authentication</p>
 
               <a href="https://github.com/ashpakmulanii/schedule-manager">
 
@@ -87,7 +85,7 @@ export const Projects = () => {
             <h3>Instagram Clone</h3>
             <p>
               <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
-                Cloned instagram using most popular JavaScript liberary called React.js</p>
+                This is superset clone of most rated social media app called 'Instagram' . This clone have its own features like Music section where users can get access to music,  and include some different UI Idea's </p>
 
               <a href="#">
 
