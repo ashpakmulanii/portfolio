@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
@@ -35,8 +35,7 @@
     font-size: 63px;
     padding-bottom:7px;
     opacity: 0.7;
-    font-family: 'Boogaloo', cursive;
-  }
+    font-family: 'Bebas Neue', cursive;  }
 
 
 
@@ -160,7 +159,7 @@
     border-radius: 50px;
   }
 
- @media (max-width: 425px){
+ @media (max-width: 455px){
 
   .two__btn{
     flex-direction: column;
@@ -188,8 +187,8 @@
   @media (max-width: 825px) {
     
     .bannertext__container h1 {
-        font-size: 32px;
-        opacity:0.6;
+        font-size: 34px;
+        opacity:0.4;
    
       }
 
@@ -200,7 +199,7 @@
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
         padding-top:100px;
-        height:650px;
+        height:700px;
         padding-right:0px;
         padding-left:0;
         flex-direction: column;
