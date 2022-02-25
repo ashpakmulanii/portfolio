@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Publications } from "./components/Publications";
 import { Footer } from "./components/Footer";
-import Services from "./components/Services";
 import { About } from "./components/About";
 import Navbar from "./components/Navbar";
 import { SkillSet } from "./components/SkillSet";
@@ -31,7 +30,6 @@ function App() {
           <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/skills" element={<SkillSet />}></Route>
-          <Route exact path="/myservices" element={<Services />}></Route>
           <Route exact path="/fitness" element={<Fitness />}></Route>
 
         </Routes>
