@@ -28,10 +28,8 @@
   
   .footer__title {
     font-size: 1.5rem;
-    align-items: center;
-
+    padding-right:40px;
     font-weight: 600;
-    font-family: 'Arvo', serif;
     display: flex;
     flex-direction: row;
     margin-left:80px;
@@ -57,7 +55,8 @@
         padding: 5px 0;
         font-size: 13px;
       }
-      .footer__title{
-        display:none
-      }
+   .footer__title{
+     margin:0;
+   }
+   
   }

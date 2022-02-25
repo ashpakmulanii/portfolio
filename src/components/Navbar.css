@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');.navbar {
     width: 100%;
     position: fixed;
     background-image: linear-gradient(to left,gray,#231123,#7952B3);
@@ -12,11 +12,11 @@
     align-items: center;
   }
 .sublogo{
-  position:absolute;
- margin-left:37px;
+  font-family: 'Pacifico', cursive;  position:absolute;
+ margin-left:40px;
   margin-top:20px;
-  opacity: 0.6;
-  color:white;
+  opacity: 0.8;
+  color:silver;
   font-size: 10px;
 }
   .navbar__icons{
