@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
         <div className="two__btn">
           <Link to="/publications" className="show__more">Achievemnts</Link>
-          <Link to="/myservices" className="explore__btn">Fitness & Lifestyle</Link>
+          <Link to="/fitness" className="explore__btn">Fitness & Lifestyle</Link>
         </div>
       </div>
       {/* <img className="banner__bg" src={require("../images/banner(1).jpg")}></img> */}
