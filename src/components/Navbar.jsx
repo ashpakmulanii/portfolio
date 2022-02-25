@@ -11,7 +11,7 @@ const Navbar = () => {
         <ul className="navbar__left">
           <div className="navbar__title">
             <FaCode className="Span" style={{ marginRight: "5px" }} />
-            <span className="Span">ashpakmulani</span>
+            <span className="Span">AP</span>
           </div>
         </ul>
         <ul className="ln">

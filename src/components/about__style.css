@@ -39,6 +39,7 @@ footer{
   left: 0;
   background-image: linear-gradient(to right,gray,#231123,#7952B3);
   height:330px;
+  overflow: hidden;
 }
 
 footer .content{

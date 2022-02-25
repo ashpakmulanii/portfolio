@@ -9,7 +9,7 @@ export const Footer = () => {
                 <ul className="footer__left">
                     <div className="footer__title">
                         <FaCode className="Span" style={{ marginRight: "5px" }} />
-                        <span className="Span">ashpakmulani</span>
+                        <span className="Span">ApkUX</span>
                     </div>
                 </ul>
                 <ul className="footer__right">

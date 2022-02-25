@@ -4,9 +4,8 @@
     height:max-content;
     position: fixed;
     background-image: linear-gradient(to right,gray,#231123,#7952B3);
-    padding:14px;
+    padding:14.7px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(107, 101, 101, 0.5);
   }
   
   .footer__container {
@@ -45,7 +44,7 @@
   @media (max-width: 765px) {
       .footer{
           padding:5px;
-          position:relative;
+         
       }
     .footer__container{
       align-items: center;

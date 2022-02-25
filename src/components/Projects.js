@@ -6,11 +6,8 @@ import {
   FaFire,
   FaPython,
   FaReact,
-  FaUserLock,
-  FaCode,
   FaQuoteRight
 } from "react-icons/fa";
-import Tilt from 'react-vanilla-tilt'
 import "./Projects.css";
 
 
@@ -90,8 +87,7 @@ export const Projects = () => {
             <h3>Instagram Clone</h3>
             <p>
               <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
-                Cloned instagram using most popular JavaScript liberary in 2021
-                called React.js</p>
+                Cloned instagram using most popular JavaScript liberary called React.js</p>
 
               <a href="#">
 
