@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');.bannertext__container{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+.bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
   height: 550px;
   width:100%;
@@ -175,12 +176,16 @@
     width:250px;
     font-size: 17px;
   }
+  #banner__icon{
+    transform: translateY(45px);
+  }
  }
 
   @media (max-width: 825px) {
- 
+    
     .bannertext__container h1 {
-        font-size: 27px;
+        font-size: 32px;
+   
       }
 
     #banner__icon{
