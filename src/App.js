@@ -26,13 +26,14 @@ function App() {
               < Banner />
               <About />
               <Publications />
-              <Fitness />
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/skills" element={<SkillSet />}></Route>
           <Route exact path="/myservices" element={<Services />}></Route>
+          <Route exact path="/fitness" element={<Fitness />}></Route>
+
         </Routes>
         <Footer />
       </Router>

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
-  height: 550px;
+  height: 540px;
   width:100%;
   padding-top:30px;
  align-items: center;

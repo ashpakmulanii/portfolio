@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {state ? (
           <div className="navbar__right">
-            <div className="upper-content">
+            <div className="upper_content">
               <ul className="ul__box">
                 <li>
                   <Link to="/portfolio" onClick={() => setState(!state)}>
@@ -84,10 +84,13 @@ const Navbar = () => {
                 <li>
                   <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
                 </li>
+                <li>
+                  <Link to="/projects" onClick={() => setState(!state)}>Fitness</Link>
+                </li>
               </ul>
             </div>
             <hr />
-            <ul type="none" className="upper-content" style={{ justifyContent: "center" }}>
+            <ul type="none" className="upper_content" style={{ justifyContent: "center" }}>
               <li>
                 <a href="https://www.linkedin.com/in/ashpak-mulani/">
                   <FaLinkedinIn className="nav_ico" />

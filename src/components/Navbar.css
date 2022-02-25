@@ -165,7 +165,7 @@
         display:none;
       }
  
-      .upper-content {
+      .upper_content {
         flex-direction: row;
         display:flex;
       }
