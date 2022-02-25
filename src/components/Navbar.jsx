@@ -85,7 +85,7 @@ const Navbar = () => {
                   <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
                 </li>
                 <li>
-                  <Link to="/projects" onClick={() => setState(!state)}>Fitness</Link>
+                  <Link to="/fitness" onClick={() => setState(!state)}>Fitness & Lifestyle</Link>
                 </li>
               </ul>
             </div>
