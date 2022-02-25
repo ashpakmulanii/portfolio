@@ -85,7 +85,7 @@ export const Projects = () => {
             <h3>Instagram Clone</h3>
             <p>
               <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>
-                This is superset clone of most rated social media app called 'Instagram' . This clone have its own features like Music section where users can get access to music,  and include some different UI Idea's </p>
+                This app is superset of most rated social media app called 'Instagram' . This clone have its own features like Music section where users can get access to music,  and include some different UI Idea's </p>
 
               <a href="#">
 
