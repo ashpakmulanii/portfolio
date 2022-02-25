@@ -10,8 +10,7 @@ const Navbar = () => {
       <div className="navbar__container">
         <ul className="navbar__left">
           <div className="navbar__title">
-            <FaCode className="Span" style={{ marginRight: "5px" }} />
-            <span className="Span">AP</span>
+            <span className="Span">Apk </span> <p className="sublogo">JSDev</p>
           </div>
         </ul>
         <ul className="ln">

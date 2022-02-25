@@ -7,9 +7,8 @@ export const Footer = () => {
         <footer className='footer'>
             <div className="footer__container">
                 <ul className="footer__left">
-                    <div className="footer__title">
-                        <FaCode className="Span" style={{ marginRight: "5px" }} />
-                        <span className="Span">ApkUX</span>
+                    <div className="navbar__title">
+                        <span className="Span">Apk </span> <p className="sublogo">JSDev</p>
                     </div>
                 </ul>
                 <ul className="footer__right">
