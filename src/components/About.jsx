@@ -23,12 +23,7 @@ export const About = () => {
                         <div className="email">
                             <a href="#"><FaMailBulk style={{ marginRight: "10px" }} />ashpak.jsdev@gmail.com</a>
                         </div>
-                        <div className="media-icons">
-                            <a href="#"><FaLinkedin /></a>
-                            <a href="#"><FaGithub /></a>
-                            <a href="#"><FaInstagram /></a>
-                            <a href="#"><FaFacebook /></a>
-                        </div>
+
                     </div>
                 </div>
                 <div className="middle box">
@@ -48,12 +43,16 @@ export const About = () => {
                     </div>
 
                     <input type="submit" name="" value="Post Comment" />
-
+                    <div className="media-icons">
+                        <a href="#"><FaLinkedin /></a>
+                        <a href="#"><FaGithub /></a>
+                        <a href="#"><FaInstagram /></a>
+                        <a href="#"><FaFacebook /></a>
+                    </div>
                 </div>
+
             </div>
-            {/* <div className="bottom">
-                <p>Copyright ©2021 <a href="#">ApkWebX</a></p>
-            </div> */}
+
         </footer >)
 
 };

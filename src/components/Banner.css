@@ -3,7 +3,7 @@
 
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
-  height: 570px;
+  height: 550px;
   width:100%;
   padding-top:30px;
  align-items: center;
@@ -166,16 +166,18 @@
  @media (max-width: 425px){
   .two__btn{
     flex-direction: column;
+    transition: 0.6s ease;
+    transform: translateY(-20px);
   }
   .two__btn .show__more{
     width:250px;
     margin-bottom: 15px;
     margin-right:0px;
-    font-size: 16px;
+    font-size: 17px;
   }
   .two__btn .explore__btn{
     width:250px;
-    font-size: 16px;
+    font-size: 17px;
   }
  }
 
