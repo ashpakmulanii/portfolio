@@ -61,28 +61,62 @@ const Navbar = () => {
         </ul>
 
         {state ? (
-          <ul className="navbar__right">
-            <li>
-              <Link to="/portfolio" onClick={() => setState(!state)}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/publications" onClick={() => setState(!state)}>Honors and Achievements</Link>
-            </li>
-            <li>
-              <Link to="/myservices" onClick={() => setState(!state)}>Services</Link>
-            </li>
+          <div className="navbar__right">
+            <div className="upper-content">
+              <ul className="ul__box">
+                <li>
+                  <Link to="/portfolio" onClick={() => setState(!state)}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/publications" onClick={() => setState(!state)}>Achievements</Link>
+                </li>
+                <li>
+                  <Link to="/projects" onClick={() => setState(!state)}>Projects</Link>
+                </li>
+              </ul>
+              <ul className="ul__box">
+                <li>
+                  <Link to="/myservices" onClick={() => setState(!state)}>Services</Link>
+                </li>
 
-            <li>
-              <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
-            </li>
+                <li>
+                  <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <ul type="none" className="upper-content" style={{ justifyContent: "center" }}>
+              <li>
+                <a href="https://www.linkedin.com/in/ashpak-mulani/">
+                  <FaLinkedinIn className="nav_ico" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ashpakmulanii">
+                  <FaGithub className="nav_ico" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ashpakmulanii/">
+                  <FaInstagram className="nav_ico" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/ashpak.mulani.3994/">
+                  <FaFacebookF class="nav_ico" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/AshpakMulanii">
+                  <FaTwitter className="nav_ico" />
+                </a>
+              </li>
 
-            <li>
-              <Link to="/projects" onClick={() => setState(!state)}>Projects</Link>
-            </li>
+            </ul>
 
-          </ul>
+          </div>
         ) : (
           ""
         )}
