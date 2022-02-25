@@ -1,0 +1,119 @@
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .fitness{
+    background-image: linear-gradient(to right,gray,silver,#443844);
+
+  }
+  #f__container {
+    display:flex;
+    align-items: center;
+justify-content: center; 
+/* Add empty space above the f__container (20% of the view height) */
+    padding:30px;
+    height:1000px;
+    justify-content: space-evenly;
+  }
+  
+    
+  .f__card {
+    border: 1px solid darkgray;
+    padding:1px;
+    border-radius: 5px;
+	max-width: 100%;
+	margin: 30px;
+	overflow: hidden;
+	width: 300px;
+	height:max-content;
+	transition:0.6s ease;
+  }
+  #Center{
+      text-align: center;
+  }
+ 
+  
+ 
+  /* Style p element */
+ 
+  
+  /* Style button element */
+ 
+  
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+  .tag {
+  padding: 4px 8px;
+margin:5px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(75, 66, 66);
+  opacity:0.7;
+}
+
+
+
+/* Style div elements that have class equal to name */
+.name {
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+  opacity:0.7;
+  line-height: 150%;
+  padding-bottom:20px;
+}
+
+/* Style button element */
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefore it should have a pointer cursor */
+  cursor: pointer;
+}
+
+.card__details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+@media (max-width:560px){
+    #f__container{
+        flex-direction: column;
+        height:fit-content;
+    }
+      .f__card {
+    border: 1px solid darkgray;
+    padding:1px;
+    border-radius: 5px;
+	max-width: 100%;
+	margin: 30px;
+	overflow: hidden;
+	width: 300px;
+	height:max-content;
+	transition:0.6s ease;
+  }
+}

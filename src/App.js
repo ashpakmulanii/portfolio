@@ -11,6 +11,7 @@ import Services from "./components/Services";
 import { About } from "./components/About";
 import Navbar from "./components/Navbar";
 import { SkillSet } from "./components/SkillSet";
+import { Fitness } from "./components/Fitness";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               < Banner />
               <About />
               <Publications />
+              <Fitness />
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
