@@ -179,6 +179,10 @@
   #banner__icon{
     transform: translateY(45px);
   }
+  #banner__icon #facode{
+    font-size: 7rem;
+
+  }
  }
 
   @media (max-width: 825px) {

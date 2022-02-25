@@ -14,7 +14,7 @@ const Banner = () => {
   return (
 
     <div className="bannertext__container">
-      <div id="banner__icon"><FaCode /></div>
+      <div id="banner__icon"><FaCode id="facode" /></div>
       <div className="left__block">
         <h1>Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
         <span className="ChangingText"></span>
