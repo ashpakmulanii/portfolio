@@ -4,24 +4,20 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Banner.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
+
 
 const Banner = () => {
   const [state, setState] = React.useState({
     text: "Welcome to my personal portfolio. This is all about my computer science journey and archievemnts and either services for you",
     image: "../images/12.jpg"
   });
-  useEffect(() => {
-    Aos.init({ juration: 2000 });
-  }, [])
+
 
   return (
 
     <div className="bannertext__container">
       <div id="banner__icon"><FaCode id="facode" /></div>
-      <div data-aos="fade-down" className="left__block">
+      <div className="left__block">
         <h1>Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
         <span className="ChangingText"></span>
         <div className="quote__box">
