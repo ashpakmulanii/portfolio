@@ -18,7 +18,7 @@ export const Publications = () => {
             <div className="course__container">
 
                 <div data-aos="fade-up" className="course">
-                    <img className="publications__img" src={require('../images/15.JPG')}></img>
+                    <img className="publications__img" src={require('../images/15.JPG')} alt=""></img>
                     <div className="course-info">
                         <div className="progress-container">
                             <span className="progress-text">

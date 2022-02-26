@@ -10,13 +10,13 @@
  
   #f__container {
     background-image: linear-gradient(to right,gray,silver,#443844);
-    height:1000px;
+    height:100%;
     width: 100%;
     display:flex;
     align-items: center;
 justify-content: center; 
 /* Add empty space above the f__container (20% of the view height) */
-    padding:10px;
+    padding:130px 10px;
     justify-content: space-evenly;
   }
   
@@ -88,6 +88,7 @@ p {
     #f__container{
         flex-direction: column;
         height:fit-content;
+        padding:20px;
     }
       .f__card {
     border: 1px solid darkgray;

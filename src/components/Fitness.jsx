@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 export const Fitness = () => {
     useEffect(() => {
-        Aos.init({ duration: 3000 });
+        Aos.init({ duration: 2000 });
     }, [])
     return (
 
@@ -31,7 +31,7 @@ export const Fitness = () => {
 
             </div>
 
-            <div data-aos="fade-down" className="f__card">
+            <div data-aos="zoom-in" className="f__card">
                 <img src={require("../images/fitness/3.jpg")} alt="Lago di Braies" />
 
                 <div className="card__details">

@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 
 
 const Banner = () => {
-  const [state, setState] = React.useState({
+  const [state] = React.useState({
     text: "Welcome to my personal portfolio. This is all about my computer science journey and archievemnts and either services for you",
     image: "../images/12.jpg"
   });
@@ -22,11 +22,11 @@ const Banner = () => {
   return (
 
     <div className="bannertext__container">
-      <div id="banner__icon">
+      <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <div className="banner__heading"><h1 >Welcome to Portfolio<br />I'm Ashpak Mulani</h1>
+        <div className="banner__heading"><h1 data-aos="flip-up" >Welcome to Portfolio<br />I'm Ashpak Mulani</h1>
         </div>
         <span className="ChangingText"></span>
         <div className="quote__box">
@@ -42,7 +42,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="two__btn">
-          <Link to="/publications" className="show__more">Achievemnts</Link>
+          <Link to="/publications" className="show__more">Achievements</Link>
           <Link to="/fitness" className="explore__btn">Fitness & Lifestyle</Link>
         </div>
       </div>

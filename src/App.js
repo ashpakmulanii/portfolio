@@ -25,6 +25,8 @@ function App() {
               < Banner />
               <About />
               <Publications />
+              <Projects />
+
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
