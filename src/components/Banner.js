@@ -26,7 +26,8 @@ const Banner = () => {
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <h1 >Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
+        <div className="banner__heading"><h1 >Welcome to Portfolio<br />I'm Ashpak Mulani</h1>
+        </div>
         <span className="ChangingText"></span>
         <div className="quote__box">
           <p>{state.text}</p>

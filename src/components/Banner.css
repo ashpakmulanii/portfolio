@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
 .bannertext__container{
   background-image: linear-gradient(to right,gray,silver,#443844);
@@ -9,7 +9,7 @@
  align-items: center;
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #banner__icon{
   font-size:15rem;
@@ -31,12 +31,14 @@
     opacity:0.6;
     padding-top:10px;
   }
+  .banner__heading {
+    padding-bottom:7px;
+  }
   .bannertext__container h1 {
     font-size: 63px;
-    padding-bottom:7px;
-    opacity: 0.8;
-    font-family: 'Righteous', cursive;  }
-
+    opacity: 0.6;
+    font-family: 'Cinzel', serif; 
+   }
   .right__block .admin{
     display:flex;
     flex-direction: row;
@@ -176,7 +178,6 @@
   }
  
   #banner__icon #facode{
-    transform: translateY(50px);
     font-size: 7.7rem;
     opacity:0.5;
   }
@@ -185,15 +186,18 @@
   @media (max-width: 825px) {
     
     .bannertext__container h1 {
-        font-size: 33px;
-        opacity:0.4;
-        line-height: 28px;
+        font-size: 32px;
+        opacity:0.5;
+        line-height: 35px;
         padding-bottom: 15px;
       }
 
     #banner__icon{
+      margin-top:40px;
         font-size: 9rem;
         pointer-events: none;
+        transform: translateY(50px);
+
       }
     
     .bannertext__container{

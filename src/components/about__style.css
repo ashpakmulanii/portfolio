@@ -183,10 +183,15 @@ padding-bottom: 10px;
 
   footer .content .box{
     width: 50%;
+    padding:0;
   }
   #Row{
     flex-direction: column;
   }
+  footer .content .right input[type="text"]{
+    max-width: 100%;
+  }
+
  
   footer .content .box{
     width: 100%;
