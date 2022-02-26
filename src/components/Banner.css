@@ -164,7 +164,7 @@
   .two__btn{
     flex-direction: column;
     transition: 0.6s ease;
-    transform: translateY(-20px);
+    transform: translateY(-22px);
   }
   .two__btn .show__more{
     width:250px;
@@ -177,7 +177,7 @@
     font-size: 17px;
   }
   #banner__icon{
-    transform: translateY(45px);
+    transform: translateY(35px);
   }
   #banner__icon #facode{
     font-size: 8rem;
@@ -189,6 +189,7 @@
     .bannertext__container h1 {
         font-size: 34px;
         opacity:0.4;
+        line-height: 32px;
    
       }
 
@@ -198,7 +199,7 @@
       }
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
-        padding-top:100px;
+        padding-top:80px;
         height:700px;
         padding-right:0px;
         padding-left:0;
@@ -216,6 +217,7 @@
       }
     .quote__box p{
         font-size:15px;
+        padding-top:0;
       }
     .two__btn{
         justify-content: center;
