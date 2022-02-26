@@ -13,7 +13,7 @@
   box-shadow: 0 0 20px #181815(0, 0, 0, 0.5);
   border:1px inset rgb(80, 67, 67);
     border-radius: 5px;
-  padding:15px;
+  padding:10px;
 }
 
 .cv__btn{
@@ -58,7 +58,7 @@ footer .content .topic{
   font-size: 22px;
   font-weight: 600;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 footer.content .topic .inputs{
   justify-content: space-evenly;
