@@ -38,8 +38,6 @@
     font-family: 'Bebas Neue', cursive;  }
 
 
-
-
   .right__block .admin{
     display:flex;
     flex-direction: row;
@@ -212,6 +210,7 @@
     }
     .quote__box {
         padding:10px;
+        padding-bottom:0;
         font-size:10px;
       }
     .quote__box p{
@@ -221,6 +220,7 @@
     .two__btn{
         justify-content: center;
         align-items: center;
+        transform: translateY(-30px);
       }
     #admin__role{
       color:#443844;
@@ -240,6 +240,9 @@
       }
       .admin{
         justify-content: center;
+
+          transform: translateY(-12px);
+    
       }
  
       .bannertext__container .banner__logo{
