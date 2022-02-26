@@ -11,13 +11,13 @@ export const Fitness = () => {
     return (
 
         <div id="f__container">
-            <div data-aos="fade-up" className="dummy__common">
+            <div data-aos="fade-down" className="dummy__common">
                 <h1 className="mainHeader">Fitness and Lifestyle </h1>
                 <p className="mainContent">There are some clicks of of calisthenics fitness journey.
                 </p>
                 <div className="commonBorder"></div>
             </div>
-            <div data-aos="slide-up" className="f__card">
+            <div data-aos="fade-up" className="f__card">
                 <img src={require(
                     "../images/fitness/2.jpg"
                 )} alt="Genetics" />
@@ -31,7 +31,7 @@ export const Fitness = () => {
 
             </div>
 
-            <div data-aos="slide-left" className="f__card">
+            <div data-aos="slide-down" className="f__card">
                 <img src={require("../images/fitness/3.jpg")} alt="Lago di Braies" />
 
                 <div className="card__details">
@@ -43,7 +43,7 @@ export const Fitness = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="f__card">
+            <div data-aos="fade-up" className="f__card">
                 <img src={require("../images/fitness/1.jpg")} alt="Lago di Braies" />
 
                 <div className="card__details">

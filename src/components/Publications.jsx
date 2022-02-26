@@ -49,7 +49,7 @@ export const Publications = () => {
             </div>
             <div className="course__container">
 
-                <div data-aos="fade-left" className="course">
+                <div data-aos="fade-up" className="course">
                     <img className="publications__img" src={require('../images/13.JPG')}></img>
 
                     <div className="course-info">
@@ -65,7 +65,7 @@ export const Publications = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-right" className="course">
+                <div data-aos="fade-down" className="course">
                     <img className="publications__img" src={require('../images/ranker.JPG')}></img>
 
                     <div className="course-info">
