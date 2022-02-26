@@ -220,7 +220,7 @@
     .two__btn{
         justify-content: center;
         align-items: center;
-        transform: translateY(-30px);
+        transform: translateY(-35px);
       }
     #admin__role{
       color:#443844;
@@ -241,7 +241,7 @@
       .admin{
         justify-content: center;
 
-          transform: translateY(-12px);
+          transform: translateY(-15px);
     
       }
  
