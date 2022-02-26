@@ -9,7 +9,7 @@
  align-items: center;
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #banner__icon{
   font-size:15rem;
@@ -175,11 +175,10 @@
     width:250px;
     font-size: 17px;
   }
-  #banner__icon{
-    transform: translateY(40px);
-  }
+ 
   #banner__icon #facode{
-    font-size: 8rem;
+    transform: translateY(50px);
+    font-size: 7.7rem;
   }
  }
 
@@ -195,12 +194,14 @@
         font-size: 9rem;
         pointer-events: none;
       }
+    
     .bannertext__container{
+      justify-content:space-around;
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
         flex-direction: column;
-        height:fit-content;
+        height:670px;
         text-align: center;
-        align-items: center;
+        align-items:center;
       }
     .left__block{
         padding-right:0;
@@ -237,9 +238,7 @@
       }
       .admin{
         justify-content: center;
-
           transform: translateY(-15px);
-    
       }
  
       .bannertext__container .banner__logo{

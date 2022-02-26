@@ -22,7 +22,9 @@ const Banner = () => {
   return (
 
     <div className="bannertext__container">
-      <div id="banner__icon"><FaCode data-aos="fade-down" id="facode" /></div>
+      <div id="banner__icon">
+        <FaCode data-aos="fade-down" id="facode" />
+      </div>
       <div className="left__block">
         <h1 >Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
         <span className="ChangingText"></span>
@@ -43,7 +45,6 @@ const Banner = () => {
           <Link to="/fitness" className="explore__btn">Fitness & Lifestyle</Link>
         </div>
       </div>
-      {/* <img className="banner__bg" src={require("../images/banner(1).jpg")}></img> */}
 
     </div>
 
