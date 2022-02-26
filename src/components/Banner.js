@@ -23,7 +23,7 @@ const Banner = () => {
 
     <div className="bannertext__container">
       <div id="banner__icon">
-        <FaCode data-aos="fade-down" id="facode" />
+        <FaCode id="facode" />
       </div>
       <div className="left__block">
         <h1 >Welcome to Portfolio</h1><h1> I'm Ashpak Mulani</h1>
