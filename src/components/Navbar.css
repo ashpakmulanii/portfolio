@@ -3,7 +3,7 @@
     width: 100%;
     position: fixed;
     background-image: linear-gradient(to left,gray,#231123,#7952B3);
-    padding:12px;
+    padding:11px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     align-items: center;
@@ -127,7 +127,6 @@
     @media (max-width: 500px){
  
       .Span {
-     
         font-size: 22px;
         font-weight:1000;
       }
@@ -147,7 +146,6 @@
       justify-content: center;
     }
     .navbar__title{
-      padding:4px;
       margin:0;
     }
     .ln{
@@ -194,7 +192,4 @@
         color:silver;
         font-size:20px;
       }
-
- 
- 
   }
