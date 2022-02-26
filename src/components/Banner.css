@@ -158,7 +158,7 @@
   }
 
  @media (max-width: 455px){
-   
+ 
 
   .two__btn{
     flex-direction: column;
@@ -179,8 +179,7 @@
     transform: translateY(40px);
   }
   #banner__icon #facode{
-    font-size: 7rem;
-    
+    font-size: 8rem;
   }
  }
 
@@ -193,16 +192,13 @@
       }
 
     #banner__icon{
-    
         font-size: 9rem;
         pointer-events: none;
       }
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
-        padding-top:60px;
-        height:700px;
-        padding:0;
         flex-direction: column;
+        height:fit-content;
         text-align: center;
         align-items: center;
       }
