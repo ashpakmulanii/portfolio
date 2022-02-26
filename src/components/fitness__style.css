@@ -2,18 +2,21 @@
   img {
     object-fit: cover;
     width: 100%;
+    transition:0.6s ease;
   }
-  .fitness{
-    background-image: linear-gradient(to right,gray,silver,#443844);
-
+  img:hover{
+    transform:scale(1.1);
   }
+ 
   #f__container {
+    background-image: linear-gradient(to right,gray,silver,#443844);
+    height:1000px;
+    width: 100%;
     display:flex;
     align-items: center;
 justify-content: center; 
 /* Add empty space above the f__container (20% of the view height) */
-    padding:30px;
-    height:1000px;
+    padding:10px;
     justify-content: space-evenly;
   }
   

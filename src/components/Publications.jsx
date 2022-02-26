@@ -1,7 +1,13 @@
 import React from 'react';
 import "./Publications.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 export const Publications = () => {
+    useEffect(() => {
+        Aos.init({ juration: 2000 });
+    }, [])
     return (
         <div className="publications">
             <div className="dummy__common">
@@ -11,7 +17,7 @@ export const Publications = () => {
             </div>
             <div className="course__container">
 
-                <div className="course">
+                <div data-aos="fade-up" className="course">
                     <img className="publications__img" src={require('../images/15.JPG')}></img>
                     <div className="course-info">
                         <div className="progress-container">
@@ -27,7 +33,7 @@ export const Publications = () => {
                     </div>
 
                 </div>
-                <div className="nonimg__course">
+                <div data-aos="fade-down" className="nonimg__course">
 
                     <div className="course-info">
                         <div className="progress-container">
@@ -43,7 +49,7 @@ export const Publications = () => {
             </div>
             <div className="course__container">
 
-                <div className="course">
+                <div data-aos="fade-left" className="course">
                     <img className="publications__img" src={require('../images/13.JPG')}></img>
 
                     <div className="course-info">
@@ -59,7 +65,7 @@ export const Publications = () => {
                     </div>
                 </div>
 
-                <div className="course">
+                <div data-aos="fade-right" className="course">
                     <img className="publications__img" src={require('../images/ranker.JPG')}></img>
 
                     <div className="course-info">
