@@ -199,7 +199,7 @@
       }
     .bannertext__container{
         background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
-        padding-top:80px;
+        padding-top:60px;
         height:700px;
         padding-right:0px;
         padding-left:0;
@@ -213,7 +213,6 @@
     .quote__box {
         padding:10px;
         font-size:10px;
-        line-height:22px;
       }
     .quote__box p{
         font-size:15px;
