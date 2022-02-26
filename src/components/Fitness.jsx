@@ -6,12 +6,12 @@ import { useEffect } from 'react';
 
 export const Fitness = () => {
     useEffect(() => {
-        Aos.init({ juration: 2000 });
+        Aos.init({ duration: 3000 });
     }, [])
     return (
 
         <div id="f__container">
-            <div data-aos="fade-down" className="dummy__common">
+            <div data-aos="fade-up" className="dummy__common">
                 <h1 className="mainHeader">Fitness and Lifestyle </h1>
                 <p className="mainContent">There are some clicks of of calisthenics fitness journey.
                 </p>
@@ -31,7 +31,7 @@ export const Fitness = () => {
 
             </div>
 
-            <div data-aos="slide-down" className="f__card">
+            <div data-aos="fade-up" className="f__card">
                 <img src={require("../images/fitness/3.jpg")} alt="Lago di Braies" />
 
                 <div className="card__details">
