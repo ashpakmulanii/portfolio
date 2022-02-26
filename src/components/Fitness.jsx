@@ -56,7 +56,7 @@ export const Fitness = () => {
             </div>
 
 
-            <div data-aos="fade-bottom" className="f__card">
+            <div data-aos="fade-down" className="f__card">
                 <img src={require("../images/fitness/4.jpg")} alt="Lago di Braies" />
 
                 <div className="card__details">
