@@ -2,12 +2,38 @@ import React from 'react'
 import "./fitness__style.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export const Fitness = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, [])
+    const [cards] = useState([
+        {
+            title: "Genetics",
+            imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/fitness/2.jpg",
+            desc: "Wether it is physique or web designing is love forever.",
+            hashtags: ["#Shredded", "#Natural"],
+        },
+        {
+            title: "Shredded",
+            imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/fitness/1.jpg",
+            desc: "Man, is an indivisible entity an integrated unit of mind and body.",
+            hashtags: ["#HomeGains", "Calisthenian"]
+        },
+        {
+            title: "Bulk",
+            imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/fitness/3.jpg",
+            desc: "Living in the world where bulk is equated with quality",
+            hashtags: ["HIIITraining", "Splits"]
+        },
+        {
+            title: "Balance",
+            imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/fitness/4.jpg",
+            desc: "Balance is a feeling derived from being whole and complete; it's a sense of harmony.",
+            hashtags: ["Handstand", "Calisthenics"]
+        }
+    ])
     return (
 
         <div id="f__container">
@@ -17,58 +43,18 @@ export const Fitness = () => {
                 </p>
                 <div className="commonBorder"></div>
             </div>
-            <div data-aos="fade-up" className="f__card">
-                <img src={require(
-                    "../images/fitness/2.jpg"
-                )} alt="Genetics" />
-
-                <div className="card__details">
-                    <span className="tag">#Shredded</span>
-                    <span className="tag">#Natural</span>
-                    <div className="name">Genetics</div>
-                    <p>Wether it is physique or web designing is love forever.</p>
+            {cards.map((content) => (
+                <div data-aos="fade-up" className="f__card">
+                    <img src={content.imgSrc} alt="Genetics" />
+                    <div className="card__details">
+                        {content.hashtags.map((hashtag) => (
+                            <span className="tag">{hashtag}</span>
+                        ))}
+                        <div className="name">{content.title}</div>
+                        <p>{content.desc}</p>
+                    </div>
                 </div>
-
-            </div>
-
-            <div data-aos="zoom-in" className="f__card">
-                <img src={require("../images/fitness/3.jpg")} alt="Lago di Braies" />
-
-                <div className="card__details">
-                    <span className="tag">#HomeWorkout</span>
-                    <span className="tag">#Calisthenics</span>
-                    <div className="name">Bulking</div>
-                    <p>Living in the world where bulk is equated with quality</p>
-                </div>
-
-            </div>
-
-            <div data-aos="fade-up" className="f__card">
-                <img src={require("../images/fitness/1.jpg")} alt="Lago di Braies" />
-
-                <div className="card__details">
-                    <span className="tag">#FatLoss</span>
-                    <span className="tag">#Calisthenian</span>
-                    <div className="name">Shredded</div>
-                    <p>Man, is an indivisible entity an integrated unit of mind and body.</p>
-                </div>
-
-            </div>
-
-
-            <div data-aos="fade-down" className="f__card">
-                <img src={require("../images/fitness/4.jpg")} alt="Lago di Braies" />
-
-                <div className="card__details">
-                    <span className="tag">#Handstand</span>
-                    <span className="tag">#Calisthenics</span>
-                    <div className="name">Balance</div>
-                    <p>Balance is a feeling derived from being whole and complete; it's a sense of harmony.</p>
-                </div>
-
-            </div>
-
-
+            ))}
         </div>
     );
 }

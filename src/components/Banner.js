@@ -15,18 +15,17 @@ const Banner = () => {
     image: "../images/12.jpg"
   });
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   }, [])
 
 
   return (
-
     <div className="bannertext__container">
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <div className="banner__heading"><h1>Welcome To Portfolio,<br /><span data-aos="fade-down" id="banner__name"> I'm Ashpak Mulani</span></h1>
+        <div className="banner__heading"><h1>Welcome To Portfolio,<br /><span id="banner__name"> I'm Ashpak Mulani</span></h1>
         </div>
         <span className="ChangingText"></span>
         <div className="quote__box">
