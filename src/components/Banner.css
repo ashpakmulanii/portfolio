@@ -59,6 +59,7 @@
   .admin__img{
     height:50px;
     margin-right:7px;
+    margin-top:5px;
     -webkit-clip-path:circle(50%);
     clip-path:circle(40%);
     max-width: 50px;
