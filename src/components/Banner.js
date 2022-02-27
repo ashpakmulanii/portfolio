@@ -26,7 +26,7 @@ const Banner = () => {
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <div className="banner__heading"><h1 data-aos="flip-up" >Welcome to Portfolio<br />I'm Ashpak Mulani</h1>
+        <div className="banner__heading"><h1>Welcome To Portfolio,<br /><span data-aos="fade-down" id="banner__name"> I'm Ashpak Mulani</span></h1>
         </div>
         <span className="ChangingText"></span>
         <div className="quote__box">
