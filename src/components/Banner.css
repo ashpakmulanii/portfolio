@@ -13,6 +13,7 @@
 }
 #banner__name{
 	font-family: 'Lobster', cursive;
+  opacity:0.5;
 }
 #banner__icon{
   font-size:15rem;
@@ -39,7 +40,7 @@
   }
   .bannertext__container h1 {
     font-size: 63px;
-    opacity: 0.4;
+    opacity: 0.6;
     font-family: 'Cinzel', serif; 
    }
   .right__block .admin{
@@ -190,7 +191,6 @@
     
     .bannertext__container h1 {
         font-size: 28px;
-        opacity:0.5;
         line-height: 35px;
       }
       #banner__name{
