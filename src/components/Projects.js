@@ -9,9 +9,15 @@ import {
   FaQuoteRight
 } from "react-icons/fa";
 import "./Projects.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 
 export const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
   return (
     <div className="projects">
       <div className="common">
@@ -21,7 +27,7 @@ export const Projects = () => {
         </p>
         <div className="commonBorder"></div>
       </div>
-      <div className="Econtainer">
+      <div data-aos="fade-up" className="Econtainer">
         <div className="Ecard">
           <div className="Econtent">
             <h2>01</h2>
