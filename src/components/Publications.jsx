@@ -31,11 +31,6 @@ export const Publications = () => {
             desc: "Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan on getting selected in on-campus recruiment drive",
             imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/ranker.JPG",
         },
-        {
-            title: "TECHNOFAB 2K20 Winner",
-            publisher: "FabTech College of Engineering & Research",
-            desc: "Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students ."
-        }
     ])
     return (
         <div className="publications">
@@ -47,7 +42,7 @@ export const Publications = () => {
             <div className="course__container">
                 {state.map((info) => (
                     <div data-aos="fade-up" className="course">
-                        {info.imgSrc ? (<img className="publications__img" src={info.imgSrc} alt=""></img>) : ""}
+                        <img className="publications__img" src={info.imgSrc} alt=""></img>
                         <div className="course-info">
                             <div className="progress-container">
                             </div>
@@ -57,6 +52,15 @@ export const Publications = () => {
                         </div>
                     </div>
                 ))}
+                <div data-aos="fade-up" className="nonimg__course">
+                    <div className="course-info">
+                        <div className="progress-container">
+                        </div>
+                        <h6>FabTech college of engineering and research</h6>
+                        <h3>Technofab 2K20 Winner</h3>
+                        <h5>Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students . <a className='open_link__btn'>Show Credentials</a></h5>
+                    </div>
+                </div>
             </div>
         </div>
     );
