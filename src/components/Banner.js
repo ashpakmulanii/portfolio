@@ -20,14 +20,16 @@ const Banner = () => {
 
 
   return (
-    <div className="bannertext__container">
+    <div data-aos="fade-up" className="bannertext__container">
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <div className="banner__heading"><h1>Welcome To Portfolio,<br /><span id="banner__name"> I'm Ashpak Mulani</span></h1>
+        <div className="banner__heading"><h1><span id="banner__name"> Welcome to Portfolio,</span></h1>
         </div>
-        <span className="ChangingText"></span>
+        <div className="text">
+          <span className="ChangingText"></span>
+        </div>
         <div className="quote__box">
           <p>{state.text}</p>
         </div>
@@ -46,7 +48,7 @@ const Banner = () => {
         </div>
       </div>
 
-    </div>
+    </div >
 
 
 

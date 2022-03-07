@@ -1,10 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
-  text-decoration: none;
-}
+
 .cv__box{
 display:none;
   padding:0;
@@ -96,8 +90,8 @@ footer .content .right input[type="text"]{
   background:#7952B3;
   border-radius: 5px;
   padding-left: 10px;
-  margin-top:12px;
   font-size: 17px;
+  margin:10px;
   border: 2px solid #222222;
 }
 

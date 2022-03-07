@@ -21,7 +21,7 @@ export const Projects = () => {
   const [skills] = React.useState([
     {
       id: 1,
-      heading: "Languages",
+      heading: "ShoppyCart",
       desc: "E-Commerse website is my first huge freelance project which is developed using React.js , Bootstrap, and Django and MySQL. This is my ever-rated freelance project with benifiets of all e-commerse applications",
       icons: [
         <FaReact />,
