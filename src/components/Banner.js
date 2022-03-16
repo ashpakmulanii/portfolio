@@ -11,8 +11,7 @@ import { useEffect } from 'react';
 
 const Banner = () => {
   const [state] = React.useState({
-    text: "Welcome to my personal portfolio. This is all about my computer science journey and archievemnts and either services for you",
-    image: "../images/12.jpg"
+    text: "Welcome to my personal portfolio. This is all about my computer science journey and archievemnts and either services for you.",
   });
   useEffect(() => {
     Aos.init({ duration: 3000 });
@@ -20,12 +19,13 @@ const Banner = () => {
 
 
   return (
-    <div data-aos="fade-up" className="bannertext__container">
+    <div className="bannertext__container">
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
       <div className="left__block">
-        <div className="banner__heading"><h1><span id="banner__name"> Welcome to Portfolio,</span></h1>
+        <div className="banner__heading">
+          <h1><span id="banner__name"> Welcome to Portfolio,</span></h1>
         </div>
         <div className="text">
           <span className="ChangingText"></span>
