@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export const Publications = () => {
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 1000 });
     }, []);
     const [state] = useState([
         {
