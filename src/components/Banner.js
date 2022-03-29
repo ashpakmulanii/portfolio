@@ -27,7 +27,7 @@ const Banner = () => {
 
       <div className="left__block">
         <div className="banner__heading">
-          <h1><span id="banner__name"> Welcome To,<br></br> Portfolio</span></h1>
+          <h1><span id="banner__name"> Welcome Forks,</span></h1>
         </div>
 
         <div className="text">
