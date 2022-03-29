@@ -211,9 +211,7 @@
   .bannertext__container h1 {
     font-size: 30px;
     line-height: 35px;
-    background-image: linear-gradient(60deg, gold, silver, gold);
-    background-clip: text;
-    color: transparent;
+    color: goldenrod
   }
 
   #banner__name {
