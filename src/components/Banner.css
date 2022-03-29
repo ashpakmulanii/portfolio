@@ -208,10 +208,12 @@
 
 @media (max-width: 825px) {
 
+
   .bannertext__container h1 {
     font-size: 30px;
     line-height: 35px;
-    color: goldenrod
+    color: goldenrod;
+    text-align: center;
   }
 
   #banner__name {
@@ -220,7 +222,7 @@
 
   #banner__icon {
     opacity: 1;
-    font-size: 9rem;
+    font-size: 7rem;
     pointer-events: none;
     transform: translateY(40px);
   }
