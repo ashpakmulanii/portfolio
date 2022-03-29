@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAlignJustify, FaCode, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaAlignJustify, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
@@ -47,7 +47,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="https://www.facebook.com/ashpak.mulani.3994/">
-              <FaFacebookF class="nav_ico" />
+              <FaFacebookF className="nav_ico" />
             </a>
           </li>
           <li>
@@ -108,7 +108,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="https://www.facebook.com/ashpak.mulani.3994/">
-                  <FaFacebookF class="nav_ico" />
+                  <FaFacebookF className="nav_ico" />
                 </a>
               </li>
               <li>

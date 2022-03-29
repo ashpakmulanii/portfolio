@@ -10,6 +10,7 @@ export const Publications = () => {
     }, []);
     const [state] = useState([
         {
+            id: 1,
             title: "आय.सी.एम.एस. कॉलेजच्या अश्पाक मुलानीची आरसेन्स कंपनीत निवड",
             publisher: "तेज न्यूज",
             desc: "RSense Technology Solutions PVT LTD. या राष्ट्रीय दर्जाच्या कंपनीच्या निवड समितीने ,पंढरपूर येथील आय. सी.एम.एस महाविद्यालयातील अश्पाक अहमद मुलाणी या विद्यार्थ्यांची निवड झाली असून...",
@@ -19,6 +20,7 @@ export const Publications = () => {
             linkUrl: "https://tejnews33.com/?p=3354"
         },
         {
+            id: 2,
             title: "Qulifying Selection Process ",
             publisher: "RSense Technology Solutions PVT. LTD.",
             desc: "Honored By Founder Of RSense Technology Solutions Mr. Suraj Ronger for successfully clearing all selection rounds",
@@ -26,6 +28,7 @@ export const Publications = () => {
             when: "26 December 2022"
         },
         {
+            id: 3,
             title: "Honered by Campus-Head",
             publisher: "ICMS Pandharpur",
             desc: "Honored By Principal Of Institude Of Computer Management And Studies College Miss. Jayashree Chawan on getting selected in on-campus recruiment drive",
@@ -41,14 +44,14 @@ export const Publications = () => {
             </div>
             <div className="course__container">
                 {state.map((info) => (
-                    <div data-aos="fade-up" className="course">
+                    <div key={info.id} data-aos="fade-up" className="course">
                         <img className="publications__img" src={info.imgSrc} alt=""></img>
                         <div className="course-info">
                             <div className="progress-container">
                             </div>
                             <h6>{info.publisher}</h6>
                             <h3>{info.title}</h3>
-                            <h5>{info.desc}{info.isLink ? <a className='open_link__btn' onClick={() => window.open(info.linkUrl)}>Open Link (Visit Tejnews)</a> : ""}</h5>
+                            <h5>{info.desc}{info.isLink ? <a className='open_link__btn' href={info.linkUrl}>Open Link (Visit Tejnews)</a> : ""}</h5>
                         </div>
                     </div>
                 ))}

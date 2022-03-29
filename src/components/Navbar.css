@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     position: fixed;
-    background-image: linear-gradient(to left,gray,#231123,#7952B3);
+    background-image: linear-gradient(to right,gray,#231123,#7952B3);
     padding:11px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@
   }
   
 .navbar__right{
-  background-image: linear-gradient(to left,gray,#231123,#7952B3);
+  background-image: linear-gradient(to right,gray,#231123,#7952B3);
   display: none;
   height:fit-content;
   list-style-type: none;

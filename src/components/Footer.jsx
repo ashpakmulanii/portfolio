@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaCode } from "react-icons/fa";
 import "./footer__style.css";
 
 export const Footer = () => {

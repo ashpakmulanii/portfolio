@@ -16,7 +16,7 @@ import { useEffect } from 'react';
 
 export const Projects = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
   const [skills] = React.useState([
     {
@@ -63,19 +63,19 @@ export const Projects = () => {
 
       <div data-aos="fade-up" className="Econtainer">
         {skills.map((info) => (
-          <div className="Ecard">
+          <div key={info.id} className="Ecard">
             <div className="Econtent">
               <h2>{info.id}</h2>
               <h3>{info.heading}</h3>
               <p>
                 <p><FaQuoteRight style={{ opacity: "0.7" }} /><br></br>{info.desc}</p>
-                <a onClick={() => alert("Source code is temporary disabled by admin.")}>
+                <a href="#" onClick={() => alert("Source code is temporary disabled by admin.")}>
                   <u>Get Source Code</u>
                 </a>
               </p>
               <div className="Techs">
                 {info.icons.map((icon) => (
-                  <a href="">{icon}</a>
+                  <a href="#">{icon}</a>
                 ))}
               </div>
             </div>
