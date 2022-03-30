@@ -116,6 +116,7 @@
   .text{
     font-size:1.6rem;
        opacity:0.6; 
+
     }
 
   .ChangingText:before{
@@ -176,23 +177,22 @@
     transition: 0.6s ease;
     transform: translateY(-22px);
   }
+  .text{
+    font-size:1.4rem
+  }
   .two__btn .show__more{
     width:250px;
     margin-bottom: 15px;
     margin-right:0px;
     font-size: 17px;
   }
-
   .two__btn .explore__btn{
     width:250px;
     font-size: 17px;
   }
-  .text{
-    font-size:1.4rem
-  }
  
   #banner__icon #facode{
-    font-size: 7.5rem;
+    font-size: 7rem;
     opacity:0.6;
   }
  }
@@ -209,27 +209,31 @@
 
     #banner__icon{
       margin-top:40px;
-      font-size: 9rem;
-      pointer-events: none;
-      transform: translateY(55px);
+        font-size: 9rem;
+        pointer-events: none;
+        transform: translateY(55px);
+
       }
     
     .bannertext__container{
       justify-content:space-around;
-      background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
-      flex-direction: column;
-      height:670px;
-      text-align: center;
-      align-items:center;
+        background-image: linear-gradient(to right,darkgray,rgb(75, 114, 116));
+        flex-direction: column;
+        height:670px;
+        text-align: center;
+        align-items:center;
       }
     .left__block{
         padding-right:0;
     }
-  
+    .quote__box {
+        font-size:10px;
+      }
     .quote__box p{
         font-size:16px;
         padding:5px;
         opacity:0.6;
+      
       }
     .two__btn{
         justify-content: center;
@@ -240,14 +244,28 @@
       color:#443844;
       opacity:0.5;
     }
-   
-
-   
+    .headerIcon{
+        font-size:24px;
+      }
+    .banner__img{
+      display:none;
+    }
+    .header__section p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-bottom: 50px;
+      }
       .admin{
         justify-content: center;
         margin-bottom:10px;
         margin-top:10px;
       }
-     
+    
+      
+ 
+      .bannertext__container .banner__logo{
+        font-size:27px;
+      }
 
 }
