@@ -200,7 +200,7 @@
 
   #banner__icon #facode {
     font-size: 7.7rem;
-    opacity: 0.5;
+    opacity: 0.6;
   }
 }
 
@@ -288,6 +288,10 @@
 
   .bannertext__container .banner__logo {
     font-size: 27px;
+  }
+
+  .text {
+    font-size: 1.4rem;
   }
 
 }
