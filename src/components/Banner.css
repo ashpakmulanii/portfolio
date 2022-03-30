@@ -77,7 +77,7 @@
   cursor: pointer;
   margin-bottom: 100px;
 
-  background-color: black;
+  background-image: linear-gradient(to left, gray, #231123, #3aa3b6);
   padding: 12px 16px;
   font-weight: 600;
   text-decoration: none;
@@ -96,7 +96,7 @@
   cursor: pointer;
   margin-bottom: 100px;
   text-decoration: none;
-  background-color: silver;
+  background-image: linear-gradient(to right, goldenrod, #7952B3);
   padding: 12px 16px;
   font-weight: 600;
   border-radius: 5px;
