@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   position: fixed;
-  background-image: linear-gradient(to right,rgb(57, 209, 214), navy, rgb(47, 42, 42));
+  background-image: linear-gradient(to right,rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
   padding: 11px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
