@@ -227,6 +227,7 @@
 
   .bannertext__container {
     justify-content: space-around;
+    background-image: linear-gradient(to right, gray, #231123, #7952B3);
     flex-direction: column;
     height: fit-content;
     text-align: center;
