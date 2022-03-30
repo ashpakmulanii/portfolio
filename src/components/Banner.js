@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 
 const Banner = () => {
   const [state] = React.useState({
-    text: "“The life of a designer is a life of fight. Fight against the ugliness. Just like a doctor fights against disease. For us, the visual disease is what we have around, and what we try to do is cure it somehow with design.”",
+    text: "The life of a designer is a life of fight. Fight against the ugliness. Just like a doctor fights against disease. For us, the visual disease is what we have around, and what we try to do is cure it somehow with design.",
   });
   useEffect(() => {
     Aos.init({ duration: 3000 });

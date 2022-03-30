@@ -195,6 +195,10 @@ footer a:hover {
     padding: 0;
   }
 
+  footer {
+    padding: 0;
+  }
+
   #Row {
     flex-direction: column;
   }
