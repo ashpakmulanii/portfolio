@@ -68,12 +68,21 @@ export const SkillSet = () => {
                 </div>
                 <div className="more__skills">
                     <FaQuoteRight style={{ opacity: "0.6" }} />
-                    <p>Boyond this i also have knowledge of other tools and technologies like version control
-                        (Git and GitHub), languages like C,C++,C#, .Net and Java which was the fundamentals
-                        of software engineering.
+                    <p>Beyond this i also have knowledge of other tools
+                        and technologies like version control (Git and GitHub),
+                        languages like C,C++,C#, .Net and Java which is the fundamentals
+                        of software engineering. Have Abilitie of problem solving and Data structures.
                     </p>
                     <div className="quoteWriter__name">
-                        <p > - Ashpak Mulani</p>
+                        <div className="right__block">
+                            <div className="admin">
+                                <img className="admin__img" src={require("../images/admin.jpg")} alt="admin" />
+                                <div className="admin__info">
+                                    <p style={{ fontSize: "16px", opacity: "0.7", color: "black" }}>Ashpak Ahmad Mulani</p>
+                                    <p id="admin__role">- Full Stack Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
