@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBootstrap, FaCss3, FaDatabase, FaFish, FaGit, FaGithub, FaJs, FaJsSquare, FaLinux, FaPhp, FaPython, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
+import { FaBootstrap, FaCss3, FaDatabase, FaFish, FaGit, FaGithub, FaJs, FaJsSquare, FaLinux, FaPhp, FaPython, FaQuoteRight, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
 import './skillset.css'
 export const SkillSet = () => {
     return (
@@ -64,6 +64,17 @@ export const SkillSet = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="more__skills">
+                    <FaQuoteRight style={{ opacity: "0.6" }} />
+                    <p>Boyond this i also have knowledge of other tools and technologies like version control
+                        (Git and GitHub), languages like C,C++,C#, .Net and Java which was the fundamentals
+                        of software engineering.
+                    </p>
+                    <div className="quoteWriter__name">
+                        <p > - Ashpak Mulani</p>
+
                     </div>
                 </div>
             </div>
