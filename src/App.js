@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Banner from "./components/Banner";
 import { Projects } from "./components/Projects";
-// import My__Services from "./components/My__Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Publications } from "./components/Publications";

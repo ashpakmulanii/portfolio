@@ -78,10 +78,6 @@ const Navbar = () => {
               </ul>
               <ul className="ul__box">
                 <li>
-                  <Link to="/myservices" onClick={() => setState(!state)}>Services</Link>
-                </li>
-
-                <li>
                   <Link to="/skills" onClick={() => setState(!state)}>Technical Skills</Link>
                 </li>
                 <li>
