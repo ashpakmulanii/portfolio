@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaBootstrap, FaFish, FaGit, FaGithub, FaJsSquare, FaLinux, FaPhp, FaPython, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
-
+import { FaBootstrap, FaCss3, FaDatabase, FaFish, FaGit, FaGithub, FaJs, FaJsSquare, FaLinux, FaPhp, FaPython, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
+import './skillset.css'
 export const SkillSet = () => {
     return (
         <div className="services">
@@ -11,110 +11,59 @@ export const SkillSet = () => {
                         <p className="mainContent">Tools and technologies i've learned and worked with in entire cs journey.</p>
                         <div className="commonBorder"></div>
                     </div>
-
-                    <div className="row bgMain">
-                        <div className="col-4 bgMain">
+                    <div className="skills">
+                        <div className="flexbox">
                             <div className="services__box">
-                                <div className="services__box-header">Languages</div>
-
+                                <div className="services__box-header">Front-End Development</div>
                                 <div className="service__box-content">
                                     <FaJsSquare className="commonIcons" />
-                                    <div className="services__box-p"> JavaScript (ES-6)</div>
+                                    <div className="services__box-p">JavaScript (ES-6)</div>
+                                    <span className="bar"><span className="ninety"></span></span>
                                 </div>
-                                <div className="service__box-content">
-                                    <FaPython className="commonIcons" />
-                                    <div className="services__box-p"> Python</div>
-                                </div>
-                                <div className="service__box-content">
-                                    <FaPhp className="commonIcons" />
-                                    <div className="services__box-p"> PHP</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-4 bgMain">
-                            <div className="services__box">
-                                <div className="services__box-header">Technologies</div>
-
                                 <div className="service__box-content">
                                     <FaReact className="commonIcons" />
                                     <div className="services__box-p"> React.js</div>
+                                    <span className="bar"><span className="eighty"></span></span>
                                 </div>
                                 <div className="service__box-content">
-                                    <FaPython className="commonIcons" />
-                                    <div className="services__box-p"> Django</div>
+                                    <FaCss3 className="commonIcons" />
+                                    <div className="services__box-p"> HTML & CSS</div>
+                                    <span className="bar"><span className="ninety"></span></span>
                                 </div>
                                 <div className="service__box-content">
                                     <FaBootstrap className="commonIcons" />
                                     <div className="services__box-p"> Bootstrap</div>
+                                    <span className="bar"><span className="sixty"></span></span>
                                 </div>
-                                <div className="service__box-content">
-                                    <FaUikit className="commonIcons" />
-                                    <div className="services__box-p"> Meterial UI</div>
-                                </div>
-
+                            </div>
+                            <div className="side__icon">
+                                <FaJsSquare className='sidebar__icon' />
                             </div>
                         </div>
 
-                        <div className="col-4 bgMain">
-                            <div className="services__box">
-                                <div className="services__box-header">Platforms</div>
-
-                                <div className="service__box-content">
-                                    <FaLinux className="commonIcons" />
-                                    <div className="services__box-p"> Linux Mint, Ubuntu, Manjaro</div>
-                                </div>
-                                <div className="service__box-content">
-                                    <FaWindows className="commonIcons" />
-                                    <div className="services__box-p"> Windows </div>
-                                </div>
-
+                        <div className="flexbox">
+                            <div className="side__icon">
+                                <FaPython className='sidebar__icon' />
                             </div>
-                        </div>
-
-                        <div className="col-4 bgMain">
                             <div className="services__box">
-                                <div className="services__box-header">Version Control</div>
-
+                                <div className="services__box-header">Back-End Development & DBMS</div>
                                 <div className="service__box-content">
-                                    <FaGit className="commonIcons" />
-                                    <div className="services__box-p"> Git</div>
+                                    <FaPython className="commonIcons" />
+                                    <div className="services__box-p"> Django</div>
+                                    <span className="bar"><span className="ninety"></span></span>
                                 </div>
                                 <div className="service__box-content">
-                                    <FaGithub className="commonIcons" />
-                                    <div className="services__box-p"> GitHub</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="col-4 bgMain">
-                            <div className="services__box">
-                                <div className="services__box-header">Platforms</div>
-
-                                <div className="service__box-content">
-                                    <FaLinux className="commonIcons" />
-                                    <div className="services__box-p"> Linux Mint, Ubuntu, Manjaro</div>
+                                    <FaPhp className="commonIcons" />
+                                    <div className="services__box-p"> PHP</div>
+                                    <span className="bar"><span className="seventy"></span></span>
                                 </div>
                                 <div className="service__box-content">
-                                    <FaWindows className="commonIcons" />
-                                    <div className="services__box-p"> Windows </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="col-4 bgMain">
-                            <div className="services__box">
-                                <div className="services__box-header">Database Management System</div>
-
-                                <div className="service__box-content">
-                                    <FaFish className="commonIcons" />
+                                    <FaDatabase className="commonIcons" />
                                     <div className="services__box-p"> MySQL</div>
+                                    <span className="bar"><span className="seventy"></span></span>
                                 </div>
-
-
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

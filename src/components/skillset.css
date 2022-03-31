@@ -1,0 +1,138 @@
+.bar{
+    background:#353b48;
+    display:block;
+    height:20px;
+    overflow: hidden;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0,20);
+    transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 1px 2px rgba(0,0,0,0,20);
+
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.sidebar__icon{
+    font-size: 15rem;
+    opacity:0.1;
+}
+.fifty{
+    width:50%;
+    animation:fifty 3s;
+
+}
+.sixty{
+    width:60%;
+    animation:sixty 3s;
+}
+.seventy{
+    width:70%;
+    animation:seventy 3s;
+}
+.eighty{
+    width:80%;
+    animation:eighty 3s;
+}
+
+.ninety{
+    width:90%;
+    animation:ninety 3s;
+}
+
+@keyframes fifty{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+
+@keyframes sixty{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+
+@keyframes seventy{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+    
+}
+@keyframes eighty{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes ninety{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+.services__box {
+    padding: 20px;
+    margin: 50px;
+    backdrop-filter: blur(5px);
+  }
+
+  .service__box-content{
+    align-items: center;
+    display:grid;
+    margin:10px;
+    grid-template-columns: 30px 200px 300px;
+  }
+
+  .commonIcons {
+    font-size: 25px;
+    color: #443844;
+  }
+
+  .services__box-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .services {
+    background-image: linear-gradient(to right,gray,silver,#443844);
+    padding: 100px 0;
+  }
+
+  .services__box-p {
+    font-size: 18px;
+    padding-left:10px;
+  }
+
+@media (max-width: 765px) {
+.service__box-content{
+    margin:10px;
+    grid-template-columns: 30px 160px 150px;
+  }
+  .side__icon{
+    display:none;
+  }
+}

@@ -47,11 +47,7 @@ a {
 
 /* header */
 /* Servives */
-.services {
 
-  background-image: linear-gradient(to right,gray,silver,#443844);
-  padding: 100px 0;
-}
 
 .common {
   width: 33.33333333333333%;
@@ -81,42 +77,14 @@ a {
   margin: 30px auto;
 }
 
-.services__box {
-  padding: 20px;
-  margin: 20px;
-  backdrop-filter: blur(5px);
-  border:1px solid gray;
-  border-radius: 5px;
 
-}
-.service__box-content{
-  display:flex;
-  flex-direction:row;
-
-}
-
-.commonIcons {
-  font-size: 20px;
-  color: #443844;
-  margin-bottom: 15px;
-}
-
-.services__box-header {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
-.services__box-p {
-  font-size: 14px;
-  padding-left:10px;
-}
 
 @media (max-width: 765px) {
   .container {
     width: 100%;
     padding: 0 10px;
   }
+
 
   .col-6 {
     width: 100%;
