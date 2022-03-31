@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaBootstrap, FaCss3, FaDatabase, FaFish, FaGit, FaGithub, FaJs, FaJsSquare, FaLinux, FaPhp, FaPython, FaQuoteRight, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
-import './skillset.css'
+import './skillset.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 export const SkillSet = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
     return (
         <div className="services">
             <div className="container">
-                <div className="services__header">
+                <div data-aos="fade-up" className="services__header">
                     <div className="common">
                         <h1 className="mainHeader">Technical Skill Set</h1>
                         <p className="mainContent">Tools and technologies i've learned and worked with in entire cs journey.</p>
@@ -66,7 +71,7 @@ export const SkillSet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="more__skills">
+                <div data-aos="fade-up" className="more__skills">
                     <FaQuoteRight style={{ opacity: "0.6" }} />
                     <p>Beyond this i also have knowledge of other tools
                         and technologies like version control (Git and GitHub),

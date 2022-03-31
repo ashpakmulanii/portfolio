@@ -123,6 +123,10 @@
     font-weight: 500;
     margin-bottom: 15px;
     text-align: center;
+    background: gray;
+    color:lightgray;
+    opacity:0.6;
+    padding:2px;
   }
   .services {
     background-image: linear-gradient(to right,gray,silver,#443844);
