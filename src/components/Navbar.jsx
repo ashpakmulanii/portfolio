@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAlignJustify, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaAlignJustify, FaFacebookF, FaGithub, FaHome, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
@@ -8,6 +8,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__container">
+        <div className="home">
+          <Link to="/portfolio"><FaHome id="HomeIcon" /></Link>
+        </div>
         <ul className="navbar__left">
           <div className="navbar__title">
             <span className="Span">Apk </span> <p className="sublogo">JSDev</p>

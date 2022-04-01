@@ -1,11 +1,25 @@
 .navbar {
   width: 100%;
   position: fixed;
-  background-image: linear-gradient(to right,rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
-  padding: 11px;
+  background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+  padding: 10px;
+  overflow: hidden;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   align-items: center;
+}
+
+.home {
+  align-items: center;
+  text-align: center;
+  left: 12px;
+  position: fixed;
+  visibility: hidden;
+}
+
+#HomeIcon {
+  color: #DED4EC;
+  font-size: 28px;
 }
 
 .second__block {
@@ -57,7 +71,7 @@
 }
 
 .navbar__right {
-  background-image: linear-gradient(to right,rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+  background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
   display: none;
   height: fit-content;
   list-style-type: none;
@@ -121,7 +135,6 @@
   margin: 0px 0px 0px 16px;
   padding: 6px 12px;
   font-weight: 600;
-  box-shadow: 0 0 20px #FFE484(0, 0, 0, 0.5);
 }
 
 .nav__btn:hover {
@@ -149,6 +162,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+
+  .home {
+    visibility: visible;
   }
 
   .navbar__title {
