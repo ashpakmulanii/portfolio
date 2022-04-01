@@ -112,6 +112,8 @@
     max-width: 670px;
     margin-top: 10px;
     line-height: 26px;
+    padding: 1px 15px 1px 15px;
+    text-align: left;
 }
 
 .quote__box p {
@@ -182,9 +184,8 @@
     .ChangingText {
         font-size: 21px;
         padding: 1px 10px 1px 10px;
-        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.20);
+        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.5);
         background-image: linear-gradient(to right, silver, rgb(66, 81, 82), gray);
-
     }
 
     .two__btn {
@@ -228,7 +229,7 @@
         margin-top: 40px;
         font-size: 9rem;
         pointer-events: none;
-        transform: translateY(50px);
+        transform: translateY(60px);
 
     }
 
