@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  FaCode,
+  FaCode, FaQuoteRight,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
@@ -31,7 +31,8 @@ const Banner = () => {
           <span className="ChangingText"></span>
         </div>
         <div className="quote__box">
-          <p>{state.text}</p>
+
+          <p><FaQuoteRight style={{ opacity: "0.5" }} /><br></br>{state.text}</p>
         </div>
       </div>
       <div className="right__block">

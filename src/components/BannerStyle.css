@@ -119,7 +119,6 @@
     opacity: 0.6;
     padding-top: 10px;
     color: black;
-
 }
 
 .text {
@@ -130,12 +129,11 @@
 
 .ChangingText:before {
     content: "";
+
     animation: animate infinite 6s ease;
     font-weight: 600;
     color: white;
     font-family: 'Lobster Two', cursive;
-    ;
-
 }
 
 @keyframes animate {
@@ -182,7 +180,11 @@
 
 @media (max-width: 455px) {
     .ChangingText {
-        font-size: 22px;
+        font-size: 21px;
+        padding: 1px 10px 1px 10px;
+        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.20);
+        background-image: linear-gradient(to right, silver, rgb(66, 81, 82), gray);
+
     }
 
     .two__btn {
@@ -204,7 +206,7 @@
     }
 
     #banner__icon #facode {
-        font-size: 7.7rem;
+        font-size: 7.2rem;
         opacity: 0.5;
     }
 }
@@ -217,7 +219,9 @@
     }
 
     #banner__name {
-        font-size: 29px;
+        font-size: 28px;
+        color: black;
+        border-radius: 5px;
     }
 
     #banner__icon {
