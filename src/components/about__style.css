@@ -31,7 +31,7 @@ footer {
   width: 100%;
   left: 0;
   font-size: 18px;
-  background-image: linear-gradient(to right, gray, #231123, #7952B3);
+  background-image: linear-gradient(to right, gray, rgb(30, 29, 29));
   height: 330px;
   overflow: hidden;
 }
@@ -93,12 +93,12 @@ footer .content .right input[type="text"] {
   max-width: 300px;
   outline: none;
   color: #d9d9d9;
-  background: #7952B3;
+  background: none;
   border-radius: 5px;
   padding-left: 10px;
   font-size: 17px;
   margin: 10px;
-  border: 2px solid #222222;
+  border: 1px solid silver;
 }
 
 
@@ -106,8 +106,8 @@ footer .content .right input[type="submit"] {
   height: 42px;
   width: 100%;
   font-size: 18px;
-  color: #d9d9d9;
-  background: #eb2f06;
+  background: none;
+  color: #eb2f06;
   outline: none;
   border-radius: 5px;
   letter-spacing: 1px;
@@ -118,8 +118,10 @@ footer .content .right input[type="submit"] {
 }
 
 .content .right input[type="submit"]:hover {
-  background: none;
-  color: #eb2f06;
+  background: #eb2f06;
+  color: #d9d9d9;
+
+
 }
 
 footer .content .media-icons {
@@ -170,7 +172,7 @@ footer a:hover {
 @media (max-width:950px) {
   footer {
     position: relative;
-    background-image: linear-gradient(to right, darkgray, #231123);
+    background-image: linear-gradient(to right, gray, rgb(26, 60, 71));
     height: 100%;
   }
 

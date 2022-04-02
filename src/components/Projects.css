@@ -1,72 +1,71 @@
-
 .Econtainer {
-    position: relative;
-    background-image: linear-gradient(to right,gray,silver,#443844);
+  position: relative;
+  background-image: linear-gradient(to right, gray, silver, #443844);
   border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    z-index: 1;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
 
-  .Econtainer .Ecard {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin: 30px;
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Econtainer .Ecard {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  }
-  
-  .Econtainer .Ecard .Econtent {
-    padding: 20px;
-  }
+}
 
-  .Econtainer .Ecard .Econtent h2 {
-    position: absolute;
-    top: -30px;
-    right: 30px;
-    font-size: 8rem;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-  }
+.Econtainer .Ecard .Econtent {
+  padding: 20px;
+}
 
-  .Econtainer .Ecard .Econtent h3 {
-    font-size: 1.3em;
-    z-index: 1;
-    margin-bottom:10px;
-  }
+.Econtainer .Ecard .Econtent h2 {
+  position: absolute;
+  top: -30px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
 
-  .Econtainer .Ecard .Econtent p {
-    font-size: 1em;
-    font-weight: 500;
-    opacity:0.7;
+.Econtainer .Ecard .Econtent h3 {
+  font-size: 1.3em;
+  z-index: 1;
+  margin-bottom: 10px;
+}
 
-  }
+.Econtainer .Ecard .Econtent p {
+  font-size: 1em;
+  font-weight: 500;
+  opacity: 0.7;
 
-  .Econtainer .Ecard .Econtent a {
-    position: relative;
-    display: inline-block;
-    padding: 8px 0px;
-    margin-top: 20px;
-    color:gray;
-    text-decoration: none;
-    font-weight: 500;
-  }
+}
 
-  .Econtainer .Ecard .Econtent .Techs a {
-    padding: 10px 10px;
-    border-radius: 2px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  }
+.Econtainer .Ecard .Econtent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0px;
+  margin-top: 20px;
+  color: gray;
+  text-decoration: none;
+  font-weight: 500;
+}
 
-  .projects {
-    background-image: linear-gradient(to right,gray,silver,#443844);
-    padding: 110px 0;
-    height:100%;
-  }
+.Econtainer .Ecard .Econtent .Techs a {
+  padding: 10px 10px;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.projects {
+  background-image: linear-gradient(to right, gray, silver, #443844);
+  padding: 110px 0;
+  height: 100%;
+}

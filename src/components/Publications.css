@@ -7,7 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	background-image: linear-gradient(to right, gray, rgb(30, 29, 29));
+	background-image: linear-gradient(to right, gray, silver, #443844);
 	padding: 110px 0;
 }
 

@@ -8,20 +8,16 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
-
 const Banner = () => {
   const [state] = React.useState({
-    que: "Looking for Web Developer ?",
     text: ""
   });
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, [])
-
-
   return (
     <div className="bannertext__container">
-      <img className="home__img" src="https://i.pinimg.com/originals/30/e2/05/30e2057ea8b05dbe50a2d0493497fab8.jpg" alt="homepage" />
+      <img className="home__img" src="https://www.dailyesports.gg/wp-content/uploads/2019/07/razer-ripsaw-hd-gallery-07-800x400.jpg" alt="homepage" />
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
