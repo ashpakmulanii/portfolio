@@ -9,6 +9,8 @@
     justify-content: space-evenly;
 }
 
+
+
 .home__img {
     position: absolute;
     opacity: 0.3;
@@ -110,7 +112,7 @@
     cursor: pointer;
     margin-bottom: 100px;
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+    background-image: linear-gradient(to left, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
     padding: 12px 16px;
     font-weight: 600;
     border-radius: 5px;
@@ -146,7 +148,7 @@
     content: "";
     animation: animate infinite 8s ease;
     font-weight: 600;
-    color: white;
+    color: gold;
     padding: 10px 10px 10px 10px;
     font-family: 'Lobster Two', cursive;
 }
@@ -267,7 +269,7 @@
 
     .bannertext__container {
         justify-content: space-around;
-        background-image: linear-gradient(to right, darkgray, rgb(75, 114, 116));
+        background-image: linear-gradient(to right, darkgray, #231123);
         flex-direction: column;
         height: 670px;
         text-align: center;
@@ -288,9 +290,9 @@
 
     #quote__box p {
         font-size: 16px;
-        opacity: 0.7;
+        opacity: 0.8;
         margin-top: -12px;
-        color: #272427;
+        color: white;
     }
 
     .two__btn {
