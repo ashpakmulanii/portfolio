@@ -12,7 +12,7 @@ export const Publications = () => {
         {
             id: 1,
             title: "आय.सी.एम.एस. कॉलेजच्या अश्पाक मुलानीची आरसेन्स कंपनीत निवड",
-            publisher: "तेज न्यूज",
+            publisher: "तेज न्यूज सोलापूर / विशेष/ आय.सी.एम.एस. कॉलेज",
             desc: "RSense Technology Solutions PVT LTD. या राष्ट्रीय दर्जाच्या कंपनीच्या निवड समितीने ,पंढरपूर येथील आय. सी.एम.एस महाविद्यालयातील अश्पाक अहमद मुलाणी या विद्यार्थ्यांची निवड झाली असून...",
             imgSrc: "https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/src/images/15.JPG",
             when: "1 Januery 2022",
@@ -51,7 +51,11 @@ export const Publications = () => {
                             </div>
                             <h6>{info.publisher}</h6>
                             <h3>{info.title}</h3>
-                            <h5>{info.desc}{info.isLink ? <a className='open_link__btn' href={info.linkUrl}>Open Link (Visit Tejnews)</a> : ""}</h5>
+                            <p>{info.desc}</p>
+                            <div className="ShowDetails__Btn">
+                                {info.isLink ? <a className='open_link__btn' href={info.linkUrl}>Show Details</a> : ""}
+
+                            </div>
                         </div>
                     </div>
                 ))}
@@ -61,7 +65,10 @@ export const Publications = () => {
                         </div>
                         <h6>FabTech college of engineering and research</h6>
                         <h3>Technofab 2K20 Winner</h3>
-                        <h5>Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students . <a className='open_link__btn'>Show Credentials</a></h5>
+                        <p>Wonned a state level technical RANCHO-MEET in Web Designing associated with computer science and engineering students . </p>
+                        <div className="ShowDetails__Btn">
+                            <a className='open_link__btn'>Show Credentials</a>
+                        </div>
                     </div>
                 </div>
             </div>
