@@ -215,7 +215,7 @@
     }
 
     .bannertext__container h1 {
-        padding-top: 150px;
+        padding-top: 190px;
 
     }
 
@@ -271,7 +271,7 @@
         justify-content: space-around;
         background-image: linear-gradient(to left, gray, rgb(75, 114, 116));
         flex-direction: column;
-        height: 670px;
+        height: 600px;
         text-align: center;
         align-items: center;
     }
