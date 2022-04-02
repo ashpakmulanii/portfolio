@@ -3,7 +3,7 @@
   width: 100%;
   height: max-content;
   position: fixed;
-  background-image: linear-gradient(to right, gray, #231123, #7952B3);
+  background-image: linear-gradient(to right, gray, black);
   padding: 14.7px;
   z-index: 1;
 }
