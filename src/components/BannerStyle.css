@@ -71,6 +71,10 @@
     grid-template-rows: 20px 10px;
 }
 
+.admin__info p {
+    color: skyblue;
+}
+
 
 .admin__img {
     height: 50px;
@@ -269,7 +273,7 @@
 
     .bannertext__container {
         justify-content: space-around;
-        background-image: linear-gradient(to left, gray, rgb(75, 114, 116));
+        background-image: linear-gradient(to right, gray, black);
         flex-direction: column;
         height: 600px;
         text-align: center;
@@ -290,7 +294,7 @@
 
     #quote__box p {
         font-size: 16px;
-        opacity: 0.8;
+        opacity: 0.7;
         margin-top: -12px;
         color: white;
     }
@@ -302,7 +306,7 @@
     }
 
     #admin__role {
-        color: #443844;
+        color: silver;
         opacity: 0.5;
     }
 
