@@ -170,7 +170,7 @@ footer a:hover {
 @media (max-width:950px) {
   footer {
     position: relative;
-    background-image: linear-gradient(to right, darkgray, #231123);
+    background-image: linear-gradient(to left, gray, rgb(75, 114, 116));
     height: 100%;
   }
 
