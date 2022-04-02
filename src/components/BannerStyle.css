@@ -11,7 +11,7 @@
 
 .home__img {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.1;
     height: 510px;
     pointer-events: none;
 }
@@ -123,14 +123,14 @@
 
 
 
-.quote__box {
+#quote__box {
     max-width: 670px;
 
 }
 
-.quote__box p {
+#quote__box p {
     font-size: 1.2rem;
-    opacity: 0.6;
+    opacity: 0.7;
     color: whitesmoke;
     transition: 3s ease;
 }
@@ -146,7 +146,8 @@
     content: "";
     animation: animate infinite 8s ease;
     font-weight: 600;
-    color: white;
+    opacity: 0.9;
+    color: gold;
     padding: 10px 10px 10px 10px;
     font-family: 'Lobster Two', cursive;
 }
@@ -164,11 +165,11 @@
     }
 
     70% {
-        content: "UI / Theme Developer ";
+        content: "UI / Theme Developer";
     }
 
     100% {
-        content: "Freelancer ";
+        content: "Freelancer 💰️";
     }
 }
 
@@ -204,6 +205,7 @@
 @media (max-width: 455px) {
     .ChangingText {
         font-size: 17px;
+        opacity: 1;
     }
 
     .bannertext__container h1 {
@@ -271,7 +273,7 @@
         padding-right: 0;
     }
 
-    .quote__box {
+    #quote__box {
         font-size: 10px;
         margin-top: 10px;
         line-height: 26px;
@@ -279,11 +281,11 @@
         text-align: left;
     }
 
-    .quote__box p {
+    #quote__box p {
         font-size: 16px;
-        opacity: 0.6;
+        opacity: 1;
         margin-top: -12px;
-        color: black
+        color: rgb(220, 211, 211)
     }
 
     .two__btn {

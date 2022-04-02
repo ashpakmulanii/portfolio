@@ -21,7 +21,7 @@ const Banner = () => {
 
   return (
     <div className="bannertext__container">
-      <img className="home__img" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=767&h=384&dpr=1.5" alt="homepage" />
+      <img className="home__img" src="https://i.pinimg.com/originals/30/e2/05/30e2057ea8b05dbe50a2d0493497fab8.jpg" alt="homepage" />
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
         <div className="text">
         </div>
-        <div className="quote__box">
+        <div id="quote__box">
 
           <FaQuoteLeft id="QuoteLeft" />
           <p>I'm a
