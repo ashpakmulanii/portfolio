@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  FaCode, FaQuoteRight,
+  FaCode, FaQuoteLeft, FaQuoteRight,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
@@ -11,7 +11,8 @@ import { useEffect } from 'react';
 
 const Banner = () => {
   const [state] = React.useState({
-    text: "The life of a designer is a life of fight. Fight against the ugliness. Just like a doctor fights against disease. For us, the visual disease is what we have around, and what we try to do is cure it somehow with design.",
+    que: "Looking for Web Developer ?",
+    text: ""
   });
   useEffect(() => {
     Aos.init({ duration: 3000 });
@@ -20,19 +21,22 @@ const Banner = () => {
 
   return (
     <div className="bannertext__container">
+      <img className="home__img" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=767&h=384&dpr=1.5" alt="homepage" />
       <div data-aos="zoom-in" id="banner__icon">
         <FaCode id="facode" />
       </div>
       <div className="left__block">
         <div className="banner__heading">
-          <h1><span id="banner__name"> Welcome to<br></br> Portfolio</span></h1>
+          <h1><span id="banner__name"> Website done right.</span></h1>
         </div>
         <div className="text">
-          <span className="ChangingText"></span>
         </div>
         <div className="quote__box">
 
-          <p><FaQuoteRight style={{ opacity: "0.5" }} /><br></br>{state.text}</p>
+          <FaQuoteLeft id="QuoteLeft" />
+          <p>I'm a
+            <span className="ChangingText"></span><br></br>
+            from Pandharpur. I enjoy building everything from small buisness sites to rich interactive web apps. If you are buisness seeking a web present or an employer looking to hire you can get in touch with me here.</p>
         </div>
       </div>
       <div className="right__block">

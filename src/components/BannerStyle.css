@@ -9,9 +9,20 @@
     justify-content: space-evenly;
 }
 
+.home__img {
+    position: absolute;
+    opacity: 0.5;
+    height: 510px;
+    pointer-events: none;
+}
+
+
+
 #banner__name {
-    font-family: 'Cinzel Decorative', cursive;
-    opacity: 0.6;
+    font-weight: 1000;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
 }
 
 #banner__icon {
@@ -20,6 +31,8 @@
     opacity: 0.6;
     transition: 0.8s ease;
 }
+
+
 
 #banner__icon:hover {
     opacity: 1;
@@ -38,9 +51,11 @@
 
 .bannertext__container h1 {
     font-size: 49px;
-    opacity: 0.9;
-    font-family: 'Cinzel', serif;
 }
+
+
+
+
 
 .right__block .admin {
     display: flex;
@@ -110,46 +125,50 @@
 
 .quote__box {
     max-width: 670px;
-    margin-top: 10px;
-    line-height: 26px;
-    padding: 1px 15px 1px 15px;
-    text-align: left;
+
 }
 
 .quote__box p {
     font-size: 1.2rem;
     opacity: 0.6;
-    padding-top: 10px;
-    color: black;
+    color: whitesmoke;
+    transition: 3s ease;
 }
 
 .text {
-    font-size: 1.6rem;
-    opacity: 0.6;
-
+    font-size: 1.3rem;
+    opacity: 0.9;
+    color: burlywood;
+    font-weight: 600;
 }
 
 .ChangingText:before {
     content: "";
-
-    animation: animate infinite 6s ease;
+    animation: animate infinite 8s ease;
     font-weight: 600;
     color: white;
+    padding: 10px 10px 10px 10px;
     font-family: 'Lobster Two', cursive;
+}
+
+#QuoteLeft {
+    font-size: 18px;
+    opacity: 0.4;
+    margin-bottom: 5px;
 }
 
 @keyframes animate {
 
     0% {
-        content: "Full Stack Web Developer,";
+        content: "Full Stack Web Developer ✌️";
     }
 
     70% {
-        content: "UI / Theme Developer,";
+        content: "UI / Theme Developer ";
     }
 
     100% {
-        content: "Freelancer,";
+        content: "Freelancer ";
     }
 }
 
@@ -174,6 +193,8 @@
     padding: 10px 40px;
 }
 
+
+
 .btn-smart {
     background: silver;
     padding: 13px 40px;
@@ -182,11 +203,15 @@
 
 @media (max-width: 455px) {
     .ChangingText {
-        font-size: 21px;
-        padding: 1px 10px 1px 10px;
-        box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.5);
-        background-image: linear-gradient(to right, silver, rgb(66, 81, 82), gray);
+        font-size: 17px;
     }
+
+    .bannertext__container h1 {
+        padding-top: 150px;
+
+    }
+
+
 
     .two__btn {
         flex-direction: column;
@@ -206,9 +231,14 @@
         font-size: 17px;
     }
 
+    #banner__icon {
+        display: none;
+    }
+
+
     #banner__icon #facode {
-        font-size: 7.2rem;
-        opacity: 0.5;
+        font-size: 6rem;
+        opacity: 0.6;
     }
 }
 
@@ -219,17 +249,23 @@
         line-height: 35px;
     }
 
+    .home__img {
+        height: 100vh;
+        opacity: 0.5;
+    }
+
     #banner__name {
-        font-size: 28px;
-        color: black;
-        border-radius: 5px;
+        font-size: 40px;
+        padding: 20px;
+        opacity: 0.7;
+        font-weight: 1200;
     }
 
     #banner__icon {
         margin-top: 40px;
-        font-size: 9rem;
+        font-size: 7rem;
         pointer-events: none;
-        transform: translateY(60px);
+        transform: translateY(30px);
 
     }
 
@@ -248,13 +284,17 @@
 
     .quote__box {
         font-size: 10px;
+        margin-top: 10px;
+        line-height: 26px;
+        padding: 10px 30px 5px 30px;
+        text-align: left;
     }
 
     .quote__box p {
         font-size: 16px;
-        padding: 5px;
         opacity: 0.6;
-
+        margin-top: -12px;
+        color: black
     }
 
     .two__btn {
@@ -272,7 +312,7 @@
         font-size: 24px;
     }
 
-    .banner__img {
+    .home__img {
         display: none;
     }
 
