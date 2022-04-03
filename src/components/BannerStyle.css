@@ -117,7 +117,7 @@
     cursor: pointer;
     margin-bottom: 100px;
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+    background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(86, 86, 96), rgb(47, 42, 42));
     padding: 12px 16px;
     font-weight: 600;
     border-radius: 5px;
@@ -237,6 +237,7 @@
 
     }
 
+
     100% {
         opacity: 0.5;
         color: silver
@@ -257,17 +258,15 @@
 
     #banner__name {
         font-size: 40px;
-        padding: 20px;
         opacity: 0.6;
         font-weight: 1200;
     }
 
     #banner__icon {
         margin-top: 40px;
-        font-size: 7rem;
+        font-size: 6.5rem;
         pointer-events: none;
         transform: translateY(30px);
-
     }
 
     .bannertext__container {
@@ -288,7 +287,7 @@
         font-size: 10px;
         margin-top: 10px;
         line-height: 26px;
-        padding: 10px 30px 5px 30px;
+        padding: 0px 30px 0px 30px;
         text-align: left;
     }
 
@@ -307,7 +306,7 @@
 
     #admin__role {
         color: silver;
-        opacity: 0.5;
+        opacity: 0.6;
     }
 
     .headerIcon {
@@ -330,8 +329,6 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
-
-
 
     .bannertext__container .banner__logo {
         font-size: 27px;
