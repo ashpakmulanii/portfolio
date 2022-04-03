@@ -33,14 +33,12 @@
     color: silver;
     opacity: 0.6;
     transition: 0.8s ease;
+    margin-top: 80px;
 }
 
 
 
-#banner__icon:hover {
-    opacity: 1;
-    transform: scale(1.2);
-}
+
 
 #admin__role {
     font-size: 14px;
@@ -214,22 +212,22 @@
     }
 
     #banner__icon #facode {
-        font-size: 6.5rem;
-        opacity: 0.8;
-        color: aqua;
-        animation: fading infinite .8s ease;
+        font-size: 6.4rem;
+        color: gold;
+
+        animation: fading infinite 1s ease;
     }
 }
 
 @keyframes fading {
     0% {
         opacity: 1;
-
+        transform: scale(1.1);
     }
 
 
     100% {
-        opacity: 0.5;
+        opacity: 0.4;
         color: silver
     }
 }
@@ -281,7 +279,7 @@
     }
 
     #quote__box p {
-        font-size: 17px;
+        font-size: 16px;
         opacity: 0.6;
         margin-top: -12px;
         color: azure;

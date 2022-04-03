@@ -2,7 +2,7 @@ import React from "react";
 import {
   FaAngleDoubleDown,
   FaAngleUp,
-  FaCode, FaQuoteLeft, FaQuoteRight, FaReact, FaScroll,
+  FaCode, FaJava, FaJs, FaJsSquare, FaNodeJs, FaQuoteLeft, FaQuoteRight, FaReact, FaReacteurope, FaScroll,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
@@ -15,7 +15,7 @@ const Banner = () => {
     text: ""
   });
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 2000 });
   }, [])
   return (
     <div className="bannertext__container">
@@ -25,7 +25,8 @@ const Banner = () => {
       </div>
       <div className="left__block">
         <div className="banner__heading">
-          <h1><span id="banner__name"> Website done right.</span></h1>
+          <h1><span id="banner__name"> Hello ✌️,<br></br>I'm Ashpak
+          </span></h1>
         </div>
         <div className="text">
         </div>
