@@ -33,7 +33,7 @@ const Banner = () => {
         <div id="quote__box">
 
           <FaQuoteLeft id="QuoteLeft" />
-          <p>I'm a
+          <p>A
             <span className="ChangingText"></span><br></br>
             from Pandharpur. I enjoy building everything from small buisness sites to rich interactive web apps. If you are buisness seeking a web present or an employer looking to hire you can get in touch with me here.</p>
         </div>

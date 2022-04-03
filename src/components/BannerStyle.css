@@ -163,18 +163,18 @@
         opacity: 0.1;
     }
 
-    20% {
+    10% {
         opacity: 1;
-        content: "Full Stack Web Developer";
+        content: "Full Stack Web Developer ,";
     }
 
-    25% {
+    15% {
         opacity: 0.1;
     }
 
     40% {
         opacity: 1;
-        content: "Computer Science Student 👨‍🎓️";
+        content: "Computer Science Student ,";
     }
 
     45% {
@@ -183,7 +183,7 @@
 
     70% {
         opacity: 1;
-        content: "UI / Theme Developer";
+        content: "UI / Theme Developer ,";
     }
 
     75% {
@@ -192,7 +192,7 @@
 
     100% {
         opacity: 1;
-        content: "Freelancer 💰️";
+        content: "Freelancer ,";
     }
 }
 
@@ -233,7 +233,7 @@
 
     #banner__icon #facode {
         font-size: 6.4rem;
-        color: gold;
+        color: skyblue;
 
         animation: fading infinite 1s ease;
     }
@@ -299,7 +299,7 @@
     }
 
     #quote__box p {
-        font-size: 16px;
+        font-size: 17px;
         opacity: 0.6;
         margin-top: -12px;
         color: azure;
