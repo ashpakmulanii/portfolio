@@ -13,7 +13,7 @@
 
 .home__img {
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.1;
     height: 510px;
     pointer-events: none;
 }
@@ -24,6 +24,7 @@
     font-weight: 1000;
     color: white;
     font-size: 4rem;
+    opacity: 0.8;
     font-family: 'Cinzel', serif;
 }
 
@@ -136,8 +137,8 @@
 
 #quote__box p {
     font-size: 1.2rem;
-    opacity: 0.7;
-    color: whitesmoke;
+    opacity: 0.8;
+    color: white;
     transition: 3s ease;
 }
 
@@ -151,7 +152,6 @@
 .ChangingText:before {
     content: "";
     animation: animate infinite 8s ease;
-    font-weight: 600;
     color: gold;
     padding: 10px 10px 10px 10px;
     font-family: 'Lobster Two', cursive;
@@ -218,28 +218,28 @@
         opacity: 1;
     }
 
-    .bannertext__container h1 {
-        padding-top: 190px;
-
-    }
-
-
-
     .two__btn {
         transition: 0.6s ease;
         transform: translateY(-22px);
     }
 
+    #banner__icon #facode {
+        font-size: 7rem;
+        opacity: 0.8;
+        color: aqua;
+        animation: fading infinite .8s ease;
+    }
+}
 
+@keyframes fading {
+    0% {
+        opacity: 1;
 
-    #banner__icon {
-        display: none;
     }
 
-
-    #banner__icon #facode {
-        font-size: 6rem;
-        opacity: 0.6;
+    100% {
+        opacity: 0.5;
+        color: silver
     }
 }
 
@@ -259,7 +259,6 @@
         font-size: 40px;
         padding: 20px;
         opacity: 0.6;
-        color: white;
         font-weight: 1200;
     }
 
@@ -275,7 +274,8 @@
         justify-content: space-around;
         background-image: linear-gradient(to right, gray, rgb(26, 60, 71));
         flex-direction: column;
-        height: 600px;
+        padding-top: 50px;
+        height: 680px;
         text-align: center;
         align-items: center;
     }

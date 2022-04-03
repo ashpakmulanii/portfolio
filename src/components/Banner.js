@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  FaCode, FaQuoteLeft, FaQuoteRight,
+  FaCode, FaQuoteLeft, FaQuoteRight, FaReact,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
@@ -17,9 +17,9 @@ const Banner = () => {
   }, [])
   return (
     <div className="bannertext__container">
-      <img className="home__img" src="https://www.dailyesports.gg/wp-content/uploads/2019/07/razer-ripsaw-hd-gallery-07-800x400.jpg" alt="homepage" />
+      <img className="home__img" src="https://images.unsplash.com/21/mac-glasses.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="homepage" />
       <div data-aos="zoom-in" id="banner__icon">
-        <FaCode id="facode" />
+        <FaReact id="facode" />
       </div>
       <div className="left__block">
         <div className="banner__heading">
