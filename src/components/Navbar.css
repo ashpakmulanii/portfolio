@@ -217,6 +217,7 @@
 
   .toggle__btn {
     color: silver;
-    font-size: 20px;
+    opacity: 0.5;
+    font-size: 23px;
   }
 }

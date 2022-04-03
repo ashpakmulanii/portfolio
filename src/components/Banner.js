@@ -1,6 +1,8 @@
 import React from "react";
 import {
-  FaCode, FaQuoteLeft, FaQuoteRight, FaReact,
+  FaAngleDoubleDown,
+  FaAngleUp,
+  FaCode, FaQuoteLeft, FaQuoteRight, FaReact, FaScroll,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
@@ -48,7 +50,6 @@ const Banner = () => {
           <Link to="/fitness" className="explore__btn">Fitness & Lifestyle</Link>
         </div>
       </div>
-
     </div >
 
 

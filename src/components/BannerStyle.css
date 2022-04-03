@@ -97,7 +97,6 @@
     color: whitesmoke;
     cursor: pointer;
     margin-bottom: 100px;
-
     padding: 12px 16px;
     font-weight: 600;
     text-decoration: none;
@@ -218,13 +217,8 @@
         opacity: 1;
     }
 
-    .two__btn {
-        transition: 0.6s ease;
-        transform: translateY(-22px);
-    }
-
     #banner__icon #facode {
-        font-size: 7rem;
+        font-size: 6.5rem;
         opacity: 0.8;
         color: aqua;
         animation: fading infinite .8s ease;
@@ -252,13 +246,12 @@
     }
 
     .home__img {
-        height: 100vh;
         opacity: 0.5;
     }
 
     #banner__name {
-        font-size: 40px;
-        opacity: 0.6;
+        font-size: 38px;
+        opacity: 0.5;
         font-weight: 1200;
     }
 
@@ -274,7 +267,7 @@
         background-image: linear-gradient(to right, gray, rgb(26, 60, 71));
         flex-direction: column;
         padding-top: 50px;
-        height: 680px;
+        height: 670px;
         text-align: center;
         align-items: center;
     }
@@ -327,11 +320,8 @@
     .admin {
         justify-content: center;
         margin-bottom: 10px;
-        margin-top: 10px;
     }
 
-    .bannertext__container .banner__logo {
-        font-size: 27px;
-    }
+
 
 }
