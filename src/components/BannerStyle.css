@@ -160,18 +160,38 @@
 @keyframes animate {
 
     0% {
-        content: "Full Stack Web Developer ✌️";
+        opacity: 0.1;
     }
 
-    45% {
+    20% {
+        opacity: 1;
+        content: "Full Stack Web Developer";
+    }
+
+    25% {
+        opacity: 0.1;
+    }
+
+    40% {
+        opacity: 1;
         content: "Computer Science Student 👨‍🎓️";
     }
 
+    45% {
+        opacity: 0.1;
+    }
+
     70% {
+        opacity: 1;
         content: "UI / Theme Developer";
     }
 
+    75% {
+        opacity: 0.1;
+    }
+
     100% {
+        opacity: 1;
         content: "Freelancer 💰️";
     }
 }
