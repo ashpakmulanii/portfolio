@@ -19,7 +19,6 @@ const Banner = () => {
   }, [])
   return (
     <div className="bannertext__container">
-      <img className="home__img" src="https://images.unsplash.com/21/mac-glasses.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="homepage" />
       <div data-aos="zoom-in" id="banner__icon">
         <FaReact id="facode" />
       </div>
