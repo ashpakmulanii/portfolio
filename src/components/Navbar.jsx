@@ -59,7 +59,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="nav__btn" href="https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf" download>Download Resume</a>
+            <a className="nav__btn" href="https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/CV1.pdf" download>Download Resume</a>
           </li>
         </ul>
 
