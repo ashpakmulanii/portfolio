@@ -9,7 +9,7 @@ export const About = () => {
                 <div className="left box">
                     <div className="upper">
                         <div className="topic">About Me</div>
-                        <p>I'm a final year student of BCA ( Bachelor Of Computer Science ). Currently working with RSense Technology Solutions PVT. LTD as a Trainee Software Engineer and also a part-time freelancer</p>
+                        <p>I'm a final year student of BCA ( Bachelor Of Computer Science ) with various Front-End Development skills . I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer.</p>
                         <div className="cv__box">
                             <a className="cv__btn" href="https://raw.githubusercontent.com/ashpakmulanii/portfolio/main/public/cv.pdf" download>Download CV</a>
                         </div>
