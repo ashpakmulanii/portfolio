@@ -26,8 +26,6 @@ function App() {
 
               <Publications />
               <Projects />
-
-
             </>
           } />
           <Route exact path="/publications" element={<Publications />}></Route>
@@ -35,7 +33,7 @@ function App() {
           <Route exact path="/skills" element={<SkillSet />}></Route>
           <Route exact path="/fitness" element={<Fitness />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
