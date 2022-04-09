@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FaBootstrap, FaCss3, FaDatabase, FaFish, FaGit, FaGithub, FaJs, FaJsSquare, FaLinux, FaPhp, FaPython, FaQuoteRight, FaReact, FaUikit, FaWindows } from 'react-icons/fa'
+import { FaBootstrap, FaCss3, FaDatabase, FaJsSquare, FaPhp, FaPython, FaQuoteRight, FaReact } from 'react-icons/fa'
 import './skillset.css';
 import Aos from "aos";
 import "aos/dist/aos.css";

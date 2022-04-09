@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  FaAngleDoubleDown,
-  FaAngleUp,
-  FaCode, FaJava, FaJs, FaJsSquare, FaNodeJs, FaQuoteLeft, FaQuoteRight, FaReact, FaReacteurope, FaScroll,
+  FaQuoteLeft, FaReact
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";

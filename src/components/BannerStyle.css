@@ -1,6 +1,6 @@
 .bannertext__container {
-    background-image: linear-gradient(to right, gray, #443844);
-    height: 540px;
+    background-image: linear-gradient(to right, #685e68, rgb(54, 47, 79), black);
+    height: 500px;
     width: 100%;
     padding-top: 30px;
     align-items: center;
@@ -144,10 +144,9 @@
 .ChangingText:before {
     content: "";
     animation: animate infinite 8s ease;
-    color: gold;
-    font-size: 19px;
+    color: silver;
     padding: 10px 10px 10px 10px;
-    font-family: 'Lobster Two', cursive;
+    /* font-family: 'Lobster Two', cursive; */
 }
 
 #QuoteLeft {
@@ -233,7 +232,7 @@
 
     #banner__icon #facode {
         font-size: 6rem;
-        color: skyblue;
+        color: rgb(72, 190, 236);
 
         animation: fading infinite 1s ease;
     }
