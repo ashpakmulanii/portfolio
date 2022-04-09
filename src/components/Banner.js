@@ -22,7 +22,7 @@ const Banner = () => {
       </div>
       <div className="left__block">
         <div className="banner__heading">
-          <h1><span id="banner__name"> Hello ✌️,<br></br>I'm Ashpak
+          <h1><span id="banner__name"> Hello ✌️,<br></br>I'm Ashpak.
           </span></h1>
         </div>
         <div className="text">

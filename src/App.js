@@ -23,8 +23,10 @@ function App() {
             <>
               < Banner />
               <About />
+
               <Publications />
               <Projects />
+
 
             </>
           } />
@@ -33,7 +35,7 @@ function App() {
           <Route exact path="/skills" element={<SkillSet />}></Route>
           <Route exact path="/fitness" element={<Fitness />}></Route>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
