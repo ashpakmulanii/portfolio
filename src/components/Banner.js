@@ -25,7 +25,7 @@ const Banner = () => {
               {" "}
               Hello ✌️,<br></br>I'm{" "}
               <span style={{ color: "skyblue" }} className="banner__name">
-                Ashpak
+                Ashpak.
               </span>{" "}
             </span>
           </h1>
