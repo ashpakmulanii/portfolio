@@ -27,7 +27,6 @@ const Banner = () => {
               <span style={{ color: "skyblue" }} className="banner__name">
                 Ashpak
               </span>{" "}
-              Mulani.
             </span>
           </h1>
         </div>
@@ -56,7 +55,7 @@ const Banner = () => {
           <Link to="/publications" className="show__more">
             Achievements
           </Link>
-          <Link to="/fitness" className="nav__btn explore__btn">
+          <Link to="/fitness" className="explore__btn">
             Fitness & Lifestyle
           </Link>
         </div>

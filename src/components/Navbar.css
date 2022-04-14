@@ -18,7 +18,7 @@
 }
 
 #HomeIcon {
-  color: #DED4EC;
+  color: #ded4ec;
   font-size: 28px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .sublogo {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   position: absolute;
   margin-left: 40px;
   opacity: 0.8;
@@ -47,8 +47,8 @@
 }
 
 .nav-btn-outline {
-  color: #E8E1F2;
-  font-family: 'Ubuntu', sans-serif;
+  color: #e8e1f2;
+  font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   padding: 7px;
   font-weight: 400;
@@ -62,7 +62,7 @@
 .nav_ico {
   font-size: 1.4rem;
   margin: 8px;
-  color: #DED4EC;
+  color: #ded4ec;
 }
 
 .nav_ico:hover {
@@ -71,7 +71,12 @@
 }
 
 .navbar__right {
-  background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+  background-image: linear-gradient(
+    to right,
+    rgb(57, 209, 214),
+    rgb(93, 93, 175),
+    rgb(47, 42, 42)
+  );
   display: none;
   height: fit-content;
   list-style-type: none;
@@ -92,7 +97,7 @@
 
 .Span {
   font-size: 20px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   color: gold;
 }
 
@@ -127,9 +132,9 @@
 }
 
 .nav__btn {
-  border: 1px solid #FFE484;
+  border: 1px solid #ffe484;
   border-radius: 4px;
-  color: #FFE484;
+  color: #ffe484;
   font-size: 15px;
   vertical-align: middle;
   margin: 0px 0px 0px 16px;
@@ -138,7 +143,7 @@
 }
 
 .nav__btn:hover {
-  background-color: #FFE484;
+  background-color: #ffe484;
   color: black;
 }
 
@@ -147,19 +152,22 @@
     font-size: 22px;
     font-weight: 1000;
   }
-
 }
 
 @media (max-width: 565px) {
   .navbar {
-    background-image: linear-gradient(to right, rgb(57, 209, 214), rgb(93, 93, 175), rgb(47, 42, 42));
+    background-image: linear-gradient(
+      to right,
+      rgb(57, 209, 214),
+      rgb(10, 86, 79),
+      rgb(79, 75, 75)
+    );
   }
 
   .ln {
     display: none;
   }
 }
-
 
 @media (max-width: 765px) {
   .navbar__container {
