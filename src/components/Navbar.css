@@ -155,15 +155,6 @@
 }
 
 @media (max-width: 565px) {
-  .navbar {
-    background-image: linear-gradient(
-      to right,
-      rgb(57, 209, 214),
-      rgb(10, 86, 79),
-      rgb(79, 75, 75)
-    );
-  }
-
   .ln {
     display: none;
   }

@@ -251,13 +251,14 @@
     font-size: 6.5rem;
     pointer-events: none;
     transform: translateY(20px);
+    display: none;
   }
 
   .bannertext__container {
-    justify-content: space-around;
+    justify-content: center;
     background-image: linear-gradient(to right, gray, rgb(26, 60, 71));
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 120px;
     height: 670px;
     text-align: center;
     align-items: center;
