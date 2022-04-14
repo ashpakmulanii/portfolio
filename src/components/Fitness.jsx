@@ -43,18 +43,21 @@ export const Fitness = () => {
                 </p>
                 <div className="commonBorder"></div>
             </div>
-            {cards.map((content) => (
-                <div data-aos="fade-up" className="f__card">
-                    <img src={content.imgSrc} alt="Genetics" />
-                    <div className="card__details">
-                        {content.hashtags.map((hashtag) => (
-                            <span className="tag">{hashtag}</span>
-                        ))}
-                        <div className="name">{content.title}</div>
-                        <p>{content.desc}</p>
+            <div class="carousel owl-carousel">
+
+                {cards.map((content) => (
+                    <div data-aos="fade-up" className="f__card">
+                        <img src={content.imgSrc} alt="Genetics" />
+                        <div className="card__details">
+                            {content.hashtags.map((hashtag) => (
+                                <span className="tag">{hashtag}</span>
+                            ))}
+                            <div className="name">{content.title}</div>
+                            <p>{content.desc}</p>
+                        </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     );
 }

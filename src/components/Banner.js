@@ -1,20 +1,18 @@
 import React from "react";
-import {
-  FaQuoteLeft, FaReact
-} from "react-icons/fa";
+import { FaQuoteLeft, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./BannerStyle.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const Banner = () => {
   const [state] = React.useState({
-    text: ""
+    text: "",
   });
   useEffect(() => {
     Aos.init({ duration: 2000 });
-  }, [])
+  }, []);
   return (
     <div className="bannertext__container">
       <div data-aos="zoom-in" id="banner__icon">
@@ -22,17 +20,28 @@ const Banner = () => {
       </div>
       <div className="left__block">
         <div className="banner__heading">
-          <h1><span id="banner__name"> Hello ✌️,<br></br>I'm Ashpak.
-          </span></h1>
+          <h1>
+            <span className="banner__name">
+              {" "}
+              Hello ✌️,<br></br>I'm{" "}
+              <span style={{ color: "skyblue" }} className="banner__name">
+                Ashpak
+              </span>{" "}
+              Mulani.
+            </span>
+          </h1>
         </div>
-        <div className="text">
-        </div>
+        <div className="text"></div>
         <div id="quote__box">
-
           <FaQuoteLeft id="QuoteLeft" />
-          <p>A
-            <span className="ChangingText"></span><br></br>
-            from Pandharpur. I enjoy building everything from small buisness sites to rich interactive web apps. If you are buisness seeking a web present or an employer looking to hire you can get in touch with me here.</p>
+          <p>
+            A<span className="ChangingText"></span>
+            <br></br>
+            from Pandharpur. I enjoy building everything from small buisness
+            sites to rich interactive web apps. If you are buisness seeking a
+            web present or an employer looking to hire you can get in touch with
+            me here.
+          </p>
         </div>
       </div>
       <div className="right__block">
@@ -44,14 +53,15 @@ const Banner = () => {
           </div>
         </div>
         <div className="two__btn">
-          <Link to="/publications" className="show__more">Achievements</Link>
-          <Link to="/fitness" className="explore__btn">Fitness & Lifestyle</Link>
+          <Link to="/publications" className="show__more">
+            Achievements
+          </Link>
+          <Link to="/fitness" className="nav__btn explore__btn">
+            Fitness & Lifestyle
+          </Link>
         </div>
       </div>
-    </div >
-
-
-
+    </div>
   );
 };
 

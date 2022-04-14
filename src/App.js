@@ -23,7 +23,6 @@ function App() {
             <>
               < Banner />
               <About />
-
               <Publications />
               <Projects />
             </>
