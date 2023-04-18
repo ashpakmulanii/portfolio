@@ -18,8 +18,7 @@ export const About = () => {
           <div className="upper">
             <div className="topic">About Me</div>
             <p>
-              I'm a BCA ( Bachelor Of Computer Application) Graduate and
-              currently working as a Graduate Trainee in Tata Consultency
+              I'm a Tr. Front-End Developer in Tata Consultency
               Services, learning Back-End Development and looking forward to be
               a Full Stack Web Developer.
             </p>
@@ -56,7 +55,7 @@ export const About = () => {
             <a href="#">Web Design, Development</a>
           </div>
           <div>
-            <a href="#">Web UX Design, Reasearch</a>
+            <a href="#">Single Page Application</a>
           </div>
           <div>
             <a href="#">Web User Interface Design</a>
