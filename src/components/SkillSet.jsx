@@ -88,7 +88,6 @@ export const SkillSet = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
